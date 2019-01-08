@@ -18,20 +18,47 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imagination is more important than knowledge.  Alber Einstein" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-OE-FqS">
-                                <rect key="frame" x="24" y="44" width="327" height="599"/>
-                                <color key="backgroundColor" red="1" green="0.81960784310000001" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-OE-FqS">
+                                <rect key="frame" x="24" y="44" width="327" height="563"/>
+                                <color key="backgroundColor" red="0.92549019607843142" green="0.89803921568627454" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Imagination is more important than knowledge.  Albert Einstein">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0039215686274509803" green="0.27843137254901962" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="26" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="NOI-3Y-QSO" appends="YES" id="ONp-qA-biJ"/>
+                                </connections>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-l9-ce4">
+                                <rect key="frame" x="315" y="615" width="30" height="30"/>
+                                <state key="normal" image="icons8-help-30"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 88" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezc-p4-Dst">
+                                <rect key="frame" x="31" y="613" width="58" height="32"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.023529411760000001" green="0.83921568629999999" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0039215686269999999" green="0.7725490196" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="3b7-l9-ce4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ezc-p4-Dst" secondAttribute="trailing" constant="226" id="0Kg-15-yFB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4iO-OE-FqS" secondAttribute="trailing" constant="24" id="8rc-hg-WBs"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="PQn-uQ-u5M"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Pw2-Fd-6p6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="24" id="SF5-HC-Xiq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="60" id="SF5-HC-Xiq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3b7-l9-ce4" secondAttribute="bottom" constant="22" id="dJj-jZ-xq0"/>
+                            <constraint firstItem="ezc-p4-Dst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="eba-lX-RHE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3b7-l9-ce4" secondAttribute="trailing" constant="30" id="ou2-ca-qYq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ezc-p4-Dst" secondAttribute="bottom" constant="22" id="pWp-sf-Zu8"/>
+                            <constraint firstItem="3b7-l9-ce4" firstAttribute="top" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="8" id="vPB-a0-k8p"/>
+                            <constraint firstItem="ezc-p4-Dst" firstAttribute="top" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="6" id="yg0-lt-eJ4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -40,8 +67,16 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="NOI-3Y-QSO">
+                    <connections>
+                        <action selector="showTranslatedQuote:" destination="BYZ-38-t0r" id="dns-Vu-Izh"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="icons8-help-30" width="30" height="30"/>
+    </resources>
 </document>

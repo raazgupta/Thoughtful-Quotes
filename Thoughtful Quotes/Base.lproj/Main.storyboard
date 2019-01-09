@@ -40,15 +40,15 @@
                                 <rect key="frame" x="315" y="615" width="30" height="30"/>
                                 <state key="normal" image="icons8-help-30"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 88" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezc-p4-Dst">
-                                <rect key="frame" x="31" y="613" width="58" height="32"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 135000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezc-p4-Dst">
+                                <rect key="frame" x="31" y="613" width="100" height="32"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.0039215686269999999" green="0.7725490196" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="3b7-l9-ce4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ezc-p4-Dst" secondAttribute="trailing" constant="226" id="0Kg-15-yFB"/>
+                            <constraint firstItem="3b7-l9-ce4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ezc-p4-Dst" secondAttribute="trailing" constant="48" id="0Kg-15-yFB"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4iO-OE-FqS" secondAttribute="trailing" constant="24" id="8rc-hg-WBs"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="PQn-uQ-u5M"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Pw2-Fd-6p6"/>

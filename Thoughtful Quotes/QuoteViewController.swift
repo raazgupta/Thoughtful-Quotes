@@ -28,8 +28,8 @@ class QuoteViewController: UIViewController {
         
         if let quoteDict = quoteModel.quoteDict {
         
-            let quoteAttrString = NSMutableAttributedString(string: quoteDict["quote"]!, attributes: quoteAttributes)
-            let authorAttrString = NSMutableAttributedString(string: quoteDict["author"]!, attributes: authorAttributes)
+            let quoteAttrString = NSMutableAttributedString(string: quoteDict.quote, attributes: quoteAttributes)
+            let authorAttrString = NSMutableAttributedString(string: quoteDict.author, attributes: authorAttributes)
             
             quoteAttrString.append(NSAttributedString(string: "\n\n"))
             quoteAttrString.append(authorAttrString)
@@ -42,7 +42,7 @@ class QuoteViewController: UIViewController {
     @IBAction func showTranslatedQuote(_ sender: UITapGestureRecognizer) {
         guard sender.view != nil else { return }
         guard quoteModel.quoteDict != nil else { return }
-        guard quoteModel.quoteDict!["quoteLanguage"] != quoteModel.userLanguage else { return }
+        guard quoteModel.quoteDict?.quoteLanguage != quoteModel.userLanguage else { return }
         
         if sender.state == .ended {
             
@@ -59,19 +59,34 @@ class QuoteViewController: UIViewController {
                 
                 if self.quoteModel.showTranslation {
                     
+                    var translatedQuote = ""
+                    var translatedAuthor = ""
+                    switch self.quoteModel.userLanguage {
+                    case "English":
+                        translatedQuote = self.quoteModel.quoteDict!.englishTranslation
+                        translatedAuthor = self.quoteModel.quoteDict!.englishAuthor
+                    case "German":
+                        translatedQuote = self.quoteModel.quoteDict!.germanTranslation
+                        translatedAuthor = self.quoteModel.quoteDict!.germanAuthor
+                    default:
+                        break
+                    }
+                    
+                    /*
                     var translationLanguage = "englishTranslation"
                     var authorLanguage = "englishAuthor"
                     if self.quoteModel.userLanguage == "German" {
                         translationLanguage = "germanTranslation"
                         authorLanguage = "germanAuthor"
                     }
+                    */
                     
-                    quoteAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict![translationLanguage]!, attributes: self.quoteAttributes)
-                    authorAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict![authorLanguage]!, attributes: self.authorAttributes)
+                    quoteAttrString = NSMutableAttributedString(string: translatedQuote, attributes: self.quoteAttributes)
+                    authorAttrString = NSMutableAttributedString(string: translatedAuthor, attributes: self.authorAttributes)
                 }
                 else {
-                    quoteAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!["quote"]!, attributes: self.quoteAttributes)
-                    authorAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!["author"]!, attributes: self.authorAttributes)
+                    quoteAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.quote, attributes: self.quoteAttributes)
+                    authorAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.author, attributes: self.authorAttributes)
                 }
                 
                 quoteAttrString.append(NSAttributedString(string: "\n\n"))

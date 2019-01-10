@@ -8,19 +8,54 @@
 
 import Foundation
 
+struct QuoteDict : Codable {
+    let quoteLanguage : String
+    let quote: String
+    let author: String
+    let englishTranslation: String
+    let englishAuthor: String
+    let germanTranslation: String
+    let germanAuthor: String
+}
+
+struct QuotesDict : Codable {
+    let quoteNum: String
+    let quoteDict: QuoteDict
+}
 
 class QuoteModel {
     
-    var userLanguage = "German"
+    var userLanguage = "English"
     
     var showTranslation = false
     
-    var quoteDict: Dictionary<String,String>? = nil
+    var quoteDict: QuoteDict? = nil
+    
+    var quotesDict: Dictionary<String, QuoteDict>? = nil
     
     init() {
+        
+        // Read data from JSON file
+        if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                //let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+                let decoder = JSONDecoder()
+                quotesDict = try decoder.decode(Dictionary<String, QuoteDict>.self, from: data)
+                
+            }
+            catch {
+                print("Error opening quotes.json file")
+            }
+        }
+        
+        // Using Codable to decode data to Dict
+        
+        
+        
         quoteDict = getQuote()
     }
-    
+    /*
     private var quotesDict = [ 0 : ["quoteLanguage": "German",
                               "quote": "Fantasie ist wichtiger als Wissen",
                               "author": "Albert Einstein",
@@ -57,10 +92,14 @@ class QuoteModel {
                            "germanTranslation": "Augen sind der Spiegel des Geistes",
                            "germanAuthor": ""]
     ]
+ */
     
-    private func getQuote() -> Dictionary<String,String>? {
-        let randomQuoteKey = quotesDict.keys.count.arc4random
-        return quotesDict[randomQuoteKey]
+    private func getQuote() -> QuoteDict? {
+        if quotesDict != nil {
+            let randomQuoteKey = quotesDict!.keys.count.arc4random
+            return quotesDict![String(randomQuoteKey)]
+        }
+        return nil
     }
     
 }

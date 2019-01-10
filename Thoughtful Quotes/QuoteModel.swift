@@ -11,6 +11,7 @@ import Foundation
 struct QuoteDict : Codable {
     let quoteLanguage : String
     let quote: String
+    let romaji: String
     let author: String
     let englishTranslation: String
     let englishAuthor: String

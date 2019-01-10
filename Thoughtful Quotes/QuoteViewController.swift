@@ -15,7 +15,8 @@ class QuoteViewController: UIViewController {
     
     var quoteModel = QuoteModel()
     
-    let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 26.0)!]
+    let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!]
+    let romajiAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 18.0)!]
     let authorAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 20.0)!]
     
     override func viewDidLoad() {
@@ -25,12 +26,17 @@ class QuoteViewController: UIViewController {
         // Round the corners of the label
         quoteTextLabel?.layer.masksToBounds = true
         quoteTextLabel?.layer.cornerRadius = 20.0
+        //quoteTextLabel?.layer.borderWidth = 3.0
+        //quoteTextLabel?.layer.borderColor = #colorLiteral(red: 0.9254901961, green: 0.8980392157, blue: 0.8588235294, alpha: 1)
         
         if let quoteDict = quoteModel.quoteDict {
         
             let quoteAttrString = NSMutableAttributedString(string: quoteDict.quote, attributes: quoteAttributes)
+            let romajiAttrString = NSMutableAttributedString(string: quoteDict.romaji, attributes: romajiAttributes)
             let authorAttrString = NSMutableAttributedString(string: quoteDict.author, attributes: authorAttributes)
             
+            quoteAttrString.append(NSAttributedString(string: "\n\n"))
+            quoteAttrString.append(romajiAttrString)
             quoteAttrString.append(NSAttributedString(string: "\n\n"))
             quoteAttrString.append(authorAttrString)
             
@@ -39,7 +45,7 @@ class QuoteViewController: UIViewController {
         
     }
 
-    @IBAction func showTranslatedQuote(_ sender: UITapGestureRecognizer) {
+    @IBAction func showTranslatedQuote(_ sender: UIGestureRecognizer) {
         guard sender.view != nil else { return }
         guard quoteModel.quoteDict != nil else { return }
         guard quoteModel.quoteDict?.quoteLanguage != quoteModel.userLanguage else { return }
@@ -54,6 +60,7 @@ class QuoteViewController: UIViewController {
                 
                 
                 var quoteAttrString = NSMutableAttributedString(string: "")
+                var romajiAttrString = NSMutableAttributedString(string: "")
                 var authorAttrString = NSMutableAttributedString(string: "")
                 
                 
@@ -86,9 +93,12 @@ class QuoteViewController: UIViewController {
                 }
                 else {
                     quoteAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.quote, attributes: self.quoteAttributes)
+                    romajiAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.romaji, attributes: self.romajiAttributes)
                     authorAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.author, attributes: self.authorAttributes)
                 }
                 
+                quoteAttrString.append(NSAttributedString(string: "\n\n"))
+                quoteAttrString.append(romajiAttrString)
                 quoteAttrString.append(NSAttributedString(string: "\n\n"))
                 quoteAttrString.append(authorAttrString)
                 

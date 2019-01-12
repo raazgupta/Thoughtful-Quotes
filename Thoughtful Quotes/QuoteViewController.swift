@@ -10,27 +10,57 @@ import UIKit
 
 class QuoteViewController: UIViewController {
 
+    //let c = #colorLiteral(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)
     
     @IBOutlet weak var quoteTextLabel: UILabel!
     
     var quoteModel = QuoteModel()
     
-    let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!]
-    let romajiAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 18.0)!]
-    let authorAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 20.0)!]
+    let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!,                 NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
+    let romajiAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 18.0)!,
+                            NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
+    let authorAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 20.0)!,
+                            NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
     
+    /*
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        // Add Observer to refresh quote when app is started or brought to foreground from background
+        NotificationCenter.default.addObserver(self, selector: #selector(refreshQuote), name: UIApplication.willEnterForegroundNotification, object: nil)
+        
         // Round the corners of the label
         quoteTextLabel?.layer.masksToBounds = true
         quoteTextLabel?.layer.cornerRadius = 20.0
-        //quoteTextLabel?.layer.borderWidth = 3.0
-        //quoteTextLabel?.layer.borderColor = #colorLiteral(red: 0.9254901961, green: 0.8980392157, blue: 0.8588235294, alpha: 1)
+        
+    }
+     */
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Add Observer to refresh quote when app is brought to foreground from background
+        NotificationCenter.default.addObserver(self, selector: #selector(refreshQuote), name: UIApplication.willEnterForegroundNotification, object: nil)
+        
+        // Refresh Quote
+        refreshQuote()
+        
+        // Round the corners of the label
+        quoteTextLabel?.layer.masksToBounds = true
+        quoteTextLabel?.layer.cornerRadius = 20.0
+        
+    }
+    
+
+
+    
+    @objc private func refreshQuote() {
+        
+        quoteModel.refreshQuote()
         
         if let quoteDict = quoteModel.quoteDict {
-        
+            
             let quoteAttrString = NSMutableAttributedString(string: quoteDict.quote, attributes: quoteAttributes)
             let romajiAttrString = NSMutableAttributedString(string: quoteDict.romaji, attributes: romajiAttributes)
             let authorAttrString = NSMutableAttributedString(string: quoteDict.author, attributes: authorAttributes)
@@ -42,7 +72,6 @@ class QuoteViewController: UIViewController {
             
             quoteTextLabel?.attributedText = quoteAttrString
         }
-        
     }
 
     @IBAction func showTranslatedQuote(_ sender: UIGestureRecognizer) {

@@ -19,10 +19,6 @@ struct QuoteDict : Codable {
     let germanAuthor: String
 }
 
-struct QuotesDict : Codable {
-    let quoteNum: String
-    let quoteDict: QuoteDict
-}
 
 class QuoteModel {
     
@@ -33,14 +29,18 @@ class QuoteModel {
     var quoteDict: QuoteDict? = nil
     
     var quotesDict: Dictionary<String, QuoteDict>? = nil
-    
-    init() {
+
+    // Called when the class is initialized and when the user opens the app
+    // If user has never opened the app before provide a random quote
+    // If user has opened the app on the same day, provide the quote shown on before on that day
+    // If user opens the app on a new day, then provide a new random quote
+    // If all quotes have been shown to the user in the past, then remove history and show random quote
+    func refreshQuote() {
         
-        // Read data from JSON file
+        // Read data from JSON file and populate quotesDic
         if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                //let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
                 let decoder = JSONDecoder()
                 quotesDict = try decoder.decode(Dictionary<String, QuoteDict>.self, from: data)
                 
@@ -50,69 +50,87 @@ class QuoteModel {
             }
         }
         
-        // Using Codable to decode data to Dict
         
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM.dd.yyyy"
+        let dateString = formatter.string(from: Date())
         
-        
-        quoteDict = getQuote()
-    }
-    /*
-    private var quotesDict = [ 0 : ["quoteLanguage": "German",
-                              "quote": "Fantasie ist wichtiger als Wissen",
-                              "author": "Albert Einstein",
-                              "englishTranslation": "Imagination is more important than Knowledge",
-                              "englishAuthor": "Albert Einstein",
-                              "germanTranslation": "Fantasie ist wichtiger als Wissen",
-                              "germanAuthor": "Albert Einstein"],
-                      1 : ["quoteLanguage": "English",
-                             "quote": "Such is the nature of all things",
-                             "author": "Raj Gupta",
-                             "englishTranslation": "Such is the nature of all things",
-                             "englishAuthor": "Raj Gupta",
-                             "germanTranslation": "Das ist die Natur aller Dinge",
-                             "germanAuthor": "Raj Gupta"],
-                    2 : ["quoteLanguage": "Russian",
-                           "quote": "Есть еще порох в пороховницах!",
-                           "author": "Никола́й Го́голь",
-                           "englishTranslation": "There is yet powder in the powder-flasks!",
-                           "englishAuthor": "Nikolai Gogol",
-                           "germanTranslation": "Es ist noch Pulver in den Pulverflaschen!",
-                           "germanAuthor": "Nikolai Gogol"],
-                    3 : ["quoteLanguage": "Japanese",
-                           "quote": "猿も木から落ちる",
-                           "author": "",
-                           "englishTranslation": "Even a monkey can fall from a tree",
-                           "englishAuthor": "",
-                           "germanTranslation": "Sogar ein Affe kann von einem Baum fallen",
-                           "germanAuthor": ""],
-                    4 : ["quoteLanguage": "Bengali",
-                           "quote": "চোখ মনের আয়না।",
-                           "author": "",
-                           "englishTranslation": "Eyes are the mirror of the mind",
-                           "englishAuthor": "",
-                           "germanTranslation": "Augen sind der Spiegel des Geistes",
-                           "germanAuthor": ""]
-    ]
+        if var quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
+            // Check if quoteDates contains today's date, which means the user has already checked the app today
+            // Else quoteDates does not contain today's date, which means the user is opening the app for the first time today
+            // and we need to add a random quote to quoteDates
+            
+            /* For TESTING
+            quoteDates = [ "01.08.2019":"0",
+                           "01.11.2019":"3",
+                           "01.10.2019":"1",
+                           "01.09.2019":"2",
+                           "01.07.2019":"4",
+            ]
  */
-    
-    private func getQuote() -> QuoteDict? {
-        if quotesDict != nil {
-            let randomQuoteKey = quotesDict!.keys.count.arc4random
-            return quotesDict![String(randomQuoteKey)]
+            
+            if let todayQuote = quoteDates[dateString] {
+                if quotesDict != nil {
+                    quoteDict = quotesDict![todayQuote]
+                }
+            }
+            else {
+                let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: quoteDates)
+                let quoteDates = randomQuote.1
+                UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
+                
+                quoteDict = randomQuote.0
+            }
         }
-        return nil
+        else { // If UserDefaults does not contain quoteDates
+            let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: nil)
+            let quoteDates = randomQuote.1
+            UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
+            
+            quoteDict = randomQuote.0
+        }
+        
+    }
+    
+    
+    private func getQuoteAndUpdateQuoteDates(quoteDatesDict:Dictionary<String,String>?) -> (QuoteDict?,Dictionary<String,String>?) {
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM.dd.yyyy"
+        let dateString = formatter.string(from: Date())
+        
+        if quotesDict != nil && quoteDatesDict != nil {
+            
+            // Check if number of elements in quotesDict equal to number of elements in quoteDates
+            // This means the user has seen all the quotes
+            // We need to reset quoteDates and start fresh
+            if quotesDict!.count == quoteDatesDict!.count {
+                if let randomQuote = quotesDict?.randomElement() {
+                    let quoteDates = [dateString: randomQuote.key]
+                    return (randomQuote.value,quoteDates)
+                }
+            } else {
+                // We need to remove the quotes from quotesDict that have been shown in the past before picking a random element
+                for quoteKey in quoteDatesDict!.values {
+                    quotesDict![quoteKey] = nil
+                }
+                if let randomQuote = quotesDict?.randomElement() {
+                    var quoteDates = quoteDatesDict
+                    quoteDates![dateString] = randomQuote.key
+                    return (randomQuote.value,quoteDates)
+                }
+            }
+        }
+        else if quotesDict != nil && quoteDatesDict == nil {
+            // This is the case when user has never seen any quotes before
+            if let randomQuote = quotesDict?.randomElement() {
+                let quoteDates = [dateString: randomQuote.key]
+                return (randomQuote.value,quoteDates)
+            }
+        }
+        return (nil,nil)
     }
     
 }
 
-extension Int {
-    var arc4random: Int{
-        if self > 0 {
-            return Int(arc4random_uniform(UInt32(self)))
-        } else if self < 0 {
-            return -Int(arc4random_uniform(UInt32(abs(self))))
-        } else {
-            return 0
-        }
-    }
-}
+

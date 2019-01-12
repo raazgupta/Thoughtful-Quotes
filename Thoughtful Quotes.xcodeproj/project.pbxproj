@@ -62,8 +62,8 @@
 			children = (
 				AD851D5121E173CC00258419 /* AppDelegate.swift */,
 				AD851D5321E173CC00258419 /* QuoteViewController.swift */,
-				AD851D6721E7E16000258419 /* PaddingLabel.swift */,
 				AD851D6321E5415300258419 /* QuoteModel.swift */,
+				AD851D6721E7E16000258419 /* PaddingLabel.swift */,
 				AD851D6521E6167800258419 /* quotes.json */,
 				AD851D5521E173CC00258419 /* Main.storyboard */,
 				AD851D5821E173D200258419 /* Assets.xcassets */,

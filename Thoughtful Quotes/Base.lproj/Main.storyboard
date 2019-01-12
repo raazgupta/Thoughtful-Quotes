@@ -23,11 +23,11 @@
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.89803921568627454" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Imagination is more important than knowledge.  Albert Einstein">
+                                    <fragment content=" ">
                                         <attributes>
-                                            <color key="NSColor" red="0.0039215686274509803" green="0.27843137254901962" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="26" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSColor" red="0.0039215686274509803" green="0.27843137254901962" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="11" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>

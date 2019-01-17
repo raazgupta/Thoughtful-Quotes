@@ -14,6 +14,8 @@ class QuoteViewController: UIViewController {
     
     @IBOutlet weak var quoteTextLabel: UILabel!
     
+    @IBOutlet weak var dayTextLabel: UILabel!
+    
     var quoteModel = QuoteModel()
     
     let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!,                 NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
@@ -72,6 +74,19 @@ class QuoteViewController: UIViewController {
             
             quoteTextLabel?.attributedText = quoteAttrString
         }
+        
+        // Set number of days that the user has seen the app
+        if let numDays = quoteModel.numDays {
+            switch quoteModel.userLanguage {
+            case "English":
+                dayTextLabel.text = "Day \(String(numDays))"
+            case "Deutsch":
+                dayTextLabel.text = "Tag \(String(numDays))"
+            default: break
+            }
+            
+        }
+        
     }
 
     @IBAction func showTranslatedQuote(_ sender: UIGestureRecognizer) {
@@ -101,7 +116,7 @@ class QuoteViewController: UIViewController {
                     case "English":
                         translatedQuote = self.quoteModel.quoteDict!.englishTranslation
                         translatedAuthor = self.quoteModel.quoteDict!.englishAuthor
-                    case "German":
+                    case "Deutsch":
                         translatedQuote = self.quoteModel.quoteDict!.germanTranslation
                         translatedAuthor = self.quoteModel.quoteDict!.germanAuthor
                     default:

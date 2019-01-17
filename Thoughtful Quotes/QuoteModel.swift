@@ -24,6 +24,8 @@ class QuoteModel {
     
     var userLanguage = "English"
     
+    var numDays: Int? = nil
+    
     var showTranslation = false
     
     var quoteDict: QuoteDict? = nil
@@ -37,18 +39,11 @@ class QuoteModel {
     // If all quotes have been shown to the user in the past, then remove history and show random quote
     func refreshQuote() {
         
+        // Set the user language based on value in SystemDefault, if not set then set as "English"
+        userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
+        
         // Read data from JSON file and populate quotesDic
-        if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let decoder = JSONDecoder()
-                quotesDict = try decoder.decode(Dictionary<String, QuoteDict>.self, from: data)
-                
-            }
-            catch {
-                print("Error opening quotes.json file")
-            }
-        }
+        refreshQuotesDict()
         
         
         let formatter = DateFormatter()
@@ -81,6 +76,10 @@ class QuoteModel {
                 
                 quoteDict = randomQuote.0
             }
+            
+            // Set the number of number of days that the user has seen the app
+            numDays = quoteDates.count
+            
         }
         else { // If UserDefaults does not contain quoteDates
             let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: nil)
@@ -88,8 +87,55 @@ class QuoteModel {
             UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
             
             quoteDict = randomQuote.0
+            
+            // Set the number of number of days that the user has seen the app
+            if quoteDates != nil {
+                numDays = quoteDates!.count
+            }
+            
         }
         
+    }
+    
+    // Read data from JSON file and populate quotesDic
+    func refreshQuotesDict(){
+        
+        // First check if internet downloaded file is available
+        // Else check if local bundle file is available
+        
+        var internetFileFound = true
+        if let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
+            let fileURL = documentDirectory.appendingPathComponent("internetQuotes.json")
+            do {
+                if try fileURL.checkResourceIsReachable() {
+                    internetFileFound = false
+                    do {
+                        let data = try Data(contentsOf: fileURL, options: .mappedIfSafe)
+                        let decoder = JSONDecoder()
+                        quotesDict = try decoder.decode(Dictionary<String,QuoteDict>.self, from: data)
+                    }
+                    catch {
+                        print("Error decoding internet json file")
+                    }
+                }
+            }
+            catch {
+                print ("Unable to find internet file")
+            }
+        }
+        if internetFileFound {
+            if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
+                do {
+                    let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                    let decoder = JSONDecoder()
+                    quotesDict = try decoder.decode(Dictionary<String, QuoteDict>.self, from: data)
+                    
+                }
+                catch {
+                    print("Error opening quotes.json file")
+                }
+            }
+        }
     }
     
     

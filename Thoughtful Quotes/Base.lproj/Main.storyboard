@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -38,15 +39,18 @@
                                     <outletCollection property="gestureRecognizers" destination="pyy-HR-ASd" appends="YES" id="ItN-B1-AgZ"/>
                                 </connections>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-l9-ce4">
-                                <rect key="frame" x="315" y="615" width="30" height="30"/>
-                                <state key="normal" image="icons8-help-30"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 88" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezc-p4-Dst">
                                 <rect key="frame" x="31" y="613" width="58" height="32"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b7-l9-ce4">
+                                <rect key="frame" x="321" y="617" width="30" height="30"/>
+                                <state key="normal" image="icons8-help-30"/>
+                                <connections>
+                                    <segue destination="oqs-Sw-XWB" kind="presentation" identifier="showSettings" id="JAh-TJ-mOL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0039215686274509803" green="0.77254901960784317" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -55,16 +59,17 @@
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="PQn-uQ-u5M"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Pw2-Fd-6p6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="60" id="SF5-HC-Xiq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3b7-l9-ce4" secondAttribute="bottom" constant="22" id="dJj-jZ-xq0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3b7-l9-ce4" secondAttribute="bottom" constant="20" id="dJj-jZ-xq0"/>
                             <constraint firstItem="ezc-p4-Dst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="eba-lX-RHE"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3b7-l9-ce4" secondAttribute="trailing" constant="30" id="ou2-ca-qYq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3b7-l9-ce4" secondAttribute="trailing" constant="24" id="ou2-ca-qYq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ezc-p4-Dst" secondAttribute="bottom" constant="22" id="pWp-sf-Zu8"/>
-                            <constraint firstItem="3b7-l9-ce4" firstAttribute="top" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="8" id="vPB-a0-k8p"/>
+                            <constraint firstItem="3b7-l9-ce4" firstAttribute="top" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="10" id="vPB-a0-k8p"/>
                             <constraint firstItem="ezc-p4-Dst" firstAttribute="top" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="6" id="yg0-lt-eJ4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="dayTextLabel" destination="ezc-p4-Dst" id="Gxh-TW-9JR"/>
                         <outlet property="quoteTextLabel" destination="4iO-OE-FqS" id="EsX-vh-ta1"/>
                     </connections>
                 </viewController>
@@ -86,6 +91,159 @@
                 </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="K4I-UM-gVu">
+            <objects>
+                <viewController id="oqs-Sw-XWB" customClass="SettingsViewController" customModule="Thoughtful_Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZYK-m5-KMk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXp-wM-UF8">
+                                <rect key="frame" x="136.5" y="31" width="102.5" height="30.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="d4G-6a-R3o">
+                                <rect key="frame" x="16" y="83.5" width="343" height="38"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CU-51-z8W">
+                                        <rect key="frame" x="0.0" y="0.0" width="167.5" height="38"/>
+                                        <color key="backgroundColor" red="0.92549019607843142" green="0.89803921568627454" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                        <state key="normal" title="English">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setUserLanguage:" destination="oqs-Sw-XWB" eventType="touchUpInside" id="ffd-e0-Una"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfn-6l-YWP">
+                                        <rect key="frame" x="175.5" y="0.0" width="167.5" height="38"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                        <state key="normal" title="Deutsch">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setUserLanguage:" destination="oqs-Sw-XWB" eventType="touchUpInside" id="tbj-Mm-Yo8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqp-fn-qYv">
+                                <rect key="frame" x="17" y="143" width="342.5" height="286"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set a Reminder below. When we get inspired by quotes we find in the world, we will update our list. You can click the Refresh button to get our latest set of quotes. We hope these quotes help you think deeply about the real world.</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="3MY-kW-hqK">
+                                <rect key="frame" x="16" y="445" width="343" height="33"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remind Me: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-Gk-xUJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="114.5" height="33"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X7W-b1-jGH">
+                                        <rect key="frame" x="114.5" y="0.0" width="114" height="33"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                        <state key="normal" title="Morning">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setReminder:" destination="oqs-Sw-XWB" eventType="touchUpInside" id="nGU-uI-A1z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fi5-QH-YfV">
+                                        <rect key="frame" x="228.5" y="0.0" width="114.5" height="33"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                        <state key="normal" title="Lunchtime">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="setReminder:" destination="oqs-Sw-XWB" eventType="touchUpInside" id="MeO-fP-x8Z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="msS-AK-ZEg">
+                                <rect key="frame" x="16" y="512" width="343" height="33"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="365 Quotes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HnY-nH-ECo">
+                                        <rect key="frame" x="0.0" y="0.0" width="202" height="33"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3UY-Ld-3ID">
+                                        <rect key="frame" x="210" y="0.0" width="133" height="33"/>
+                                        <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                        <state key="normal" title="Refresh">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="refreshQuotesFromServer:" destination="oqs-Sw-XWB" eventType="touchUpInside" id="tOU-Bl-4sL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o8Y-wA-jnx">
+                                <rect key="frame" x="113" y="582" width="148" height="38"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.8980392157" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="22"/>
+                                <state key="normal" title="Done">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="showQuote" id="6rw-1l-Je8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0039215686274509803" green="0.77254901960784317" blue="0.80784313725490198" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3MY-kW-hqK" firstAttribute="leading" secondItem="NRC-WT-ija" secondAttribute="leading" constant="16" id="6wt-JQ-TJx"/>
+                            <constraint firstItem="tqp-fn-qYv" firstAttribute="top" secondItem="d4G-6a-R3o" secondAttribute="bottom" constant="21.5" id="APA-nM-D8k"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="trailing" secondItem="d4G-6a-R3o" secondAttribute="trailing" constant="16" id="C5C-HN-HWe"/>
+                            <constraint firstItem="mXp-wM-UF8" firstAttribute="centerX" secondItem="NRC-WT-ija" secondAttribute="centerX" id="CYH-7d-sS7"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="trailing" secondItem="tqp-fn-qYv" secondAttribute="trailing" constant="15.5" id="DKa-g1-uaA"/>
+                            <constraint firstItem="o8Y-wA-jnx" firstAttribute="top" secondItem="msS-AK-ZEg" secondAttribute="bottom" constant="37" id="KwA-6d-KBu"/>
+                            <constraint firstItem="3MY-kW-hqK" firstAttribute="top" secondItem="tqp-fn-qYv" secondAttribute="bottom" constant="16" id="PCI-Hu-nlP"/>
+                            <constraint firstItem="msS-AK-ZEg" firstAttribute="leading" secondItem="NRC-WT-ija" secondAttribute="leading" constant="16" id="PMO-LJ-tMI"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="trailing" secondItem="o8Y-wA-jnx" secondAttribute="trailing" constant="114" id="Q08-Bc-77A"/>
+                            <constraint firstItem="tqp-fn-qYv" firstAttribute="leading" secondItem="NRC-WT-ija" secondAttribute="leading" constant="17" id="RkG-kR-RR0"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="trailing" secondItem="3MY-kW-hqK" secondAttribute="trailing" constant="16" id="SP6-dY-3OD"/>
+                            <constraint firstItem="d4G-6a-R3o" firstAttribute="leading" secondItem="NRC-WT-ija" secondAttribute="leading" constant="16" id="boh-mB-OCH"/>
+                            <constraint firstItem="d4G-6a-R3o" firstAttribute="top" secondItem="mXp-wM-UF8" secondAttribute="bottom" constant="22" id="fLj-3a-g1Q"/>
+                            <constraint firstItem="msS-AK-ZEg" firstAttribute="top" secondItem="3MY-kW-hqK" secondAttribute="bottom" constant="34" id="gKo-Nf-PEs"/>
+                            <constraint firstItem="o8Y-wA-jnx" firstAttribute="leading" secondItem="NRC-WT-ija" secondAttribute="leading" constant="113" id="l6n-qX-vUn"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="bottom" secondItem="o8Y-wA-jnx" secondAttribute="bottom" constant="47" id="lSg-R4-7mN"/>
+                            <constraint firstItem="mXp-wM-UF8" firstAttribute="top" secondItem="NRC-WT-ija" secondAttribute="top" constant="11" id="qxU-6L-9Qg"/>
+                            <constraint firstItem="NRC-WT-ija" firstAttribute="trailing" secondItem="msS-AK-ZEg" secondAttribute="trailing" constant="16" id="zx1-Yp-7gm"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NRC-WT-ija"/>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="tqp-fn-qYv" id="laX-qn-I7a"/>
+                        <outlet property="doneButton" destination="o8Y-wA-jnx" id="cBR-ya-9NH"/>
+                        <outlet property="lunchtimeButton" destination="fi5-QH-YfV" id="uVu-a7-tpx"/>
+                        <outlet property="morningButton" destination="X7W-b1-jGH" id="KIU-8v-bQj"/>
+                        <outlet property="numQuotesLabel" destination="HnY-nH-ECo" id="bv7-bc-jJg"/>
+                        <outlet property="refreshButton" destination="3UY-Ld-3ID" id="z0F-hM-GzF"/>
+                        <outlet property="remindMeLabel" destination="GZ7-Gk-xUJ" id="e5R-75-b6d"/>
+                        <outlet property="settingsLabel" destination="mXp-wM-UF8" id="5gE-BM-RvR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FXw-1o-Pcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="134"/>
         </scene>
     </scenes>
     <resources>

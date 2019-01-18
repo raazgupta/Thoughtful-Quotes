@@ -52,7 +52,25 @@ class QuoteViewController: UIViewController {
         quoteTextLabel?.layer.masksToBounds = true
         quoteTextLabel?.layer.cornerRadius = 20.0
         
+        
+        
     }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(true)
+        
+        // Present the settings screen when the user launches the app for the first time
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if !launchedBefore {
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+            
+            if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "settingsVC") as? SettingsViewController {
+                self.present(vc, animated: true, completion: nil)
+            }
+        }
+    }
+    
+    
     
 
 

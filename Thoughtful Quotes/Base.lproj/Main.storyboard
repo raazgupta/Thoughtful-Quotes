@@ -95,7 +95,7 @@
         <!--Settings View Controller-->
         <scene sceneID="K4I-UM-gVu">
             <objects>
-                <viewController id="oqs-Sw-XWB" customClass="SettingsViewController" customModule="Thoughtful_Quotes" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="settingsVC" id="oqs-Sw-XWB" customClass="SettingsViewController" customModule="Thoughtful_Quotes" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZYK-m5-KMk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -24,13 +24,19 @@ class QuoteModel {
     
     var userLanguage = "English"
     
-    var numDays: Int? = nil
+    var numDays: Int = 0
+    
+    var currentDate = Date()
     
     var showTranslation = false
     
     var quoteDict: QuoteDict? = nil
     
     var quotesDict: Dictionary<String, QuoteDict>? = nil
+    
+    init() {
+        numDays = UserDefaults.standard.integer(forKey: "numDays")
+    }
 
     // Called when the class is initialized and when the user opens the app
     // If user has never opened the app before provide a random quote
@@ -45,10 +51,11 @@ class QuoteModel {
         // Read data from JSON file and populate quotesDic
         refreshQuotesDict()
         
+        //updateDate()
         
         let formatter = DateFormatter()
         formatter.dateFormat = "MM.dd.yyyy"
-        let dateString = formatter.string(from: Date())
+        let dateString = formatter.string(from: currentDate)
         
         if var quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
             // Check if quoteDates contains today's date, which means the user has already checked the app today
@@ -77,8 +84,7 @@ class QuoteModel {
                 quoteDict = randomQuote.0
             }
             
-            // Set the number of number of days that the user has seen the app
-            numDays = quoteDates.count
+
             
         }
         else { // If UserDefaults does not contain quoteDates
@@ -87,11 +93,6 @@ class QuoteModel {
             UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
             
             quoteDict = randomQuote.0
-            
-            // Set the number of number of days that the user has seen the app
-            if quoteDates != nil {
-                numDays = quoteDates!.count
-            }
             
         }
         
@@ -103,12 +104,12 @@ class QuoteModel {
         // First check if internet downloaded file is available
         // Else check if local bundle file is available
         
-        var internetFileFound = true
+        var internetFileFound = false
         if let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
             let fileURL = documentDirectory.appendingPathComponent("internetQuotes.json")
             do {
                 if try fileURL.checkResourceIsReachable() {
-                    internetFileFound = false
+                    internetFileFound = true
                     do {
                         let data = try Data(contentsOf: fileURL, options: .mappedIfSafe)
                         let decoder = JSONDecoder()
@@ -123,7 +124,7 @@ class QuoteModel {
                 print ("Unable to find internet file")
             }
         }
-        if internetFileFound {
+        if internetFileFound == false {
             if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
                 do {
                     let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
@@ -139,11 +140,26 @@ class QuoteModel {
     }
     
     
+    
+    /*
+    private func updateDate() {
+        currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
+    }
+    */
+    
+    
     private func getQuoteAndUpdateQuoteDates(quoteDatesDict:Dictionary<String,String>?) -> (QuoteDict?,Dictionary<String,String>?) {
+        
+        // As app is requesting new quote, user must be seeing app on new day
+        // Update the numDay counter
+        numDays = UserDefaults.standard.integer(forKey: "numDays")
+        numDays += 1
+        UserDefaults.standard.set(numDays, forKey: "numDays")
+        
         
         let formatter = DateFormatter()
         formatter.dateFormat = "MM.dd.yyyy"
-        let dateString = formatter.string(from: Date())
+        let dateString = formatter.string(from: currentDate)
         
         if quotesDict != nil && quoteDatesDict != nil {
             

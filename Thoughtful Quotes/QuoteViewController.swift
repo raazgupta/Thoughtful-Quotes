@@ -76,15 +76,12 @@ class QuoteViewController: UIViewController {
         }
         
         // Set number of days that the user has seen the app
-        if let numDays = quoteModel.numDays {
-            switch quoteModel.userLanguage {
-            case "English":
-                dayTextLabel.text = "Day \(String(numDays))"
-            case "Deutsch":
-                dayTextLabel.text = "Tag \(String(numDays))"
-            default: break
-            }
-            
+        switch quoteModel.userLanguage {
+        case "English":
+            dayTextLabel.text = "Day \(String(quoteModel.numDays))"
+        case "Deutsch":
+            dayTextLabel.text = "Tag \(String(quoteModel.numDays))"
+        default: break
         }
         
     }

@@ -131,17 +131,19 @@ class SettingsViewController: UIViewController {
         {
             (granted, error) in
             if granted == false {
-                switch userLanguage {
+                DispatchQueue.main.async { [weak self] in
+                    switch userLanguage {
                     case "English":
                         let alert = UIAlertController(title: englishNotificationDisabledTitle, message: englishNotificationDisabledBody, preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-                        self.present(alert, animated: true)
+                        self?.present(alert, animated: true)
                     case "Deutsch":
                         let alert = UIAlertController(title: germanNotificationDisabledTitle, message: germanNotificationDisabledBody, preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-                        self.present(alert, animated: true)
+                        self?.present(alert, animated: true)
                     default: break
-                    
+                        
+                    }
                 }
                 // As the user has not granted permission to show quotes, exit the function
                 return
@@ -182,26 +184,30 @@ class SettingsViewController: UIViewController {
                                 }
                             }
                             
-                            switch userLanguage {
-                            case "English":
-                                let alert = UIAlertController(title: englishNotificationEnabledTitle, message: englishNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
-                                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-                                self.present(alert, animated: true)
-                            case "Deutsch":
-                                let alert = UIAlertController(title: germanNotificationEnabledTitle, message: germanNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
-                                alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
-                                self.present(alert, animated: true)
-                            default: break
+                            DispatchQueue.main.async { [weak self] in
+                                switch userLanguage {
+                                case "English":
+                                    let alert = UIAlertController(title: englishNotificationEnabledTitle, message: englishNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
+                                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                                    self?.present(alert, animated: true)
+                                case "Deutsch":
+                                    let alert = UIAlertController(title: germanNotificationEnabledTitle, message: germanNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
+                                    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+                                    self?.present(alert, animated: true)
+                                default: break
+                                }
                             }
                             
                         }
-                        
                         
                     }
                     
                 }
             }
         }
+        
+        
+        
     }
     
     @IBAction func refreshQuotesFromServer(_ sender: UIButton) {
@@ -284,6 +290,8 @@ class SettingsViewController: UIViewController {
             print("\(self.findNumQuotes()) quotes found")
             
         }.resume()
+        
+        
         
     }
     

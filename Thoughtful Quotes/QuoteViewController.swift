@@ -63,10 +63,15 @@ class QuoteViewController: UIViewController {
         let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
         if !launchedBefore {
             UserDefaults.standard.set(true, forKey: "launchedBefore")
-            
+
+            self.performSegue(withIdentifier: "showSettings", sender: nil)
+
+            /*
             if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "settingsVC") as? SettingsViewController {
                 self.present(vc, animated: true, completion: nil)
+                
             }
+            */
         }
     }
     
@@ -167,6 +172,14 @@ class QuoteViewController: UIViewController {
         }
         
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showSettings" {
+            if let vc = segue.destination as? SettingsViewController {
+                vc.quoteModel = quoteModel
+            }
+        }
     }
     
     

@@ -48,8 +48,10 @@ class QuoteModel {
         // Set the user language based on value in SystemDefault, if not set then set as "English"
         userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
         
-        // Read data from JSON file and populate quotesDic
-        refreshQuotesDict()
+        // Read data from JSON file and populate quotesDict if quotesDict is nil
+        if quotesDict == nil {
+            refreshQuotesDict()
+        }
         
         //updateDate()
         
@@ -141,11 +143,11 @@ class QuoteModel {
     
     
     
-    /*
+    
     private func updateDate() {
         currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
     }
-    */
+    
     
     
     private func getQuoteAndUpdateQuoteDates(quoteDatesDict:Dictionary<String,String>?) -> (QuoteDict?,Dictionary<String,String>?) {
@@ -173,10 +175,11 @@ class QuoteModel {
                 }
             } else {
                 // We need to remove the quotes from quotesDict that have been shown in the past before picking a random element
+                var remainingQuotesDict = quotesDict
                 for quoteKey in quoteDatesDict!.values {
-                    quotesDict![quoteKey] = nil
+                    remainingQuotesDict![quoteKey] = nil
                 }
-                if let randomQuote = quotesDict?.randomElement() {
+                if let randomQuote = remainingQuotesDict?.randomElement() {
                     var quoteDates = quoteDatesDict
                     quoteDates![dateString] = randomQuote.key
                     return (randomQuote.value,quoteDates)

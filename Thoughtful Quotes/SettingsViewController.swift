@@ -21,6 +21,7 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var refreshButton: UIButton!
     @IBOutlet weak var doneButton: UIButton!
     
+    var quoteModel: QuoteModel? = nil
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -75,9 +76,13 @@ class SettingsViewController: UIViewController {
     }
     
     private func findNumQuotes() -> Int {
-        let quoteModel = QuoteModel()
-        quoteModel.refreshQuotesDict()
-        return quoteModel.quotesDict?.count ?? 0
+        
+        if self.quoteModel == nil {
+            self.quoteModel = QuoteModel()
+        }
+        
+        //quoteModel!.refreshQuotesDict()
+        return quoteModel!.quotesDict?.count ?? 0
     }
     
     
@@ -225,38 +230,6 @@ class SettingsViewController: UIViewController {
         
         let url = URL(string: "https://www.soulfulmachine.com/App/ThoughtfulQuotes/quotes.json")!
         
-        /*
-        let session = URLSession.shared
-        let request = NSMutableURLRequest(url: url)
-        request.httpMethod = "GET"
-        request.cachePolicy = URLRequest.CachePolicy.reloadIgnoringCacheData
-        
-        let task = session.dataTask(with: request as URLRequest)
-        { (data, response, error) in
-            guard let _ = data, let _ = response, error == nil else {
-                print("Unable to download file from internet")
-                //self.numQuotesLabel.text = "Error"
-                return
-            }
-            
-            // Overwrite the existing file on disk with file downloaded from internet
-            self.writeFileToDisk(data: data!)
-            
-            // Update the Number of Quotes label
-            /*
-            switch userLanguage {
-            case "English":
-                self.numQuotesLabel.text = "\(self.findNumQuotes()) Quotes"
-            case "Deutsch":
-                self.numQuotesLabel.text = "\(self.findNumQuotes()) Zitate"
-            default: break
-            }
-             */
-            print("\(self.findNumQuotes()) quotes found.")
-        }
-        task.resume()
- */
-        
         let request = NSMutableURLRequest(url: url)
         request.httpMethod = "GET"
         request.cachePolicy = URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData
@@ -276,7 +249,14 @@ class SettingsViewController: UIViewController {
                 fileWriteResult = self.writeFileToDisk(data: theData)
             }
             
+            if self.quoteModel == nil {
+                self.quoteModel = QuoteModel()
+            }
+            
+            self.quoteModel!.refreshQuotesDict()
+            
             DispatchQueue.main.async { [weak self] in
+                
                 if fileWriteResult {
                     self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) quotes found"
                 }
@@ -287,7 +267,6 @@ class SettingsViewController: UIViewController {
             }
             
             
-            print("\(self.findNumQuotes()) quotes found")
             
         }.resume()
         
@@ -311,22 +290,21 @@ class SettingsViewController: UIViewController {
     }
     
     
-    /*
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if segue.identifier == "showQuote" {
+            if let vc = segue.destination as? QuoteViewController {
+                if quoteModel == nil {
+                    quoteModel = QuoteModel()
+                }
+                vc.quoteModel = quoteModel!
+            }
+        }
     }
-    */
+ 
 
 }

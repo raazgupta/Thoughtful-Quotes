@@ -9,7 +9,7 @@
 import Foundation
 
 struct QuoteDict : Codable {
-    let quoteLanguage : String
+    let quoteLanguage : QuoteLanguage
     let quote: String
     let romaji: String
     let author: String
@@ -19,10 +19,51 @@ struct QuoteDict : Codable {
     let germanAuthor: String
 }
 
+enum QuoteLanguage: String, Codable{
+    case English = "English"
+    case Deutsch = "Deutsch"
+    case Russian = "Russian"
+    case Japanese = "Japanese"
+    case Bengali = "Bengali"
+}
+
+enum UserLanguage: String, Codable{
+    case English = "English"
+    case Deutsch = "Deutsch"
+}
+
+/*
+extension UserLanguage: Codable {
+    enum Key: CodingKey {
+        case rawValue
+    }
+    enum CodingError: Error {
+        case unknownValue
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: Key.self)
+        let rawValue = try container.decode(String.self, forKey: .rawValue)
+        switch rawValue {
+        case "English": self = .English
+        case "Deutsch": self = .Deutsch
+        default: throw CodingError.unknownValue
+        }
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: Key.self)
+        switch self {
+        case .English: try container.encode("English", forKey: .rawValue)
+        case .Deutsch: try container.encode("Deutsch", forKey: .rawValue)
+        }
+    }
+}
+ */
 
 class QuoteModel {
     
-    var userLanguage = "English"
+    var userLanguage = UserLanguage.English
     
     var numDays: Int = 0
     
@@ -36,17 +77,23 @@ class QuoteModel {
     
     init() {
         numDays = UserDefaults.standard.integer(forKey: "numDays")
+        
+        // Set the user language based on value in SystemDefault, if not set then it is set as English
+        if let userLanguageString = UserDefaults.standard.string(forKey: "userLanguage") {
+            switch userLanguageString {
+            case "English": userLanguage = .English
+            case "Deutsch": userLanguage = .Deutsch
+            default: break
+            }
+        }
     }
 
-    // Called when the class is initialized and when the user opens the app
+    // Called when the user opens the app
     // If user has never opened the app before provide a random quote
     // If user has opened the app on the same day, provide the quote shown on before on that day
     // If user opens the app on a new day, then provide a new random quote
     // If all quotes have been shown to the user in the past, then remove history and show random quote
     func refreshQuote() {
-        
-        // Set the user language based on value in SystemDefault, if not set then set as "English"
-        userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
         
         // Read data from JSON file and populate quotesDict if quotesDict is nil
         if quotesDict == nil {

@@ -31,11 +31,13 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func setUserLanguage(_ sender: UIButton) {
-        switch sender.titleLabel?.text {
-        case "English":
+        switch sender.tag {
+        case 1:
             UserDefaults.standard.set("English", forKey: "userLanguage")
-        case "Deutsch":
+            quoteModel!.userLanguage = .English
+        case 2:
             UserDefaults.standard.set("Deutsch", forKey: "userLanguage")
+            quoteModel!.userLanguage = .Deutsch
         default: break
         }
         
@@ -44,10 +46,9 @@ class SettingsViewController: UIViewController {
     }
     
     private func refreshLanguage() {
-        let userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
         
-        switch userLanguage {
-        case "English":
+        switch quoteModel!.userLanguage {
+        case .English:
             settingsLabel.text = "Settings"
             descriptionLabel.text = "Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set it below. When we get inspired by quotes we find in the world, we will update our list. You can click the Refresh button to get our latest set of quotes. However please make sure you have access to the internet. We hope these quotes help you think deeply about the world."
             remindMeLabel.text = "Remind Me:"
@@ -56,7 +57,7 @@ class SettingsViewController: UIViewController {
             numQuotesLabel.text = "\(findNumQuotes()) Quotes"
             refreshButton.setTitle("Refresh", for: .normal)
             doneButton.setTitle("Done", for: .normal)
-        case "Deutsch":
+        case .Deutsch:
             settingsLabel.text = "Einstellungen"
             descriptionLabel.text = "Willkommen bei der durchdachten Zitate-App. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu erhalten. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Angebot verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Sie können auf die Schaltfläche Aktualisieren klicken, um die neuesten Angebote zu erhalten. Bitte stellen Sie jedoch sicher, dass Sie Zugang zum Internet haben. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken."
             remindMeLabel.text = "Erinnere mich:"
@@ -65,7 +66,6 @@ class SettingsViewController: UIViewController {
             numQuotesLabel.text = "\(findNumQuotes()) Zitate"
             refreshButton.setTitle("Aktualisierung", for: .normal)
             doneButton.setTitle("Erledigt", for: .normal)
-        default: break
         }
         
         remindMeLabel.adjustsFontSizeToFitWidth = true
@@ -77,18 +77,12 @@ class SettingsViewController: UIViewController {
     
     private func findNumQuotes() -> Int {
         
-        if self.quoteModel == nil {
-            self.quoteModel = QuoteModel()
-        }
-        
         //quoteModel!.refreshQuotesDict()
         return quoteModel!.quotesDict?.count ?? 0
     }
     
     
     @IBAction func setReminder(_ sender: UIButton) {
-        
-        let userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
         
         let englishNotificationDisabledTitle = "Notification Disabled"
         let englishNotificationDisabledBody = "Enable Notifications in Settings"
@@ -107,23 +101,19 @@ class SettingsViewController: UIViewController {
         switch sender.tag {
         case 1:
             reminderTimeInt = (8,0)
-            switch userLanguage {
-            case "English":
+            switch quoteModel!.userLanguage {
+            case .English:
                     notificationTitle = "Good Morning"
-            case "Deutsch":
+            case .Deutsch:
                     notificationTitle = "Guten Morgen"
-            default:
-                break
             }
         case 2:
             reminderTimeInt = (12,0)
-            switch userLanguage {
-            case "English":
+            switch quoteModel!.userLanguage {
+            case .English:
                 notificationTitle = "Good Afternoon"
-            case "Deutsch":
+            case .Deutsch:
                 notificationTitle = "Guten Tag"
-            default:
-                break
             }
         default: break
         }
@@ -137,12 +127,12 @@ class SettingsViewController: UIViewController {
             (granted, error) in
             if granted == false {
                 DispatchQueue.main.async { [weak self] in
-                    switch userLanguage {
-                    case "English":
+                    switch self?.quoteModel!.userLanguage {
+                    case .English?:
                         let alert = UIAlertController(title: englishNotificationDisabledTitle, message: englishNotificationDisabledBody, preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                         self?.present(alert, animated: true)
-                    case "Deutsch":
+                    case .Deutsch?:
                         let alert = UIAlertController(title: germanNotificationDisabledTitle, message: germanNotificationDisabledBody, preferredStyle: .alert)
                         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                         self?.present(alert, animated: true)
@@ -163,12 +153,11 @@ class SettingsViewController: UIViewController {
                     if settings.alertSetting == .enabled {
                         let content = UNMutableNotificationContent()
                         content.title = NSString.localizedUserNotificationString(forKey: notificationTitle, arguments: nil)
-                        switch userLanguage {
-                        case "English":
+                        switch self.quoteModel!.userLanguage {
+                        case .English:
                             content.body = NSString.localizedUserNotificationString(forKey: "What is today's Thoughtful Quote?", arguments: nil)
-                        case "Deutsch":
+                        case .Deutsch:
                             content.body = NSString.localizedUserNotificationString(forKey: "Was ist das heutige durchdachte Zitat?", arguments: nil)
-                        default: break
                         }
                         
                         // Configure the trigger
@@ -190,12 +179,12 @@ class SettingsViewController: UIViewController {
                             }
                             
                             DispatchQueue.main.async { [weak self] in
-                                switch userLanguage {
-                                case "English":
+                                switch self?.quoteModel!.userLanguage {
+                                case .English?:
                                     let alert = UIAlertController(title: englishNotificationEnabledTitle, message: englishNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                     self?.present(alert, animated: true)
-                                case "Deutsch":
+                                case .Deutsch?:
                                     let alert = UIAlertController(title: germanNotificationEnabledTitle, message: germanNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                     self?.present(alert, animated: true)
@@ -218,13 +207,11 @@ class SettingsViewController: UIViewController {
     @IBAction func refreshQuotesFromServer(_ sender: UIButton) {
         
         // Update the Num of Quotes label to show Downloading ...
-        let userLanguage = UserDefaults.standard.string(forKey: "userLanguage") ?? "English"
-        switch userLanguage {
-        case "English":
+        switch quoteModel!.userLanguage {
+        case .English:
             numQuotesLabel.text = "Downloading ..."
-        case "Deutsch":
+        case .Deutsch:
             numQuotesLabel.text = "Wird heruntergeladen"
-        default: break
         }
         numQuotesLabel.adjustsFontSizeToFitWidth = true
         
@@ -249,9 +236,6 @@ class SettingsViewController: UIViewController {
                 fileWriteResult = self.writeFileToDisk(data: theData)
             }
             
-            if self.quoteModel == nil {
-                self.quoteModel = QuoteModel()
-            }
             
             self.quoteModel!.refreshQuotesDict()
             

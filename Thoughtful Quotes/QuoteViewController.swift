@@ -100,11 +100,10 @@ class QuoteViewController: UIViewController {
         
         // Set number of days that the user has seen the app
         switch quoteModel.userLanguage {
-        case "English":
+        case .English:
             dayTextLabel.text = "Day \(String(quoteModel.numDays))"
-        case "Deutsch":
+        case .Deutsch:
             dayTextLabel.text = "Tag \(String(quoteModel.numDays))"
-        default: break
         }
         
     }
@@ -112,7 +111,7 @@ class QuoteViewController: UIViewController {
     @IBAction func showTranslatedQuote(_ sender: UIGestureRecognizer) {
         guard sender.view != nil else { return }
         guard quoteModel.quoteDict != nil else { return }
-        guard quoteModel.quoteDict?.quoteLanguage != quoteModel.userLanguage else { return }
+        guard quoteModel.quoteDict!.quoteLanguage.rawValue != quoteModel.userLanguage.rawValue else { return }
         
         if sender.state == .ended {
             
@@ -133,24 +132,14 @@ class QuoteViewController: UIViewController {
                     var translatedQuote = ""
                     var translatedAuthor = ""
                     switch self.quoteModel.userLanguage {
-                    case "English":
+                    case .English:
                         translatedQuote = self.quoteModel.quoteDict!.englishTranslation
                         translatedAuthor = self.quoteModel.quoteDict!.englishAuthor
-                    case "Deutsch":
+                    case .Deutsch:
                         translatedQuote = self.quoteModel.quoteDict!.germanTranslation
                         translatedAuthor = self.quoteModel.quoteDict!.germanAuthor
-                    default:
-                        break
                     }
                     
-                    /*
-                    var translationLanguage = "englishTranslation"
-                    var authorLanguage = "englishAuthor"
-                    if self.quoteModel.userLanguage == "German" {
-                        translationLanguage = "germanTranslation"
-                        authorLanguage = "germanAuthor"
-                    }
-                    */
                     
                     quoteAttrString = NSMutableAttributedString(string: translatedQuote, attributes: self.quoteAttributes)
                     authorAttrString = NSMutableAttributedString(string: translatedAuthor, attributes: self.authorAttributes)

@@ -30,7 +30,7 @@ class SettingsViewController: UIViewController {
         
     }
     
-    @IBAction func setUserLanguage(_ sender: UIButton) {
+    @IBAction private func setUserLanguage(_ sender: UIButton) {
         switch sender.tag {
         case 1:
             UserDefaults.standard.set("English", forKey: "userLanguage")
@@ -82,7 +82,7 @@ class SettingsViewController: UIViewController {
     }
     
     
-    @IBAction func setReminder(_ sender: UIButton) {
+    @IBAction private func setReminder(_ sender: UIButton) {
         
         let englishNotificationDisabledTitle = "Notification Disabled"
         let englishNotificationDisabledBody = "Enable Notifications in Settings"
@@ -204,29 +204,38 @@ class SettingsViewController: UIViewController {
         
     }
     
-    @IBAction func refreshQuotesFromServer(_ sender: UIButton) {
+    @IBAction private func refreshQuotesFromServer(_ sender: UIButton) {
         
-        // Update the Num of Quotes label to show Downloading ...
+        
+        // Update the Num of Quotes label to show Downloading
         switch quoteModel!.userLanguage {
         case .English:
-            numQuotesLabel.text = "Downloading ..."
+            numQuotesLabel.text = "Downloading"
         case .Deutsch:
             numQuotesLabel.text = "Wird heruntergeladen"
         }
         numQuotesLabel.adjustsFontSizeToFitWidth = true
         
+ 
         let url = URL(string: "https://www.soulfulmachine.com/App/ThoughtfulQuotes/quotes.json")!
         
         let request = NSMutableURLRequest(url: url)
         request.httpMethod = "GET"
-        request.cachePolicy = URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData
+        //request.cachePolicy = URLRequest.CachePolicy.reloadIgnoringLocalAndRemoteCacheData
         
         URLSession.shared.dataTask(with: request as URLRequest) { (data,response,error) in
             if error != nil {
                 print(error!.localizedDescription)
+                
                 DispatchQueue.main.async { [weak self] in
-                    self?.numQuotesLabel.text = "Error. Check Internet"
+                    switch self?.quoteModel!.userLanguage {
+                    case .English?: self?.numQuotesLabel.text = "Error. Check Internet."
+                    case .Deutsch?: self?.numQuotesLabel.text = "Error. Überprüfen Sie das Internet"
+                    default: break
+                    }
+                    self?.numQuotesLabel.adjustsFontSizeToFitWidth = true
                 }
+                
                 return
             }
             
@@ -242,16 +251,23 @@ class SettingsViewController: UIViewController {
             DispatchQueue.main.async { [weak self] in
                 
                 if fileWriteResult {
-                    self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) quotes found"
+                    switch self?.quoteModel!.userLanguage {
+                    case .English?: self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) Quotes"
+                    case .Deutsch?: self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) Zitate"
+                    default: break
+                    }
+                    
+                    //self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) quotes found"
                 }
                 else {
-                    self?.numQuotesLabel.text = "Error. Check Internet"
+                    switch self?.quoteModel!.userLanguage {
+                    case .English?: self?.numQuotesLabel.text = "Error. Check Internet."
+                    case .Deutsch?: self?.numQuotesLabel.text = "Error. Überprüfen Sie das Internet"
+                    default: break
+                    }
                 }
                 self?.numQuotesLabel.adjustsFontSizeToFitWidth = true
             }
-            
-            
-            
         }.resume()
         
         

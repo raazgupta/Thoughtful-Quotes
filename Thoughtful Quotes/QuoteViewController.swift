@@ -18,10 +18,10 @@ class QuoteViewController: UIViewController {
     
     var quoteModel = QuoteModel()
     
-    let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!,                 NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
-    let romajiAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 18.0)!,
+    private let quoteAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 30.0)!,                 NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
+    private let romajiAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 18.0)!,
                             NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
-    let authorAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 20.0)!,
+    private let authorAttributes = [NSAttributedString.Key.font: UIFont(name: "American Typewriter", size: 20.0)!,
                             NSAttributedString.Key.foregroundColor: UIColor(red: 0.003921568627, green: 0.2784313725, blue: 0.462745098, alpha: 1)]
     
     /*
@@ -108,7 +108,7 @@ class QuoteViewController: UIViewController {
         
     }
 
-    @IBAction func showTranslatedQuote(_ sender: UIGestureRecognizer) {
+    @IBAction private func showTranslatedQuote(_ sender: UIGestureRecognizer) {
         guard sender.view != nil else { return }
         guard quoteModel.quoteDict != nil else { return }
         guard quoteModel.quoteDict!.quoteLanguage.rawValue != quoteModel.userLanguage.rawValue else { return }

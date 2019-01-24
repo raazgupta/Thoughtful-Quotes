@@ -67,7 +67,7 @@ class QuoteModel {
     
     var numDays: Int = 0
     
-    var currentDate = Date()
+    private var currentDate = Date()
     
     var showTranslation = false
     
@@ -154,6 +154,8 @@ class QuoteModel {
         // Else check if local bundle file is available
         
         var internetFileFound = false
+        var errorDecodingInternetFile = false
+        
         if let documentDirectory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).last {
             let fileURL = documentDirectory.appendingPathComponent("internetQuotes.json")
             do {
@@ -165,7 +167,8 @@ class QuoteModel {
                         quotesDict = try decoder.decode(Dictionary<String,QuoteDict>.self, from: data)
                     }
                     catch {
-                        print("Error decoding internet json file")
+                        print("Error decoding internetQuotes.json file")
+                        errorDecodingInternetFile = true
                     }
                 }
             }
@@ -173,7 +176,7 @@ class QuoteModel {
                 print ("Unable to find internet file")
             }
         }
-        if internetFileFound == false {
+        if internetFileFound == false || errorDecodingInternetFile == true {
             if let path = Bundle.main.path(forResource: "quotes", ofType: "json") {
                 do {
                     let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
@@ -182,7 +185,7 @@ class QuoteModel {
                     
                 }
                 catch {
-                    print("Error opening quotes.json file")
+                    print("Error decoding quotes.json file")
                 }
             }
         }
@@ -190,11 +193,11 @@ class QuoteModel {
     
     
     
-    
+    /* For TESTING
     private func updateDate() {
         currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
     }
-    
+    */
     
     
     private func getQuoteAndUpdateQuoteDates(quoteDatesDict:Dictionary<String,String>?) -> (QuoteDict?,Dictionary<String,String>?) {

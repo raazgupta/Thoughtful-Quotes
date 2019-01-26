@@ -6,16 +6,16 @@
         "author": "Albert Einstein",
         "englishTranslation": "Imagination is more important than Knowledge",
         "englishAuthor": "Albert Einstein",
-        "germanTranslation": "Fantasie ist wichtiger als Wissen",
-        "germanAuthor": "Albert Einstein"
+        "germanTranslation": "",
+        "germanAuthor": ""
     },
     "1": {
         "quoteLanguage": "English",
         "quote": "Such is the nature of all things",
         "romaji": "",
         "author": "Raj Gupta",
-        "englishTranslation": "Such is the nature of all things",
-        "englishAuthor": "Raj Gupta",
+        "englishTranslation": "",
+        "englishAuthor": "",
         "germanTranslation": "Das ist die Natur aller Dinge",
         "germanAuthor": "Raj Gupta"
     },
@@ -48,6 +48,95 @@
         "englishAuthor": "",
         "germanTranslation": "Augen sind der Spiegel des Geistes",
         "germanAuthor": ""
+    },
+    "5": {
+        "quoteLanguage": "English",
+        "quote": "Not all of us can do great things. But we can do small things with great love.",
+        "romaji": "",
+        "author": "Mother Teresa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Nicht alle können großartige Dinge tun. Aber wir können kleine Dinge mit großer Liebe tun.",
+        "germanAuthor": "Mother Teresa"
+    },
+    "6": {
+        "quoteLanguage": "Russian",
+        "quote": "Не хочу учиться, а хочу жениться!",
+        "romaji": "Ne khochu uchit'sya, a khochu zhenit'sya!",
+        "author": "Denis Fonvizin",
+        "englishTranslation": "I do not want to study, I want to marry!",
+        "englishAuthor": "Denis Fonvizin",
+        "germanTranslation": "Ich will nicht studieren, ich will heiraten!",
+        "germanAuthor": "Denis Fonvizin"
+    },
+    "7": {
+        "quoteLanguage": "Russian",
+        "quote": "Рукописи не горят!",
+        "romaji": "Rukopisi ne goryat!",
+        "author": "Mikhail Bulgakov",
+        "englishTranslation": "Manuscripts don’t burn!",
+        "englishAuthor": "Mikhail Bulgakov",
+        "germanTranslation": "Manuskripte brennen nicht!",
+        "germanAuthor": "Mikhail Bulgakov"
+    },
+    "8": {
+        "quoteLanguage": "Bengali",
+        "quote": "নিজের জীবনে ঝুঁকি নিন, যদি আপনি জেতেন তাহলে নেতৃত্ব করবেন আর যদি হারেন তাহলে আপনি অন্যদের সঠিক পথ দেখাতে পারবেন",
+        "romaji": "Nijēra jībanē jhum̐ki nina, yadi āpani jētēna tāhalē nētr̥tba karabēna āra yadi hārēna tāhalē āpani an'yadēra saṭhika patha dēkhātē pārabēna",
+        "author": "Swami Vivekananda",
+        "englishTranslation": "Take risk in your own life, if you win then become a leader and if you lose then you can show others the right path.",
+        "englishAuthor": "Swami Vivekananda",
+        "germanTranslation": "Gehen Sie in Ihrem eigenen Leben ein Risiko ein. Wenn Sie gewinnen, werden Sie eine Führungskraft, und wenn Sie verlieren, können Sie anderen den richtigen Weg zeigen.",
+        "germanAuthor": "Swami Vivekananda"
+    },
+    "9": {
+        "quoteLanguage": "Bengali",
+        "quote": "দিনে অন্তত একবার নিজের সাথে কথা বলুন, অন্যথায় আপনি এই বিশ্বে একজন অসাধারণ ব্যক্তির সাথে একটি মিটিং মিস করতে পারেন।",
+        "romaji": "Dinē antata ēkabāra nijēra sāthē kathā baluna, an'yathāẏa āpani ē'i biśbē ēkajana asādhāraṇa byaktira sāthē ēkaṭi miṭiṁ misa karatē pārēna.",
+        "author": "Swami Vivekananda",
+        "englishTranslation": "Talk to yourself at least once a day, otherwise you may miss a meeting with an excellent person in this world.",
+        "englishAuthor": "Swami Vivekananda",
+        "germanTranslation": "Sprich mindestens einmal am Tag mit dir selbst, sonst kannst du ein Treffen mit einer außergewöhnlichen Person auf dieser Welt verpassen.",
+        "germanAuthor": "Swami Vivekananda"
+    },
+    "10": {
+        "quoteLanguage": "English",
+        "quote": "Peace is when time doesn't matter as it passes by.",
+        "romaji": "",
+        "author": "Maria Schell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Frieden ist, wenn die Zeit keine Rolle spielt, wenn sie vergeht",
+        "germanAuthor": "Maria Schell"
+    },
+    "11": {
+        "quoteLanguage": "English",
+        "quote": "Dream is not that which you see while sleeping it is something that does not let you sleep.",
+        "romaji": "",
+        "author": "Abdul Kalam",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Traum ist nicht das, was man beim Schlafen sieht, es ist etwas, das dich nicht schlafen lässt.",
+        "germanAuthor": "Abdul Kalam"
+    },
+    "12": {
+        "quoteLanguage": "English",
+        "quote": "Do not pray for an easy life; pray for the strength to endure a difficult one.",
+        "romaji": "",
+        "author": "Bruce Lee",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Bete nicht für ein leichtes Leben; Bete um die Kraft, einen schwierigen zu ertragen.",
+        "germanAuthor": "Bruce Lee"
+    },
+    "13": {
+        "quoteLanguage": "English",
+        "quote": "I’d rather have a passport full of stamps than a house full of stuff",
+        "romaji": "",
+        "author": "Bijan Dutta Gupta",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich hätte lieber einen Pass voller Briefmarken als ein Haus voller Zeug",
+        "germanAuthor": "Bijan Dutta Gupta"
     }
-    
 }

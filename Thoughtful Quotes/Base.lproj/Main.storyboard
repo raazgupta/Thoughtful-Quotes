@@ -19,16 +19,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-OE-FqS" customClass="PaddingLabel" customModule="Thoughtful_Quotes" customModuleProvider="target">
+                            <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-OE-FqS" customClass="PaddingLabel" customModule="Thoughtful_Quotes" customModuleProvider="target">
                                 <rect key="frame" x="24" y="44" width="327" height="563"/>
                                 <color key="backgroundColor" red="0.92549019607843142" green="0.89803921568627454" blue="0.85882352941176465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <attributedString key="attributedText">
-                                    <fragment content=" ">
+                                    <fragment>
+                                        <string key="content">Not all of us can do great things. But we can do small things with great love. 
+
+
+
+Mother Teresa</string>
                                         <attributes>
-                                            <color key="NSColor" red="0.0039215686274509803" green="0.27843137254901962" blue="0.46274509803921571" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="11" name="AmericanTypewriter"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="30" name="AmericanTypewriter"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>

@@ -138,5 +138,205 @@
         "englishAuthor": "",
         "germanTranslation": "Ich hätte lieber einen Pass voller Briefmarken als ein Haus voller Zeug",
         "germanAuthor": "Bijan Dutta Gupta"
+    },
+    "14": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Übung macht den Meister",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Practice creates masters",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "15": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Nur die Harten kommen in den Garten",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Only the strongest survive in the garden",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "16": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Alles hat ein Ende, nur die Wurst hat zwei",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Everything has an end, only the sausage has two",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "17": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Arbeit ist die beste Jacke",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Work is the best jacket",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "18": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Geschichte aller bisherigen Gesellschaft ist die Geschichte von Klassenkämpfen.",
+        "romaji": "",
+        "author": "Karl Marx",
+        "englishTranslation": "The history of all society is the history of class struggle.",
+        "englishAuthor": "Karl Marx",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "19": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das Volk, das ein anderes Volk unterjocht, schmiedet seine eigenen Ketten.",
+        "romaji": "",
+        "author": "Karl Marx",
+        "englishTranslation": "The people who subjugate another people forge their own chains.",
+        "englishAuthor": "Karl Marx",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "19": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die besten Dinge im Leben sind nicht die, die man für Geld bekommt.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "The best things in life are not the ones you get for money.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "20": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Einen Gott, der die Objekte seines Schaffens belohnt und bestraft, der überhaupt einen Willen hat nach Art desjenigen, den wir an uns selbst erleben, kann ich mir nicht einbilden.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "I cannot imagine a God who rewards and punishes the objects of his creation, who has a will similar to the one we experience in ourselves.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "21": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Liebe kann man erbetteln, erkaufen, geschenkt bekommen, auf der Gasse finden, aber rauben kann man sie nicht.",
+        "romaji": "",
+        "author": "Hermann Hesse",
+        "englishTranslation": "Love can be begged, bought, given, found on the street, but you can not rob it.",
+        "englishAuthor": "Hermann Hesse",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "22": {
+        "quoteLanguage": "Japanese",
+        "quote": "他人と同じものを読んでいれば他人と同じ考え方しかできなくなる。",
+        "romaji": "Tanin to onaji mono o yonde ireba tanin to onaji kangaekata shika dekinaku naru.",
+        "author": "村上春樹",
+        "englishTranslation": "If you only read the books that everyone else is reading, you can only think what everyone else is thinking.",
+        "englishAuthor": "Haruki Murakami",
+        "germanTranslation": "Wenn du nur Bücher liest, die alle anderen lesen kannst du auch nur denken, was alle anderen denken.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "23": {
+        "quoteLanguage": "English",
+        "quote": "You’ll never find a rainbow if you’re looking down.",
+        "romaji": "",
+        "author": "Charlie Chaplin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Du zum Boden blickst wirst Du nie einen Regenbogen finden.",
+        "germanAuthor": "Charlie Chaplin"
+    },
+    "24": {
+        "quoteLanguage": "Japanese",
+        "quote": "井の中の蛙大海を知らず。",
+        "romaji": "i no naka no kawazu taikai o shirazu.",
+        "author": "",
+        "englishTranslation": "A frog in a well does not know the great sea.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Frosch im Brunnen kennt nicht das weite Meer.",
+        "germanAuthor": ""
+    },
+    "25": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Eine Familie, die keine schwarzen Schafe hat, ist keine charakteristische Familie.",
+        "romaji": "",
+        "author": "Heinrich Böll",
+        "englishTranslation": "A family without a black sheep is not a typical family.",
+        "englishAuthor": "Heinrich Böll",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "26": {
+        "quoteLanguage": "Bengali",
+        "quote": "বোকার কাছে টাকা থাকে না।",
+        "romaji": "Bōkāra kāchē ṭākā thākē nā.",
+        "author": "",
+        "englishTranslation": "A fool and his money are soon parted.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Narr und sein Geld sind bald getrennt.",
+        "germanAuthor": ""
+    },
+    "27": {
+        "quoteLanguage": "Bengali",
+        "quote": "স্বামী ভালো হলে স্ত্রীও ভালো হয়।",
+        "romaji": "Sbāmī bhālō halē strī'ō bhālō haẏa.",
+        "author": "",
+        "englishTranslation": "A good husband makes a good wife.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein guter Ehemann macht eine gute Frau.",
+        "germanAuthor": ""
+    },
+    "28": {
+        "quoteLanguage": "Bengali",
+        "quote": "সোজা আঙ্গুলে ঘি ওঠে না।",
+        "romaji": "Sōjā āṅgulē ghi ōṭhē nā.",
+        "author": "",
+        "englishTranslation": "Straight fingers cannot pick up butter.",
+        "englishAuthor": "",
+        "germanTranslation": "Gerade Finger können keine Butter aufnehmen.",
+        "germanAuthor": ""
+    },
+    "29": {
+        "quoteLanguage": "Russian",
+        "quote": "Успешный человек тот, кто может заложить прочный фундамент из кирпичей которые в него кинули.",
+        "romaji": "Uspeshnyy chelovek tot, kto mozhet zalozhit' prochnyy fundament iz kirpichey kotoryye v nego kinuli.",
+        "author": "",
+        "englishTranslation": "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein erfolgreicher Mensch ist jemand, der ein solides Fundament mit den Ziegelsteinen legen kann, die auf ihn geworfen wurden.",
+        "germanAuthor": ""
+    },
+    "30": {
+        "quoteLanguage": "Russian",
+        "quote": "Если любишь, то любишь всего человека, какой он есть, а не каким ты хочешь чтобы он был.",
+        "romaji": "Yesli lyubish', to lyubish' vsego cheloveka, kakoy on yest', a ne kakim ty khochesh' chtoby on byl.",
+        "author": "Лев Толстой",
+        "englishTranslation": "When you love someone, you love the person as they are, and not as you’d like them to be.",
+        "englishAuthor": "Leo Tolstoy",
+        "germanTranslation": "Wenn du liebst, so liebst du die ganze Person so wie sie ist und nicht wie du sie gerne hättest.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "31": {
+        "quoteLanguage": "Russian",
+        "quote": "Если искать совершенство, то никогда не будешь доволен.",
+        "romaji": "Yesli iskat' sovershenstvo, to nikogda ne budesh' dovolen.",
+        "author": "Лев Толстой",
+        "englishTranslation": "If you look for perfection, you’ll never be content.",
+        "englishAuthor": "Leo Tolstoy",
+        "germanTranslation": "Wenn Sie nach Perfektion suchen, werden Sie nie zufrieden sein.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "32": {
+        "quoteLanguage": "English",
+        "quote": "Wealth consists not in having great possessions, but in having few wants ",
+        "romaji": "",
+        "author": "Epictetus ",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wohlstand besteht nicht darin, große Besitztümer zu haben, sondern nur wenige Wünsche",
+        "germanAuthor": ""
     }
 }

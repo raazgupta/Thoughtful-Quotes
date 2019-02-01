@@ -84,6 +84,7 @@ class QuoteViewController: UIViewController {
         
         quoteModel.refreshQuote()
         
+        /*
         if let quoteDict = quoteModel.quoteDict {
             
             let quoteAttrString = NSMutableAttributedString(string: quoteDict.quote, attributes: quoteAttributes)
@@ -97,6 +98,9 @@ class QuoteViewController: UIViewController {
             
             quoteTextLabel?.attributedText = quoteAttrString
         }
+        */
+        
+        updateQuoteLabel()
         
         // Set number of days that the user has seen the app
         switch quoteModel.userLanguage {
@@ -121,46 +125,49 @@ class QuoteViewController: UIViewController {
             
             UIView.transition(with: sender.view!, duration: 1.0, options: transitionOptions, animations: {
                 
+                self.updateQuoteLabel()
                 
-                var quoteAttrString = NSMutableAttributedString(string: "")
-                var romajiAttrString = NSMutableAttributedString(string: "")
-                var authorAttrString = NSMutableAttributedString(string: "")
-                
-                
-                if self.quoteModel.showTranslation {
-                    
-                    var translatedQuote = ""
-                    var translatedAuthor = ""
-                    switch self.quoteModel.userLanguage {
-                    case .English:
-                        translatedQuote = self.quoteModel.quoteDict!.englishTranslation
-                        translatedAuthor = self.quoteModel.quoteDict!.englishAuthor
-                    case .Deutsch:
-                        translatedQuote = self.quoteModel.quoteDict!.germanTranslation
-                        translatedAuthor = self.quoteModel.quoteDict!.germanAuthor
-                    }
-                    
-                    
-                    quoteAttrString = NSMutableAttributedString(string: translatedQuote, attributes: self.quoteAttributes)
-                    authorAttrString = NSMutableAttributedString(string: translatedAuthor, attributes: self.authorAttributes)
-                }
-                else {
-                    quoteAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.quote, attributes: self.quoteAttributes)
-                    romajiAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.romaji, attributes: self.romajiAttributes)
-                    authorAttrString = NSMutableAttributedString(string: self.quoteModel.quoteDict!.author, attributes: self.authorAttributes)
-                }
-                
-                quoteAttrString.append(NSAttributedString(string: "\n\n"))
-                quoteAttrString.append(romajiAttrString)
-                quoteAttrString.append(NSAttributedString(string: "\n\n"))
-                quoteAttrString.append(authorAttrString)
-                
-                self.quoteTextLabel?.attributedText = quoteAttrString
             })
             
         }
+    }
+    
+    private func updateQuoteLabel() {
+        
+        var quoteAttrString = NSMutableAttributedString(string: "")
+        var romajiAttrString = NSMutableAttributedString(string: "")
+        var authorAttrString = NSMutableAttributedString(string: "")
         
         
+        if quoteModel.showTranslation {
+            
+            var translatedQuote = ""
+            var translatedAuthor = ""
+            switch quoteModel.userLanguage {
+            case .English:
+                translatedQuote = quoteModel.quoteDict!.englishTranslation
+                translatedAuthor = quoteModel.quoteDict!.englishAuthor
+            case .Deutsch:
+                translatedQuote = quoteModel.quoteDict!.germanTranslation
+                translatedAuthor = quoteModel.quoteDict!.germanAuthor
+            }
+            
+            
+            quoteAttrString = NSMutableAttributedString(string: translatedQuote, attributes: quoteAttributes)
+            authorAttrString = NSMutableAttributedString(string: translatedAuthor, attributes: authorAttributes)
+        }
+        else {
+            quoteAttrString = NSMutableAttributedString(string: quoteModel.quoteDict!.quote, attributes: quoteAttributes)
+            romajiAttrString = NSMutableAttributedString(string: quoteModel.quoteDict!.romaji, attributes: romajiAttributes)
+            authorAttrString = NSMutableAttributedString(string: quoteModel.quoteDict!.author, attributes: authorAttributes)
+        }
+        
+        quoteAttrString.append(NSAttributedString(string: "\n\n"))
+        quoteAttrString.append(romajiAttrString)
+        quoteAttrString.append(NSAttributedString(string: "\n\n"))
+        quoteAttrString.append(authorAttrString)
+        
+        quoteTextLabel?.attributedText = quoteAttrString
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

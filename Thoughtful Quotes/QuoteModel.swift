@@ -100,7 +100,7 @@ class QuoteModel {
             refreshQuotesDict()
         }
         
-        //updateDate()
+        updateDate()
         
         let formatter = DateFormatter()
         formatter.dateFormat = "MM.dd.yyyy"
@@ -131,6 +131,7 @@ class QuoteModel {
                 UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
                 
                 quoteDict = randomQuote.0
+                showTranslation = false
             }
             
 
@@ -142,7 +143,7 @@ class QuoteModel {
             UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
             
             quoteDict = randomQuote.0
-            
+            showTranslation = false
         }
         
     }
@@ -193,11 +194,15 @@ class QuoteModel {
     
     
     
-    /* For TESTING
+    
     private func updateDate() {
+        
+        //currentDate = Date()
+        
+        // FOR TESTING
         currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
     }
-    */
+    
     
     
     private func getQuoteAndUpdateQuoteDates(quoteDatesDict:Dictionary<String,String>?) -> (QuoteDict?,Dictionary<String,String>?) {

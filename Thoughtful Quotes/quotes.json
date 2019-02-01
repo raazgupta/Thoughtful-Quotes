@@ -331,12 +331,182 @@
     },
     "32": {
         "quoteLanguage": "English",
-        "quote": "Wealth consists not in having great possessions, but in having few wants ",
+        "quote": "Wealth consists not in having great possessions, but in having few wants",
         "romaji": "",
-        "author": "Epictetus ",
+        "author": "Epictetus",
         "englishTranslation": "",
         "englishAuthor": "",
         "germanTranslation": "Wohlstand besteht nicht darin, große Besitztümer zu haben, sondern nur wenige Wünsche",
+        "germanAuthor": "Epictetus"
+    },
+    "33": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Es gibt vielerlei Lärm. Aber es gibt nur eine Stille.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "There are many types of noice, but there is only one silence.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "34": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Basis einer gesunden Ordnung ist ein großer Papierkorb.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "The base of a healthy order is a big dust bin.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "35": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das ärgerliche am Ärger ist, dass man sich schadet, ohne anderen zu nützen.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "The annoying thing about anger is that you harm yourself without benefiting others.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "36": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Der Mensch hat neben dem Trieb der Fortpflanzung und dem zu essen und zu trinken zwei Leidenschaften: Krach zu machen und nicht zuzuhören.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "In addition to the drive to reproduce and the urge to eat and drink, humans have two passions: making noise and not listening.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "37": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Erfahrungen vererben sich nicht – jeder muss sie allein machen.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "Experiences are not inherited - everyone has to make them on their own.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "38": {
+        "quoteLanguage": "English",
+        "quote": "If we are uncritical we shall always find what we want: we shall look for, and find, confirmations, and we shall look away from, and not see, whatever might be dangerous to our pet theories.",
+        "romaji": "",
+        "author": "Karl Popper",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn wir unkritisch sind, werden wir immer finden, was wir wollen: Wir werden Bestätigungen suchen und finden, und wir werden wegsehen und nicht sehen, was für unsere Lieblingstheorien gefährlich werden könnte.",
+        "germanAuthor": "Karl Popper"
+    },
+    "39": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Alles, was überhaupt gedacht werden kann, kann klar gedacht werden. Alles, was sich aussprechen lässt, lässt sich klar aussprechen.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "Everything that can be thought at all can be thought clearly. Everything that can be said can be said clearly",
+        "englishAuthor": "Ludwig Wittgenstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "40": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "The limits of my language mean the limits of my world.",
+        "englishAuthor": "Ludwig Wittgenstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "41": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wovon man nicht sprechen kann, darüber muss man schweigen.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "Whereof we cannot speak, thereof we must remain silent.",
+        "englishAuthor": "Ludwig Wittgenstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "42": {
+        "quoteLanguage": "Bengali",
+        "quote": "তত্ত্বের চেয়ে প্রায়োগিক জ্ঞান গুরুত্বপূর্ণ।",
+        "romaji": "Tattbēra cēẏē prāẏōgika jñāna gurutbapūrṇa.",
+        "author": "",
+        "englishTranslation": "An ounce of common sense is worth a pound of theory.",
+        "englishAuthor": "",
+        "germanTranslation": "Eine Unze des gesunden Menschenverstands ist ein Pfund Theorie wert.",
+        "germanAuthor": ""
+    },
+    "43": {
+        "quoteLanguage": "Bengali",
+        "quote": "দুষ্ট গরুর চেয়ে শূন্য গোয়াল ভালো।",
+        "romaji": "Duṣṭa garura cēẏē śūn'ya gōẏāla bhālō.",
+        "author": "",
+        "englishTranslation": "Better an empty house than an ill tenant.",
+        "englishAuthor": "",
+        "germanTranslation": "Besser ein leeres Haus als ein kranker Mieter.",
+        "germanAuthor": ""
+    },
+    "44": {
+        "quoteLanguage": "Bengali",
+        "quote": "ঝোপ বুঝে কোপ মারা।",
+        "romaji": "Jhōpa bujhē kōpa mārā.",
+        "author": "",
+        "englishTranslation": "As the wind blows, so must you set your sail.",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn der Wind weht, müssen Sie Ihr Segel setzen.",
+        "germanAuthor": ""
+    },
+    "45": {
+        "quoteLanguage": "English",
+        "quote": "It is not the load that breaks you down, it is the way you carry it.",
+        "romaji": "",
+        "author": "Lou Leo Holtz",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist nicht die Last, die dich zusammenbricht, sondern wie du sie trägst.",
+        "germanAuthor": "Lou Leo Holtz"
+    },
+    "46": {
+        "quoteLanguage": "English",
+        "quote": "No matter what you’ve done for yourself or for humanity. If you can’t look back on having given love and attention to your own family, what have you really accomplished.",
+        "romaji": "",
+        "author": "Lee Iacocca",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Egal, was Du für Dich selbst oder für die Menschheit getan hast. Wenn Du nicht darauf zurückschauen kannst, dass Du Deiner Familie Liebe und Aufmerksamkeit geschenkt hast, was hast Du wirklich erreicht?",
+        "germanAuthor": "Lee Iacocca"
+    },
+    "47": {
+        "quoteLanguage": "Bengali",
+        "quote": "যারে দেখতে নারি, তার চলন বাঁকা।",
+        "romaji": "Yārē dēkhatē nāri, tāra calana bām̐kā.",
+        "author": "",
+        "englishTranslation": "Faults are thick where love is thin",
+        "englishAuthor": "",
+        "germanTranslation": "Fehler sind dick, wo die Liebe dünn ist",
+        "germanAuthor": ""
+    },
+    "47": {
+        "quoteLanguage": "Bengali",
+        "quote": "সৌন্দর্য ধরা পড়ে চোখে আর জ্ঞান ধরা পড়ে অন্তরে।",
+        "romaji": "Saundarya dharā paṛē cōkhē āra jñāna dharā paṛē antarē.",
+        "author": "",
+        "englishTranslation": "Charm strikes the sight, merit wins the soul.",
+        "englishAuthor": "",
+        "germanTranslation": "Charme macht den Anblick, Verdienst gewinnt die Seele.",
+        "germanAuthor": ""
+    },
+    "48": {
+        "quoteLanguage": "Bengali",
+        "quote": "শিশু এবং বোকারাই সত্য বলে।",
+        "romaji": "Śiśu ēbaṁ bōkārā'i satya balē.",
+        "author": "",
+        "englishTranslation": "Children and fools tell the truth.",
+        "englishAuthor": "",
+        "germanTranslation": "Kinder und Narren erzählen die Wahrheit.",
         "germanAuthor": ""
     }
 }

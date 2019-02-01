@@ -197,10 +197,10 @@ class QuoteModel {
     
     private func updateDate() {
         
-        //currentDate = Date()
+        currentDate = Date()
         
         // FOR TESTING
-        currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
+        //currentDate = Calendar.current.date(byAdding: .day, value: numDays, to: currentDate)!
     }
     
     
@@ -223,7 +223,7 @@ class QuoteModel {
             // Check if number of elements in quotesDict equal to number of elements in quoteDates
             // This means the user has seen all the quotes
             // We need to reset quoteDates and start fresh
-            if quotesDict!.count == quoteDatesDict!.count {
+            if quotesDict!.count <= quoteDatesDict!.count {
                 if let randomQuote = quotesDict?.randomElement() {
                     let quoteDates = [dateString: randomQuote.key]
                     return (randomQuote.value,quoteDates)

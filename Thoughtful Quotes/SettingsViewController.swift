@@ -100,7 +100,7 @@ class SettingsViewController: UIViewController {
         // Get the time of the reminder
         switch sender.tag {
         case 1:
-            reminderTimeInt = (8,0)
+            reminderTimeInt = (7,0)
             switch quoteModel!.userLanguage {
             case .English:
                     notificationTitle = "Good Morning"

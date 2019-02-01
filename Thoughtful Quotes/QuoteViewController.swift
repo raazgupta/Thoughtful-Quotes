@@ -162,10 +162,15 @@ class QuoteViewController: UIViewController {
             authorAttrString = NSMutableAttributedString(string: quoteModel.quoteDict!.author, attributes: authorAttributes)
         }
         
-        quoteAttrString.append(NSAttributedString(string: "\n\n"))
-        quoteAttrString.append(romajiAttrString)
-        quoteAttrString.append(NSAttributedString(string: "\n\n"))
-        quoteAttrString.append(authorAttrString)
+        if romajiAttrString.string != "" {
+            quoteAttrString.append(NSAttributedString(string: "\n\n"))
+            quoteAttrString.append(romajiAttrString)
+        }
+        if authorAttrString.string != "" {
+            quoteAttrString.append(NSAttributedString(string: "\n\n"))
+            quoteAttrString.append(authorAttrString)
+        }
+        
         
         quoteTextLabel?.attributedText = quoteAttrString
     }

@@ -489,7 +489,7 @@
         "germanTranslation": "Fehler sind dick, wo die Liebe dünn ist",
         "germanAuthor": ""
     },
-    "47": {
+    "48": {
         "quoteLanguage": "Bengali",
         "quote": "সৌন্দর্য ধরা পড়ে চোখে আর জ্ঞান ধরা পড়ে অন্তরে।",
         "romaji": "Saundarya dharā paṛē cōkhē āra jñāna dharā paṛē antarē.",
@@ -499,7 +499,7 @@
         "germanTranslation": "Charme macht den Anblick, Verdienst gewinnt die Seele.",
         "germanAuthor": ""
     },
-    "48": {
+    "49": {
         "quoteLanguage": "Bengali",
         "quote": "শিশু এবং বোকারাই সত্য বলে।",
         "romaji": "Śiśu ēbaṁ bōkārā'i satya balē.",
@@ -508,5 +508,155 @@
         "englishAuthor": "",
         "germanTranslation": "Kinder und Narren erzählen die Wahrheit.",
         "germanAuthor": ""
+    },
+    "50": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wer ein Warum hat, dem ist kein Wie zu schwer.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "When one has a why, then one does not find the task so difficult.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "51": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Hoffnung ist der Regenbogen über den herabstürzenden jähen Bach des Lebens.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "Hope is the rainbow over the precipitous, abrupt stream of life.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "52": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wir leben in einem System, in dem man entweder Rad sein muß oder unter die Räder gerät.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "We live in a system where you either have to be a wheel or get under the wheels.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "53": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Es ist doch nicht genug, eine Sache zu beweisen, man muß die Menschen zu ihr auch noch verführen.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "It is not enough to prove one thing, one must also seduce the people to her.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "54": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Heute ist die Utopie vom Vormittag die Wirklichkeit vom Nachmittag.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "The utopia of the morning is the reality of the afternoon.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "55": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Kein Sieger glaubt an den Zufall.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "No winner believes in coincidence.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "56": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Etwas Kurz-Gesagtes kann die Frucht und Ernte von vielem Lang-Gedachten sein.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "A short speech can be the fruit and harvest of a long thought.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "57": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Habe Mut, dich deines eigenen Verstandes zu bedienen.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "Have the courage to use your own understanding.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "58": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wer sich zum Wurm macht, kann nachher nicht klagen, wenn er mit Füßen getreten wird.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "Anyone who turns himself into a worm can not complain afterwards if he is trampled.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "59": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Um fremden Wert willig und frei anzuerkennen, muß man eigenen haben.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "In order to recognize foreign value willingly and freely, one must have one's own.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "60": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das Lachen ist der Lebenskraft zuträglich, denn es fördert die Verdauung.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "Laughter is beneficial to the life force, because it promotes digestion.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "61": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Unser Entscheiden reicht weiter als unser Erkennen.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "Our decision goes further than our cognition.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "62": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Kein Mensch ist so wichtig, wie er sich nimmt.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "No human being is as important as he thinks of himself.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "63": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Kein Mensch ist so wichtig, wie er sich nimmt.",
+        "romaji": "",
+        "author": "Immanuel Kant",
+        "englishTranslation": "No human being is as important as he thinks of himself.",
+        "englishAuthor": "Immanuel Kant",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "64": {
+        "quoteLanguage": "English",
+        "quote": "Freedom is not given - it is taken",
+        "romaji": "",
+        "author": "Subhas Chandra Bose",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Freiheit ist nicht gegeben - sie wird genommen",
+        "germanAuthor": "Subhas Chandra Bose"
     }
 }

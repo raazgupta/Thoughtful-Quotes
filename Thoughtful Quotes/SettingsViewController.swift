@@ -11,7 +11,8 @@ import UserNotifications
 
 class SettingsViewController: UIViewController {
 
-    
+    @IBOutlet weak var englishButton: UIButton!
+    @IBOutlet weak var deutschButton: UIButton!
     @IBOutlet weak var settingsLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UITextView!
     @IBOutlet weak var remindMeLabel: UILabel!
@@ -25,6 +26,19 @@ class SettingsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        // Round the corners
+        descriptionLabel.layer.masksToBounds = true
+        descriptionLabel.layer.cornerRadius = 10.0
+        englishButton.layer.cornerRadius = 10.0
+        deutschButton.layer.cornerRadius = 10.0
+        morningButton.layer.cornerRadius = 10.0
+        lunchtimeButton.layer.cornerRadius = 10.0
+        refreshButton.layer.cornerRadius = 10.0
+        doneButton.layer.cornerRadius = 10.0
+        
+        //Add padding to description label
+        descriptionLabel.textContainerInset = UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
         
         refreshLanguage()
         
@@ -51,20 +65,20 @@ class SettingsViewController: UIViewController {
         case .English:
             settingsLabel.text = "Settings"
             descriptionLabel.text = "Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set it below. When we get inspired by quotes we find in the world, we will update our list. You can click the Refresh button to get our latest set of quotes. However please make sure you have access to the internet. We hope these quotes help you think deeply about the world."
-            remindMeLabel.text = "Remind Me:"
+            remindMeLabel.text = "  Remind Me:"
             morningButton.setTitle("Morning", for: .normal)
             lunchtimeButton.setTitle("Lunchtime", for: .normal)
-            numQuotesLabel.text = "\(findNumQuotes()) Quotes"
+            numQuotesLabel.text = "  \(findNumQuotes()) Quotes"
             refreshButton.setTitle("Refresh", for: .normal)
             doneButton.setTitle("Done", for: .normal)
         case .Deutsch:
             settingsLabel.text = "Einstellungen"
             descriptionLabel.text = "Willkommen bei der durchdachten Zitate-App. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu erhalten. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Angebot verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Sie können auf die Schaltfläche Aktualisieren klicken, um die neuesten Angebote zu erhalten. Bitte stellen Sie jedoch sicher, dass Sie Zugang zum Internet haben. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken."
-            remindMeLabel.text = "Erinnere mich:"
+            remindMeLabel.text = "  Erinnere mich:"
             morningButton.setTitle("Morgen", for: .normal)
             lunchtimeButton.setTitle("Mittag", for: .normal)
-            numQuotesLabel.text = "\(findNumQuotes()) Zitate"
-            refreshButton.setTitle("Aktualisierung", for: .normal)
+            numQuotesLabel.text = "  \(findNumQuotes()) Zitate"
+            refreshButton.setTitle("  Aktualisierung", for: .normal)
             doneButton.setTitle("Erledigt", for: .normal)
         }
         
@@ -252,8 +266,8 @@ class SettingsViewController: UIViewController {
                 
                 if fileWriteResult {
                     switch self?.quoteModel!.userLanguage {
-                    case .English?: self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) Quotes"
-                    case .Deutsch?: self?.numQuotesLabel.text = "\(self?.findNumQuotes() ?? 0) Zitate"
+                    case .English?: self?.numQuotesLabel.text = "  \(self?.findNumQuotes() ?? 0) Quotes"
+                    case .Deutsch?: self?.numQuotesLabel.text = "  \(self?.findNumQuotes() ?? 0) Zitate"
                     default: break
                     }
                     

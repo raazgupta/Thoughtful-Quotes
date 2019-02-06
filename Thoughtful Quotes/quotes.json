@@ -471,12 +471,12 @@
     },
     "46": {
         "quoteLanguage": "English",
-        "quote": "No matter what you’ve done for yourself or for humanity. If you can’t look back on having given love and attention to your own family, what have you really accomplished.",
+        "quote": "No matter what you’ve done for yourself or for humanity, if you can’t look back on having given love and attention to your own family, what have you really accomplished.",
         "romaji": "",
         "author": "Lee Iacocca",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Egal, was Du für Dich selbst oder für die Menschheit getan hast. Wenn Du nicht darauf zurückschauen kannst, dass Du Deiner Familie Liebe und Aufmerksamkeit geschenkt hast, was hast Du wirklich erreicht?",
+        "germanTranslation": "Egal, was Du für Dich selbst oder für die Menschheit getan hast, wenn Du nicht darauf zurückschauen kannst, dass Du Deiner Familie Liebe und Aufmerksamkeit geschenkt hast, was hast Du wirklich erreicht?",
         "germanAuthor": "Lee Iacocca"
     },
     "47": {
@@ -640,16 +640,6 @@
         "germanAuthor": ""
     },
     "63": {
-        "quoteLanguage": "Deutsch",
-        "quote": "Kein Mensch ist so wichtig, wie er sich nimmt.",
-        "romaji": "",
-        "author": "Immanuel Kant",
-        "englishTranslation": "No human being is as important as he thinks of himself.",
-        "englishAuthor": "Immanuel Kant",
-        "germanTranslation": "",
-        "germanAuthor": ""
-    },
-    "64": {
         "quoteLanguage": "English",
         "quote": "Freedom is not given - it is taken",
         "romaji": "",
@@ -658,5 +648,135 @@
         "englishAuthor": "",
         "germanTranslation": "Freiheit ist nicht gegeben - sie wird genommen",
         "germanAuthor": "Subhas Chandra Bose"
+    },
+    "64": {
+        "quoteLanguage": "English",
+        "quote": "Any man who is only an economist is unlikely to be a good one.",
+        "romaji": "",
+        "author": "Friedrich August von Hayek",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist unwahrscheinlich, dass ein Mensch, der nur Ökonom ist, ein guter Ökonom ist.",
+        "germanAuthor": "Friedrich August von Hayek"
+    },
+    "65": {
+        "quoteLanguage": "English",
+        "quote": "You cannot be sure that you are right unless you understand the arguments against your views better than your opponents do.",
+        "romaji": "",
+        "author": "Milton Friedman",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Du kannst nicht sicher sein, dass Du recht hast, solange Du die Argumente gegen deine Ansichten nicht besser verstehst als deine Gegner.",
+        "germanAuthor": "Milton Friedman"
+    },
+    "66": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Höflichkeit ist wie ein Luftkissen. Es mag zwar nichts drin sein, aber es mildert die Stöße des Lebens.",
+        "romaji": "",
+        "author": "Arthur Schopenhauer",
+        "englishTranslation": "Courtesy is like an air cushion. There may be nothing in it, but it softens the bumps of life.",
+        "englishAuthor": "Arthur Schopenhauer",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "67": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Für eine gelungene Rede gebrauche gewöhnliche Worte und sage ungewöhnliche Dinge.",
+        "romaji": "",
+        "author": "Arthur Schopenhauer",
+        "englishTranslation": "For a great speech, use ordinary words and say extraordinary things.",
+        "englishAuthor": "Arthur Schopenhauer",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "68": {
+        "quoteLanguage": "English",
+        "quote": "The political problem of mankind is to combine three things: economic efficiency, social justice and individual liberty.",
+        "romaji": "",
+        "author": "John Maynard Keynes",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das politische Problem der Menschheit besteht darin, drei Dinge zu kombinieren: Wirtschaftliche Effizienz, soziale Gerechtigkeit und individuelle Freiheit.",
+        "germanAuthor": "John Maynard Keynes"
+    },
+    "69": {
+        "quoteLanguage": "English",
+        "quote": "It's not bringing in the new ideas that's so hard; it's getting rid of the old ones.",
+        "romaji": "",
+        "author": "John Maynard Keynes",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist nicht schwer neue Ideen einzubringen, sondern die alten loszuwerden.",
+        "germanAuthor": "John Maynard Keynes"
+    },
+    "70": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wachstum ist ein Prozeß schöpferischer Zerstörung.",
+        "romaji": "",
+        "author": "Joseph A. Schumpeter",
+        "englishTranslation": "Growth is a process of creative destruction.",
+        "englishAuthor": "Joseph A. Schumpeter",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "71": {
+        "quoteLanguage": "English",
+        "quote": "I have learned to seek my happiness by limiting my desires, rather than in attempting to satisfy them.",
+        "romaji": "",
+        "author": "John Stuart Mill",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich habe gelernt, nach Glück zu streben, indem ich meine Gelüste beschränke, anstatt zu versuchen sie zu befriedigen.",
+        "germanAuthor": "John Stuart Mill"
+    },
+    "72": {
+        "quoteLanguage": "English",
+        "quote": "A wise man will make more opportunities than he finds",
+        "romaji": "",
+        "author": "Sir Francis Bacon",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein weiser Mann wird mehr Gelegenheiten schaffen, als er findet",
+        "germanAuthor": "Sir Francis Bacon"
+    },
+    "73": {
+        "quoteLanguage": "English",
+        "quote": "Fight for the things that you care about, but do it in a way that will lead others to join you.",
+        "romaji": "",
+        "author": "Ruth Bader Ginsburg",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Kämpfe für die Dinge, die dir wichtig sind, aber tu es auf eine Weise, die andere dazu bringen wird sich dir anzuschließen.",
+        "germanAuthor": "Ruth Bader Ginsburg"
+    },
+    "74": {
+        "quoteLanguage": "English",
+        "quote": "Women belong in all places where decision are being made.",
+        "romaji": "",
+        "author": "Ruth Bader Ginsburg",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Frauen gehören überall dort hin, wo Entscheidungen getroffen werden.",
+        "germanAuthor": "Ruth Bader Ginsburg"
+    },
+    "75": {
+        "quoteLanguage": "English",
+        "quote": "Great minds discuss ideas; average minds discuss events; small minds discuss people.",
+        "romaji": "",
+        "author": "Eleanor Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Große Geister diskutieren Visionen; Normale Geister diskutieren Geschehnisse; Kleine Geister diskutieren Menschen",
+        "germanAuthor": "Eleanor Roosevelt"
+    },
+    "76": {
+        "quoteLanguage": "English",
+        "quote": "Do what you feel in your heart to be right — for you’ll be criticized anyway.",
+        "romaji": "",
+        "author": "Eleanor Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Tu was Du in deinem Herzen für richtig hältst — kritisiert wirst Du sowieso.",
+        "germanAuthor": "Eleanor Roosevelt"
     }
 }

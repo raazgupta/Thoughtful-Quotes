@@ -73,7 +73,9 @@ class SettingsViewController: UIViewController {
             doneButton.setTitle("Done", for: .normal)
         case .Deutsch:
             settingsLabel.text = "Einstellungen"
-            descriptionLabel.text = "Willkommen bei der durchdachten Zitate-App. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu erhalten. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Angebot verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Sie können auf die Schaltfläche Aktualisieren klicken, um die neuesten Angebote zu erhalten. Bitte stellen Sie jedoch sicher, dass Sie Zugang zum Internet haben. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken."
+            descriptionLabel.text = """
+            Willkommen bei „bedachte Zitate“. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu lesen. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Zitat verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Sie können auf die Schaltfläche „Aktualisieren“ klicken, um die neuesten Zitate zu erhalten. Bitte stellen Sie jedoch sicher, dass Sie Zugang zum Internet haben. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken.
+            """
             remindMeLabel.text = "  Erinnere mich:"
             morningButton.setTitle("Morgen", for: .normal)
             lunchtimeButton.setTitle("Mittag", for: .normal)

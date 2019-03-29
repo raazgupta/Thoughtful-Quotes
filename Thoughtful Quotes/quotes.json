@@ -361,7 +361,7 @@
     },
     "35": {
         "quoteLanguage": "Deutsch",
-        "quote": "Das ärgerliche am Ärger ist, dass man sich schadet, ohne anderen zu nützen.",
+        "quote": "Das ärgerliche am Ärger ist, dass man sich schadet, ohne Anderen zu nützen.",
         "romaji": "",
         "author": "Kurt Tucholsky",
         "englishTranslation": "The annoying thing about anger is that you harm yourself without benefiting others.",
@@ -648,16 +648,6 @@
         "englishAuthor": "",
         "germanTranslation": "Freiheit ist nicht gegeben - sie wird genommen",
         "germanAuthor": "Subhas Chandra Bose"
-    },
-    "64": {
-        "quoteLanguage": "English",
-        "quote": "Any man who is only an economist is unlikely to be a good one.",
-        "romaji": "",
-        "author": "Friedrich August von Hayek",
-        "englishTranslation": "",
-        "englishAuthor": "",
-        "germanTranslation": "Es ist unwahrscheinlich, dass ein Mensch, der nur Ökonom ist, ein guter Ökonom ist.",
-        "germanAuthor": "Friedrich August von Hayek"
     },
     "65": {
         "quoteLanguage": "English",
@@ -968,5 +958,465 @@
         "englishAuthor": "",
         "germanTranslation": "Die kleine Weisheit ist wie Wasser in einem Glas: klar, transparent, rein. Die große Weisheit ist wie Wasser im Meer: dunkel, geheimnisvoll, undurchdringlich",
         "germanAuthor": "Rabindranath Tagore"
+    },
+    "95": {
+        "quoteLanguage": "English",
+        "quote": "All great achievements require time.",
+        "romaji": "",
+        "author": "Maya Angelou",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Alle großen Errungenschaften benötigen Zeit.",
+        "germanAuthor": "Maya Angelou"
+    },
+    "96": {
+        "quoteLanguage": "English",
+        "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+        "romaji": "",
+        "author": "Maya Angelou",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Leben wird nicht an der Anzahl unserer Atemzüge gemessen, sondern an den Momenten, die uns den Atem rauben.",
+        "germanAuthor": "Maya Angelou"
+    },
+    "97": {
+        "quoteLanguage": "English",
+        "quote": "It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.",
+        "romaji": "",
+        "author": "Audre Lorde",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es sind nicht unsere Unterschiede, die uns trennen. Es ist unsere Unfähigkeit, diese Unterschiede zu erkennen, zu akzeptieren und zu zelebrieren.",
+        "germanAuthor": "Audre Lorde"
+    },
+    "98": {
+        "quoteLanguage": "English",
+        "quote": "It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.",
+        "romaji": "",
+        "author": "Audre Lorde",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es sind nicht unsere Unterschiede, die uns trennen. Es ist unsere Unfähigkeit, diese Unterschiede zu erkennen, zu akzeptieren und zu zelebrieren.",
+        "germanAuthor": "Audre Lorde"
+    },
+    "99": {
+        "quoteLanguage": "English",
+        "quote": "If people never did silly things, nothing intelligent would ever get done.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn die Leute niemals dumme Dinge taten, würde nichts Intelligentes jemals geschehen.",
+        "germanAuthor": "Ludwig Wittgenstein"
+    },
+    "100": {
+        "quoteLanguage": "English",
+        "quote": "To convince someone of the truth, it is not enough to state it, but rather one must find the path from error to truth.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Um jemanden von der Wahrheit zu überzeugen, reicht es nicht aus, es zu sagen, sondern man muss den Weg vom Irrtum zur Wahrheit finden.",
+        "germanAuthor": "Ludwig Wittgenstein"
+    },
+    "101": {
+        "quoteLanguage": "English",
+        "quote": "The limits of my language mean the limits of my world.",
+        "romaji": "",
+        "author": "Ludwig Wittgenstein",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt.",
+        "germanAuthor": "Ludwig Wittgenstein"
+    },
+    "102": {
+        "quoteLanguage": "English",
+        "quote": "Even if the open windows of science at first make us shiver ... in the end, the fresh air brings vigor, and the great spaces have a splendor of their own.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Auch wenn uns die offenen Fenster der Wissenschaft zuerst zittern lassen ... am Ende bringt die frische Luft Kraft und die großen Räume haben ihren eigenen Glanz.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "103": {
+        "quoteLanguage": "English",
+        "quote": "There's a special place in hell for women who don't help other women.",
+        "romaji": "",
+        "author": "Sheryl Sandberg",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt einen besonderen Ort in der Hölle für Frauen, die anderen Frauen nicht helfen.",
+        "germanAuthor": "Sheryl Sandberg"
+    },
+    "104": {
+        "quoteLanguage": "English",
+        "quote": "A good leader inspires people to have confidence in the leader, a great leader inspires people to have confidence in themselves.",
+        "romaji": "",
+        "author": "Eleanor Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein guter Anführer inspiriert die Menschen, Vertrauen in den Anführer zu haben, ein großartiger Anführer inspiriert die Menschen, sich selbst zu vertrauen.",
+        "germanAuthor": "Eleanor Roosevelt"
+    },
+    "105": {
+        "quoteLanguage": "English",
+        "quote": "If you don’t like something, change it. If you can’t change it, change your attitude.",
+        "romaji": "",
+        "author": "Maya Angelou",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Ihnen etwas nicht gefällt, ändern Sie es. Wenn Sie es nicht ändern können, ändern Sie Ihre Einstellung.",
+        "germanAuthor": "Maya Angelou"
+    },
+    "106": {
+        "quoteLanguage": "English",
+        "quote": "One must look into hell before one has any right to speak to heaven.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Man muss in die Hölle schauen, bevor man ein Recht hat, mit dem Himmel zu sprechen.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "107": {
+        "quoteLanguage": "English",
+        "quote": "No nation was ever so virtuous as each believes itself, and none was ever so wicked as each believes the other.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Keine Nation war je so tugendhaft wie jeder selbst und keine war je so böse wie jeder andere.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "108": {
+        "quoteLanguage": "English",
+        "quote": "If I were a medical man, I should prescribe a holiday to any patient who considered his work important.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn ich ein Arzt wäre, sollte ich jedem Patienten, der seine Arbeit für wichtig hielt, einen Urlaub verschreiben.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "109": {
+        "quoteLanguage": "English",
+        "quote": "Patriotism is the willingness to kill and be killed for trivial reasons.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Patriotismus ist die Bereitschaft, aus trivialen Gründen zu töten und getötet zu werden.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "110": {
+        "quoteLanguage": "English",
+        "quote": "Low-level programming is good for the programmer’s soul.",
+        "romaji": "",
+        "author": "John Carmack",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Low-Level-Programmierung ist gut für die Seele des Programmierers.",
+        "germanAuthor": "John Carmack"
+    },
+    "111": {
+        "quoteLanguage": "Japanese",
+        "quote": "失敗を繰り返すことで、成功に至る。",
+        "romaji": "Shippai wo kurikaesu koto de, seikou ni itaru.",
+        "author": "",
+        "englishTranslation": "Repeated failures lead to success.",
+        "englishAuthor": "",
+        "germanTranslation": "Wiederholte Niederlagen führen zum Erfolg.",
+        "germanAuthor": ""
+    },
+    "112": {
+        "quoteLanguage": "Japanese",
+        "quote": "失敗を繰り返すことで、成功に至る",
+        "romaji": "Shippai wo kurikaesu koto de, seikou ni itaru.",
+        "author": "",
+        "englishTranslation": "Repeated failures lead to success.",
+        "englishAuthor": "",
+        "germanTranslation": "Wiederholte Niederlagen führen zum Erfolg.",
+        "germanAuthor": ""
+    },
+    "113": {
+        "quoteLanguage": "English",
+        "quote": "That's the thing about books. They let you travel without moving your feet.",
+        "romaji": "",
+        "author": "Jhumpa Lahiri",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das ist die Sache mit Büchern: Sie lassen Dich reisen, ohne Deine Füße bewegen zu müssen.",
+        "germanAuthor": "Jhumpa Lahiri"
+    },
+    "114": {
+        "quoteLanguage": "English",
+        "quote": "Sometimes, the best way to help someone is to just be near them.",
+        "romaji": "",
+        "author": "Veronica Roth",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Manchmal ist der beste Weg jemandem zu helfen, einfach in der Nähe zu sein.",
+        "germanAuthor": "Veronica Roth"
+    },
+    "115": {
+        "quoteLanguage": "Japanese",
+        "quote": "チャンスは自分で作るもの",
+        "romaji": "Chansu wa jibun de tsukuru mono.",
+        "author": "",
+        "englishTranslation": "You create your own opportunities.",
+        "englishAuthor": "",
+        "germanTranslation": "Du schaffst Dir Deine eigenen Chancen.",
+        "germanAuthor": ""
+    },
+    "116": {
+        "quoteLanguage": "Japanese",
+        "quote": "二兎追うもの一兎も得ず。",
+        "romaji": "Nito ou mono itto mo ezu.",
+        "author": "",
+        "englishTranslation": "He who runs after two hares will catch neither.",
+        "englishAuthor": "",
+        "germanTranslation": "Wer zwei Hasen nachläuft, wird keinen einzigen fangen.",
+        "germanAuthor": ""
+    },
+    "117": {
+        "quoteLanguage": "Japanese",
+        "quote": "虎穴に入らずんば虎子を得ず。",
+        "romaji": "Koketsu ni irazunba koji o ezu.",
+        "author": "",
+        "englishTranslation": "If you don’t enter the tiger’s cave, you will not catch its cub.",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Du nicht in die Höhle des Tigers gehst, wirst Du auch nicht sein Junges fangen.",
+        "germanAuthor": ""
+    },
+    "118": {
+        "quoteLanguage": "English",
+        "quote": "Since I was young, I have always known this: Life damages us, every one. We can’t escape that damage. But now, I am also learning this: We can be mended. We mend each other.",
+        "romaji": "",
+        "author": "Veronica Roth",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Seit ich jung war, habe ich immer gewusst: Das Leben beschädigt uns, jeden Einzelnen. Wir können diesem Schaden nicht entgehen. Aber jetzt lerne ich auch: Wir können repariert werden. Wir reparieren uns gegenseitig.",
+        "germanAuthor": "Veronica Roth"
+    },
+    "119": {
+        "quoteLanguage": "English",
+        "quote": "Success is only meaningful and enjoyable if it feels like your own.",
+        "romaji": "",
+        "author": "Michelle Obama",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Erfolg hat nur dann Bedeutung und macht einem Freude, wenn er sich wie der eigene anfühlt.",
+        "germanAuthor": "Michelle Obama"
+    },
+    "120": {
+        "quoteLanguage": "English",
+        "quote": "Beauty is about being comfortable in your own skin. It's about knowing and accepting who you are.",
+        "romaji": "",
+        "author": "Ellen DeGeneres",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Schönheit ist sich in der eigenen Haut wohl zu fühlen. Es ist sich selbst kennen und zu akzeptieren wie man ist.",
+        "germanAuthor": "Ellen DeGeneres"
+    },
+    "121": {
+        "quoteLanguage": "English",
+        "quote": "It is reason, and not passion, which must guide our deliberations, guide our debate, and guide our decision.",
+        "romaji": "",
+        "author": "Barbara Jordan",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist die Vernunft und nicht die Leidenschaft, die unsere Überlegungen leiten, unsere Debatte leiten und unsere Entscheidung leiten muss.",
+        "germanAuthor": "Barbara Jordan"
+    },
+    "122": {
+        "quoteLanguage": "English",
+        "quote": "Data is the antidote to self delusion.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Daten sind das Gegenmittel für Selbsttäuschung.",
+        "germanAuthor": ""
+    },
+    "123": {
+        "quoteLanguage": "English",
+        "quote": "For superforecasters, beliefs are hypotheses to be tested, not treasures to be guarded.",
+        "romaji": "",
+        "author": "Philip Tetlock & Dan Gardner",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Für Super-Prognostiker (Superforcasters) sind Überzeugungen Hypothesen, die getestet werden müssen, nicht Schätze, die bewahrt werden müssen.",
+        "germanAuthor": "Philip Tetlock & Dan Gardner"
+    },
+    "124": {
+        "quoteLanguage": "English",
+        "quote": "That person who helps others simply because it should or must be done, and because it is the right thing to do, is indeed, without a doubt, a real superhero.",
+        "romaji": "",
+        "author": "Stan Lee",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Person, die anderen hilft, nur weil es getan werden sollte oder muss und weil es richtig ist, ist zweifellos ein echter Superheld.",
+        "germanAuthor": "Stan Lee"
+    },
+    "125": {
+        "quoteLanguage": "English",
+        "quote": "Plans are useless, but planning is indispensable.",
+        "romaji": "",
+        "author": "Dwight D. Eisenhower",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Pläne sind nutzlos, aber Planung ist unverzichtbar.",
+        "germanAuthor": "Dwight D. Eisenhower"
+    },
+    "126": {
+        "quoteLanguage": "English",
+        "quote": "Good judgment comes from experience, and often experience comes from bad judgment.",
+        "romaji": "",
+        "author": "Rita Mae Brown",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Gutes Urteilsvermögen kommt mit Erfahrung, und oft kommt Erfahrung von schlechten Urteilen.",
+        "germanAuthor": "Rita Mae Brown"
+    },
+    "127": {
+        "quoteLanguage": "English",
+        "quote": "The reward for conformity is that everyone likes you except yourself.",
+        "romaji": "",
+        "author": "Rita Mae Brown",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Belohnung von Konformität ist, dass jeder Dich mag, außer Du selbst.",
+        "germanAuthor": "Rita Mae Brown"
+    },
+    "128": {
+        "quoteLanguage": "English",
+        "quote": "Morals are private. Decency is public.",
+        "romaji": "",
+        "author": "Rita Mae Brown",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Moral ist privat. Anstand ist öffentlich.",
+        "germanAuthor": "Rita Mae Brown"
+    },
+    "129": {
+        "quoteLanguage": "English",
+        "quote": "A deadline is negative inspiration. Still, it's better than no inspiration at all.",
+        "romaji": "",
+        "author": "Rita Mae Brown",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Eine Frist ist negative Inspiration. Trotzdem ist sie besser als gar keine Inspiration.",
+        "germanAuthor": "Rita Mae Brown"
+    },
+    "130": {
+        "quoteLanguage": "English",
+        "quote": "Lead me not into temptation; I can find the way myself.",
+        "romaji": "",
+        "author": "Rita Mae Brown",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Führe mich nicht in Versuchung; Ich kann den Weg selbst finden.",
+        "germanAuthor": "Rita Mae Brown"
+    },
+    "131": {
+        "quoteLanguage": "English",
+        "quote": "A leader takes people where they want to go. A great leader takes people where they don't necessarily want to go, but ought to be.",
+        "romaji": "",
+        "author": "Rosalynn Carter",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Anführer bringt Menschen dorthin, wo sie hin wollen. Ein guter Anführer bringt Menschen dorthin, wo sie nicht unbedingt hin wollen, aber hin  müssen.",
+        "germanAuthor": "Rosalynn Carter"
+    },
+    "132": {
+        "quoteLanguage": "English",
+        "quote": "It’s hard to win an argument with a smart person but it’s damn near impossible to win an argument with a stupid person.",
+        "romaji": "",
+        "author": "Bill Murray",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist schwer, einen Streit mit einer klugen Person zu gewinnen, aber es ist fast unmöglich, einen Streit mit einer dummen Person zu gewinnen.",
+        "germanAuthor": "Bill Murray"
+    },
+    "133": {
+        "quoteLanguage": "English",
+        "quote": "It is not the mountain that we conquer but ourselves.",
+        "romaji": "",
+        "author": "Edmund Percival Hillary",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wir erobern nicht den Berg, sondern wir selbst.",
+        "germanAuthor": "Edmund Percival Hillary"
+    },
+    "134": {
+        "quoteLanguage": "English",
+        "quote": "Anyone can hold the helm when the sea is calm.",
+        "romaji": "",
+        "author": "Publilius Syrus",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Jeder kann das Ruder bei ruhiger See halten.",
+        "germanAuthor": "Publilius Syrus"
+    },
+    "135": {
+        "quoteLanguage": "English",
+        "quote": "I have no special talents. I am only passionately curious.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich habe keine besonderen Talente. Ich bin nur leidenschaftlich neugierig.",
+        "germanAuthor": "Albert Einstein"
+    },
+    "136": {
+        "quoteLanguage": "English",
+        "quote": "A spirit is manifest in the laws of the universe - a spirit vastly superior to that of man, and one in the face of which we with our modest powers must feel humble.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Geist manifestiert sich in den Gesetzen des Universums - ein Geist, der dem des Menschen weit überlegen ist und vor dem wir mit unseren bescheidenen Kräften demütig sein müssen.",
+        "germanAuthor": "Albert Einstein"
+    },
+    "137": {
+        "quoteLanguage": "English",
+        "quote": "Autumn is a second spring when every leaf is a flower.",
+        "romaji": "",
+        "author": "Albert Camus",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Herbst ist ein zweiter Frühling, wenn jedes Blatt eine Blume ist",
+        "germanAuthor": "Albert Camus"
+    },
+    "138": {
+        "quoteLanguage": "English",
+        "quote": "When I let go of what I am, I become what I might be.",
+        "romaji": "",
+        "author": "Lao Tzu",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn ich loslasse, was ich bin, werde ich zu dem, was ich sein könnte.",
+        "germanAuthor": "Lao Tzu"
+    },
+    "139": {
+        "quoteLanguage": "English",
+        "quote": "If your actions inspire others to dream more, learn more, do more, and become more, you are a leader.",
+        "romaji": "",
+        "author": "John Quincy Adams",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Deine Handlungen andere dazu inspirieren, mehr zu träumen, mehr zu lernen, mehr zu tun und mehr zu werden, bist Du ein Anführer.",
+        "germanAuthor": "John Quincy Adams"
+    },
+    "140": {
+        "quoteLanguage": "English",
+        "quote": "Progress comes from caring more about what needs to be done than about who gets the credit",
+        "romaji": "",
+        "author": "Dorothy Height",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Fortschritt kommt davon, dass man sich mehr darum kümmert, was getan werden muss, als darum, wer die Lorbeeren kassiert.",
+        "germanAuthor": "Dorothy Height"
     }
 }

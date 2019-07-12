@@ -66,7 +66,7 @@
         "author": "Denis Fonvizin",
         "englishTranslation": "I do not want to study, I want to marry!",
         "englishAuthor": "Denis Fonvizin",
-        "germanTranslation": "Ich will nicht studieren, ich will heiraten!",
+        "germanTranslation": "Ich will nicht lernen, ich will heiraten!",
         "germanAuthor": "Denis Fonvizin"
     },
     "7": {
@@ -86,7 +86,7 @@
         "author": "Swami Vivekananda",
         "englishTranslation": "Take risk in your own life, if you win then become a leader and if you lose then you can show others the right path.",
         "englishAuthor": "Swami Vivekananda",
-        "germanTranslation": "Gehen Sie in Ihrem eigenen Leben ein Risiko ein. Wenn Sie gewinnen, werden Sie eine Führungskraft, und wenn Sie verlieren, können Sie anderen den richtigen Weg zeigen.",
+        "germanTranslation": "Gehe in deinem eigenen Leben ein Risiko ein. Wenn du gewinnst, werde eine Führungskraft, und wenn du verlierst, kannst du anderen den richtigen Weg zeigen.",
         "germanAuthor": "Swami Vivekananda"
     },
     "9": {
@@ -96,7 +96,7 @@
         "author": "Swami Vivekananda",
         "englishTranslation": "Talk to yourself at least once a day, otherwise you may miss a meeting with an excellent person in this world.",
         "englishAuthor": "Swami Vivekananda",
-        "germanTranslation": "Sprich mindestens einmal am Tag mit dir selbst, sonst kannst du ein Treffen mit einer außergewöhnlichen Person auf dieser Welt verpassen.",
+        "germanTranslation": "Sprich mindestens einmal am Tag mit dir selbst, sonst könntest du ein Treffen mit einer außergewöhnlichen Person auf dieser Welt verpassen.",
         "germanAuthor": "Swami Vivekananda"
     },
     "10": {
@@ -106,7 +106,7 @@
         "author": "Maria Schell",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Frieden ist, wenn die Zeit keine Rolle spielt, wenn sie vergeht",
+        "germanTranslation": "Frieden ist, wenn die Zeit keine Rolle spielt während sie vergeht",
         "germanAuthor": "Maria Schell"
     },
     "11": {
@@ -116,7 +116,7 @@
         "author": "Abdul Kalam",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Traum ist nicht das, was man beim Schlafen sieht, es ist etwas, das dich nicht schlafen lässt.",
+        "germanTranslation": "Ein Traum ist nicht, was man im Schlaf sieht, sodern das was dich nicht schlafen lässt.",
         "germanAuthor": "Abdul Kalam"
     },
     "12": {
@@ -126,7 +126,7 @@
         "author": "Bruce Lee",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Bete nicht für ein leichtes Leben; Bete um die Kraft, einen schwierigen zu ertragen.",
+        "germanTranslation": "Bete nicht für ein leichtes Leben; Bete um die Kraft, ein schwieriges Leben zu ertragen.",
         "germanAuthor": "Bruce Lee"
     },
     "13": {
@@ -136,7 +136,7 @@
         "author": "Bijan Dutta Gupta",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Ich hätte lieber einen Pass voller Briefmarken als ein Haus voller Zeug",
+        "germanTranslation": "Ich hätte lieber einen Pass voller Stempel als ein Haus voller Zeug",
         "germanAuthor": "Bijan Dutta Gupta"
     },
     "14": {
@@ -199,7 +199,7 @@
         "germanTranslation": "",
         "germanAuthor": ""
     },
-    "19": {
+    "187": {
         "quoteLanguage": "Deutsch",
         "quote": "Die besten Dinge im Leben sind nicht die, die man für Geld bekommt.",
         "romaji": "",
@@ -264,7 +264,7 @@
         "quote": "Eine Familie, die keine schwarzen Schafe hat, ist keine charakteristische Familie.",
         "romaji": "",
         "author": "Heinrich Böll",
-        "englishTranslation": "A family without a black sheep is not a typical family.",
+        "englishTranslation": "A family without black sheep is not a typical family.",
         "englishAuthor": "Heinrich Böll",
         "germanTranslation": "",
         "germanAuthor": ""
@@ -286,7 +286,7 @@
         "author": "",
         "englishTranslation": "A good husband makes a good wife.",
         "englishAuthor": "",
-        "germanTranslation": "Ein guter Ehemann macht eine gute Frau.",
+        "germanTranslation": "Ein guter Ehemann macht eine gute Ehefrau.",
         "germanAuthor": ""
     },
     "28": {
@@ -296,7 +296,7 @@
         "author": "",
         "englishTranslation": "Straight fingers cannot pick up butter.",
         "englishAuthor": "",
-        "germanTranslation": "Gerade Finger können keine Butter aufnehmen.",
+        "germanTranslation": "Gerade Finger können keine Butter aufheben.",
         "germanAuthor": ""
     },
     "29": {
@@ -326,7 +326,7 @@
         "author": "Лев Толстой",
         "englishTranslation": "If you look for perfection, you’ll never be content.",
         "englishAuthor": "Leo Tolstoy",
-        "germanTranslation": "Wenn Sie nach Perfektion suchen, werden Sie nie zufrieden sein.",
+        "germanTranslation": "Wenn du nach Perfektion suchst, wirst du nie zufrieden sein.",
         "germanAuthor": "Leo Tolstoy"
     },
     "32": {
@@ -354,7 +354,7 @@
         "quote": "Die Basis einer gesunden Ordnung ist ein großer Papierkorb.",
         "romaji": "",
         "author": "Kurt Tucholsky",
-        "englishTranslation": "The base of a healthy order is a big dust bin.",
+        "englishTranslation": "The basis of a healthy order is a big dust bin.",
         "englishAuthor": "Kurt Tucholsky",
         "germanTranslation": "",
         "germanAuthor": ""
@@ -436,7 +436,7 @@
         "author": "",
         "englishTranslation": "An ounce of common sense is worth a pound of theory.",
         "englishAuthor": "",
-        "germanTranslation": "Eine Unze des gesunden Menschenverstands ist ein Pfund Theorie wert.",
+        "germanTranslation": "Eine Unze gesunden Menschenverstandes ist ein Pfund Theorie wert.",
         "germanAuthor": ""
     },
     "43": {
@@ -456,7 +456,7 @@
         "author": "",
         "englishTranslation": "As the wind blows, so must you set your sail.",
         "englishAuthor": "",
-        "germanTranslation": "Wenn der Wind weht, müssen Sie Ihr Segel setzen.",
+        "germanTranslation": "Wenn der Wind weht, musst du dein Segel setzen.",
         "germanAuthor": ""
     },
     "45": {
@@ -466,7 +466,7 @@
         "author": "Lou Leo Holtz",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Es ist nicht die Last, die dich zusammenbricht, sondern wie du sie trägst.",
+        "germanTranslation": "Es ist nicht die Last, die dich zusammenbrechen lässt, sondern wie du sie trägst.",
         "germanAuthor": "Lou Leo Holtz"
     },
     "46": {
@@ -476,7 +476,7 @@
         "author": "Lee Iacocca",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Egal, was Du für Dich selbst oder für die Menschheit getan hast, wenn Du nicht darauf zurückschauen kannst, dass Du Deiner Familie Liebe und Aufmerksamkeit geschenkt hast, was hast Du wirklich erreicht?",
+        "germanTranslation": "Egal, was du für dich selbst oder für die Menschheit getan hast, wenn du nicht darauf zurückschauen kannst, dass du deiner Familie Liebe und Aufmerksamkeit geschenkt hast, was hast du wirklich erreicht?",
         "germanAuthor": "Lee Iacocca"
     },
     "47": {
@@ -514,7 +514,7 @@
         "quote": "Wer ein Warum hat, dem ist kein Wie zu schwer.",
         "romaji": "",
         "author": "Friedrich Nietzsche",
-        "englishTranslation": "When one has a why, then one does not find the task so difficult.",
+        "englishTranslation": "For those who have a Why no How is too difficult.",
         "englishAuthor": "Friedrich Nietzsche",
         "germanTranslation": "",
         "germanAuthor": ""
@@ -779,7 +779,7 @@
         "germanTranslation": "Das Geheimnis politischer Verhandlungen besteht darin, stärker auszusehen als Sie wirklich sind.",
         "germanAuthor": "Subhas Chandra Bose"
     },
-    "77": {
+    "188": {
         "quoteLanguage": "English",
         "quote": "Give me blood and I will give you freedom!",
         "romaji": "",
@@ -1588,5 +1588,2215 @@
         "englishAuthor": "",
         "germanTranslation": "Wenn es jemanden unter uns gibt, der bestrebt ist, einen Namen hinter sich zu lassen und nicht wie ein Rohling in Vergessenheit geraten, so sollte er sich seiner Muttersprache widmen. Das ist seine legitime Sphäre sein eigentliches Element.",
         "germanAuthor": "Michael Madhusudan Dutt"
+    },
+    "158": {
+        "quoteLanguage": "English",
+        "quote": "Courage is not the absence of fear, but rather the assessment that something else is more important than fear.",
+        "romaji": "",
+        "author": "Franklin D. Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Mut ist nicht das Fehlen von Angst, sondern die Abwägung, dass etwas anderes wichtiger ist als Angst.",
+        "germanAuthor": "Franklin D. Roosevelt"
+    },
+    "159": {
+        "quoteLanguage": "English",
+        "quote": "The man who wants to lead the orchestra must turn his back on the crowd.",
+        "romaji": "",
+        "author": "James Cook",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer das Orchester dirigieren will, muss der Menge den Rücken kehren.",
+        "germanAuthor": "James Cook"
+    },
+    "160": {
+        "quoteLanguage": "English",
+        "quote": "The man who wants to lead the orchestra must turn his back on the crowd.",
+        "romaji": "",
+        "author": "James Cook",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer das Orchester dirigieren will, muss der Menge den Rücken kehren.",
+        "germanAuthor": "James Cook"
+    },
+    "161": {
+        "quoteLanguage": "Hindi",
+        "quote": "जिस तरह सूखी लकड़ी जल्दी से जल उठती है, उसी तरह क्षुधा (भूख) से बावला मनुष्य ज़रा-ज़रा सी बात पर तिनक जाता है।",
+        "romaji": "jis tarah sookhee lakadee jaldee se jal uthatee hai, usee tarah kshudha (bhookh) se baavala manushy zara-zara see baat par tinak jaata hai.",
+        "author": "Premchand",
+        "englishTranslation": "Just like dry wood that catches fire easily, small things quickly anger a hungry man.",
+        "englishAuthor": "Premchand",
+        "germanTranslation": "Genau wie trockenes Holz, das leicht Feuer fängt, verärgern kleine Dinge einen hungrigen Mann schnell.",
+        "germanAuthor": "Premchand"
+    },
+    "162": {
+        "quoteLanguage": "Hindi",
+        "quote": "स्त्री गालियाँ सह लेती है, मार भी सह लेती है, पर मैके की निंदा उससे नहीं सही जाती।",
+        "romaji": "stree gaaliyaan sah letee hai, maar bhee sah letee hai, par maike kee ninda usase nahin sahee jaatee.",
+        "author": "Premchand",
+        "englishTranslation": "A woman can bear abuse, a woman can bear beatings, but she will not bear the abuse of her parents.",
+        "englishAuthor": "Premchand",
+        "germanTranslation": "Eine Frau kann Missbrauch ertragen, eine Frau kann Schläge ertragen, aber sie wird den Missbrauch ihrer Eltern nicht ertragen.",
+        "germanAuthor": "Premchand"
+    },
+    "163": {
+        "quoteLanguage": "English",
+        "quote": "Death won’t come because you called him.",
+        "romaji": "",
+        "author": "Premchand",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Tod wird nicht kommen, weil Sie ihn angerufen haben.",
+        "germanAuthor": "Premchand"
+    },
+    "164": {
+        "quoteLanguage": "Hindi",
+        "quote": "सिपाही को अपनी लाल पगड़ी पर, सुन्दरी को अपने गहनों पर और वैद्य को अपने सामने बैठे हुए रोगियों पर जो घमंड होता है, वही किसान को अपने खेतों को लहराते हुए देखकर होता है।",
+        "romaji": "sipaahee ko apanee laal pagadee par, sundaree ko apane gahanon par aur vaidy ko apane saamane baithe hue rogiyon par jo ghamand hota hai, vahee kisaan ko apane kheton ko laharaate hue dekhakar hota hai.",
+        "author": "Premchand",
+        "englishTranslation": "The pride that is felt by the soldier seeing his red turban, by the beautiful woman seeing all her jewelry, by the successful doctor seeing all this patients, that same pride is felt by the farmer seeing his crops dancing in the wind.",
+        "englishAuthor": "Premchand",
+        "germanTranslation": "Der Stolz, auf den der Soldat seinen roten Turban sieht, auf die schöne Frau, die all ihren Schmuck sieht, auf den erfolgreichen Arzt, der alle diese Patienten sieht, den gleichen Stolz empfinden, wenn der Bauer seine Ernten im Wind tanzen sieht.",
+        "germanAuthor": "Premchand"
+    },
+    "165": {
+        "quoteLanguage": "Hindi",
+        "quote": "よの人ひとは我われを何なにとも言ゆわば言いえ。我わがなす事ことは我われのみぞ知しる。-坂本さかもと竜りょう馬",
+        "romaji": "sipaahee ko apanee laal pagadee par, sundaree ko apane gahanon par aur vaidy ko apane saamane baithe hue rogiyon par jo ghamand hota hai, vahee kisaan ko apane kheton ko laharaate hue dekhakar hota hai.",
+        "author": "Premchand",
+        "englishTranslation": "The pride that is felt by the soldier seeing his red turban, by the beautiful woman seeing all her jewelry, by the successful doctor seeing all this patients, that same pride is felt by the farmer seeing his crops dancing in the wind.",
+        "englishAuthor": "Premchand",
+        "germanTranslation": "Der Stolz, auf den der Soldat seinen roten Turban sieht, auf die schöne Frau, die all ihren Schmuck sieht, auf den erfolgreichen Arzt, der alle diese Patienten sieht, den gleichen Stolz empfinden, wenn der Bauer seine Ernten im Wind tanzen sieht.",
+        "germanAuthor": "Premchand"
+    },
+    "166": {
+        "quoteLanguage": "English",
+        "quote": "Pain is inevitable. Suffering is optional.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Schmerz ist unvermeidlich. Leiden ist optional.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "167": {
+        "quoteLanguage": "English",
+        "quote": "Whatever it is you're seeking won't come in the form you're expecting.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Was auch immer Sie suchen, kommt nicht in der Form, die Sie erwarten.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "168": {
+        "quoteLanguage": "English",
+        "quote": "Nobody likes being alone that much. I don't go out of my way to make friends, that's all. It just leads to disappointment.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Niemand mag es, so alleine zu sein. Ich versuche nicht, Freunde zu finden. Es führt nur zu Enttäuschung.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "169": {
+        "quoteLanguage": "English",
+        "quote": "Painting is easy when you don’t know how, but very difficult when you do.",
+        "romaji": "",
+        "author": "Edgar Degas",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Malen ist einfach, wenn Sie nicht wissen wie, aber sehr schwierig, wenn Sie wissen wie.",
+        "germanAuthor": "Edgar Degas"
+    },
+    "170": {
+        "quoteLanguage": "English",
+        "quote": "Silence, I discover, is something you can actually hear.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Stille, finde ich, kann man tatsächlich hören.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "171": {
+        "quoteLanguage": "English",
+        "quote": "Listen up - there's no war that will end all wars.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Hören Sie zu - es gibt keinen Krieg, der alle Kriege beenden wird.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "172": {
+        "quoteLanguage": "English",
+        "quote": "In this world, there are things you can only do alone, and things you can only do with somebody else. It's important to combine the two in just the right amount.",
+        "romaji": "",
+        "author": "Haruki Murakami",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "In dieser Welt gibt es Dinge, die du nur alleine tun kannst, und Dinge, die du nur mit jemand anderem machen kannst. Es ist wichtig, die beiden in genau der richtigen Menge zu kombinieren.",
+        "germanAuthor": "Haruki Murakami"
+    },
+    "173": {
+        "quoteLanguage": "English",
+        "quote": "Sometimes people put up walls, not to keep others out, but to see who cares enough to break them down.",
+        "romaji": "",
+        "author": "Banana Yoshimoto",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Manchmal bauen die Menschen Wände auf, nicht um andere fernzuhalten, sondern um zu sehen, wer sich dafür interessiert, sie niederzureißen.",
+        "germanAuthor": "Banana Yoshimoto"
+    },
+    "174": {
+        "quoteLanguage": "English",
+        "quote": "The sky was incredibly far away, and beautiful enough to make a person wonder why our hearts are never so free.",
+        "romaji": "",
+        "author": "Banana Yoshimoto",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Himmel war unglaublich weit entfernt und so schön, dass sich jemand wundern kann, warum unsere Herzen niemals so frei sind.",
+        "germanAuthor": "Banana Yoshimoto"
+    },
+    "175": {
+        "quoteLanguage": "English",
+        "quote": "Ah! There is nothing like staying at home, for real comfort.",
+        "romaji": "",
+        "author": "Jane Austen",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ah! Es gibt nichts Schöneres für echte Gemütlichkeit, als zu Hause zu bleiben.",
+        "germanAuthor": "Jane Austen"
+    },
+    "176": {
+        "quoteLanguage": "Japanese",
+        "quote": "石の上にも３年",
+        "romaji": "Ishi no ue ni mo san nen",
+        "author": "",
+        "englishTranslation": "It takes three years to warm the stone upon which you sit.",
+        "englishAuthor": "",
+        "germanTranslation": "Es dauert drei Jahre, um den Stein zu wärmen auf dem man sitzt.",
+        "germanAuthor": ""
+    },
+    "177": {
+        "quoteLanguage": "English",
+        "quote": "Ah! There is nothing like staying at home, for real comfort.",
+        "romaji": "",
+        "author": "Jane Austen",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ah! Es gibt nichts Schöneres für echte Gemütlichkeit, als zu Hause zu bleiben.",
+        "germanAuthor": "Jane Austen"
+    },
+    "178": {
+        "quoteLanguage": "English",
+        "quote": "Hiroshima is like a nakedly exposed wound inflicted on all mankind.",
+        "romaji": "",
+        "author": "Kenzaburō Ōe",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Hiroshima ist wie eine nackte Wunde, die der ganzen Menschheit zugefügt wurde.",
+        "germanAuthor": "Kenzaburō Ōe"
+    },
+    "179": {
+        "quoteLanguage": "English",
+        "quote": "Every morning, I have woken up knowing that I will never run out of books to read. That has been my life.",
+        "romaji": "",
+        "author": "Kenzaburō Ōe",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Jeden Morgen bin ich aufgewacht und wusste, dass mir Bücher zum Lesen nie ausgehen werden. Das war mein Leben.",
+        "germanAuthor": "Kenzaburō Ōe"
+    },
+    "180": {
+        "quoteLanguage": "English",
+        "quote": "Time flows in the same way for all human beings; every human being flows through time in a different way.",
+        "romaji": "",
+        "author": "Yasunari Kawabata",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Zeit fließt für alle Menschen gleich. Jeder Mensch fließt auf andere Weise durch die Zeit.",
+        "germanAuthor": "Yasunari Kawabata"
+    },
+    "181": {
+        "quoteLanguage": "English",
+        "quote": "The true joy of a moonlit night is something we no longer understand. Only the men of old, when there were no lights, could understand the true joy of a moonlit night.",
+        "romaji": "",
+        "author": "Yasunari Kawabata",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die wahre Freude einer Mondnacht verstehen wir nicht mehr. Nur die alten Männer, als es keine Lichter gab, konnten die wahre Freude einer Mondnacht verstehen.",
+        "germanAuthor": "Yasunari Kawabata"
+    },
+    "182": {
+        "quoteLanguage": "English",
+        "quote": "Because you cannot see him, God is everywhere.",
+        "romaji": "",
+        "author": "Yasunari Kawabata",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Weil du ihn nicht sehen kannst, ist Gott überall.",
+        "germanAuthor": "Yasunari Kawabata"
+    },
+    "183": {
+        "quoteLanguage": "English",
+        "quote": "The two years I spent in London were the most unpleasant years in my life. Among English gentlemen I lived in misery, like a poor dog that had strayed among a pack of wolves.",
+        "romaji": "",
+        "author": "Natsume Sōseki",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die zwei Jahre, die ich in London verbrachte, waren die unangenehmsten Jahre meines Lebens. Unter englischen Herren lebte ich im Elend, wie ein armer Hund, der zwischen einem Rudel Wölfe herumgelaufen war.",
+        "germanAuthor": "Natsume Sōseki"
+    },
+    "189": {
+        "quoteLanguage": "English",
+        "quote": "You see, loneliness is the price we have to pay for being born in this modern age, so full of freedom, independence, and our own egotistical selves.",
+        "romaji": "",
+        "author": "Natsume Sōseki",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sie sehen, Einsamkeit ist der Preis, den wir zahlen müssen, um in dieser modernen Zeit geboren zu werden, voller Freiheit, Unabhängigkeit und unserem eigenen egoistischen Selbst.",
+        "germanAuthor": "Natsume Sōseki"
+    },
+    "184": {
+        "quoteLanguage": "English",
+        "quote": "It is painfully easy to define human beings. They are beings who, for no good reason at all, create their own unnecessary suffering.",
+        "romaji": "",
+        "author": "Natsume Sōseki",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist schmerzhaft leicht, Menschen zu definieren. Es sind Wesen, die aus keinem guten Grund ihr eigenes unnötiges Leiden erzeugen.",
+        "germanAuthor": "Natsume Sōseki"
+    },
+    "185": {
+        "quoteLanguage": "English",
+        "quote": "A language is a dialect with an army and navy.",
+        "romaji": "",
+        "author": "Max Weinreich",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Eine Sprache ist ein Dialekt mit einer Armee und einer Marine.",
+        "germanAuthor": "Max Weinreich"
+    },
+    "186": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wer sucht der findet auch.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Whoever seeks, will find.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "190": {
+        "quoteLanguage": "English",
+        "quote": "When the whole world is silent even one voice becomes powerful.",
+        "romaji": "",
+        "author": "Malala Youdafzai",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn die ganze Welt still ist, wird sogar eine Stimme mächtig",
+        "germanAuthor": "Malala Youdafzai"
+    },
+    "191": {
+        "quoteLanguage": "English",
+        "quote": "I hate writing, I love having written.",
+        "romaji": "",
+        "author": "Dorothy Parker",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich hasse zu schreiben. Ich liebe geschrieben zu haben.",
+        "germanAuthor": "Dorothy Parker"
+    },
+    "192": {
+        "quoteLanguage": "English",
+        "quote": "When we grow up, we find ways to hide our anxieties, our loneliness, our fear and sorrow. But children hide nothing, putting everything into their tears, which they spread liberally about for the whole world to see.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn wir groß werden, finden wir Wege, um unsere Einsamkeit, unsere Angst und unseren Kummer zu verbergen. Aber Kinder verbergen nichts und setzen alles in die Tränen, das sie auf freiem Fuß verbreiten, damit die ganze Welt sie sehen kann.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "193": {
+        "quoteLanguage": "English",
+        "quote": "A problem isn't finished just because you've found the right answer.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Problem ist nicht beendet, nur weil Sie die richtige Antwort gefunden haben.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "194": {
+        "quoteLanguage": "English",
+        "quote": "He preferred smart questions to smart answers.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Er bevorzugte intelligente Fragen gegenüber intelligenten Antworten.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "195": {
+        "quoteLanguage": "English",
+        "quote": "So you think that zero was there waiting for us when humans came into being,like the flowers and the stars? You should have more respect for human progress. We made the zero, through great pain and struggle.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sie glauben also, dass Null auf uns gewartet hat, als Menschen entstanden sind, wie die Blumen und die Sterne? Sie sollten mehr Respekt vor dem menschlichen Fortschritt haben. Wir machten den Nullpunkt durch großen Schmerz und Kampf.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "196": {
+        "quoteLanguage": "English",
+        "quote": "They say it'll be even hotter tomorrow. that's how we spend the summer. complaining about the heat.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sie sagen, es wird morgen noch heißer. So verbringen wir den Sommer. sich über die Hitze beschweren.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "197": {
+        "quoteLanguage": "English",
+        "quote": "Not all readers are leaders, but all leaders are readers.",
+        "romaji": "",
+        "author": "Harry S. Truman",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Nicht alle Leser sind Anführer, aber alle Anführer sind Leser.",
+        "germanAuthor": "Harry S. Truman"
+    },
+    "198": {
+        "quoteLanguage": "English",
+        "quote": "So much of who we are is where we have been",
+        "romaji": "",
+        "author": "William Langewiesche",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Soviel von uns ist wo wir gewesen sind",
+        "germanAuthor": "William Langewiesche"
+    },
+    "199": {
+        "quoteLanguage": "English",
+        "quote": "Life is like a piano. What you get out of it depends on how you play it.",
+        "romaji": "",
+        "author": "Thomas Andrew Lehrer",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Leben ist wie ein Klavier. Was Sie davon bekommen, hängt davon ab, wie Sie es spielen.",
+        "germanAuthor": "Thomas Andrew Lehrer"
+    },
+    "200": {
+        "quoteLanguage": "English",
+        "quote": "They seemed so stubborn, resisting division by any number but one and themselves.",
+        "romaji": "",
+        "author": "Yoko Ogawa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sie wirkten so hartnäckig und widersetzten sich einer Unterteilung durch eine andere Zahl als sich selbst.",
+        "germanAuthor": "Yoko Ogawa"
+    },
+    "201": {
+        "quoteLanguage": "Japanese",
+        "quote": "虎穴に入らずんば虎子を得ず",
+        "romaji": "Koketsuniirazunbakojiwoezu",
+        "author": "",
+        "englishTranslation": "If you do not enter the tiger's cave, you will not catch its cub",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie die Tigerhöhle nicht betreten, werden Sie das Jungtier nicht fangen",
+        "germanAuthor": ""
+    },
+    "202": {
+        "quoteLanguage": "Japanese",
+        "quote": "虎穴に入らずんば虎子を得ず",
+        "romaji": "Koketsuniirazunbakojiwoezu",
+        "author": "",
+        "englishTranslation": "If you do not enter the tiger's cave, you will not catch its cub",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie die Tigerhöhle nicht betreten, werden Sie das Jungtier nicht fangen",
+        "germanAuthor": ""
+    },
+    "203": {
+        "quoteLanguage": "Japanese",
+        "quote": "門前の小僧習わぬ経を読む",
+        "romaji": "Monzen'nokozōnarawanukyōwoyomu",
+        "author": "",
+        "englishTranslation": "An apprentice near a temple will recite the scriptures untaught",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Lehrling in der Nähe eines Tempels rezitiert die heiligen Schriften",
+        "germanAuthor": ""
+    },
+    "204": {
+        "quoteLanguage": "Japanese",
+        "quote": "七転び八起き",
+        "romaji": "Nanakorobiyaoki",
+        "author": "",
+        "englishTranslation": "Fall down seven times, stand up eight.",
+        "englishAuthor": "",
+        "germanTranslation": "Fallen Sie siebenmal nieder, stehen Sie acht auf.",
+        "germanAuthor": ""
+    },
+    "205": {
+        "quoteLanguage": "Japanese",
+        "quote": "花より団子",
+        "romaji": "Hana yori dango",
+        "author": "",
+        "englishTranslation": "Dumplings rather than flowers.",
+        "englishAuthor": "",
+        "germanTranslation": "Knödel statt Blumen.",
+        "germanAuthor": ""
+    },
+    "206": {
+        "quoteLanguage": "Japanese",
+        "quote": "一年の計は元旦にあり",
+        "romaji": "Ichinen no kei wa gantan ni ari",
+        "author": "",
+        "englishTranslation": "The sum of the year is on New Year’s day.",
+        "englishAuthor": "",
+        "germanTranslation": "Die Summe des Jahres ist am Neujahrstag.",
+        "germanAuthor": ""
+    },
+    "207": {
+        "quoteLanguage": "Japanese",
+        "quote": "善は急げ",
+        "romaji": "Zen wa isoge",
+        "author": "",
+        "englishTranslation": "Strike while the iron is hot",
+        "englishAuthor": "",
+        "germanTranslation": "Schmiede das Eisen so lange es heiss ist",
+        "germanAuthor": ""
+    },
+    "208": {
+        "quoteLanguage": "Japanese",
+        "quote": "弘法にも筆の誤り",
+        "romaji": "Koubou ni mo fude no ayamari",
+        "author": "",
+        "englishTranslation": "Even Buddhist teaching scrolls have some wrong brush strokes",
+        "englishAuthor": "",
+        "germanTranslation": "Sogar buddhistische Lehrrollen weisen falsche Pinselstriche auf",
+        "germanAuthor": ""
+    },
+    "209": {
+        "quoteLanguage": "Japanese",
+        "quote": "乞食を三日すればやめられぬ",
+        "romaji": "Kojiki o mikka sureba yamerarenu",
+        "author": "",
+        "englishTranslation": "If you’re a beggar for three days, you won’t be able to stop",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie drei Tage lang Bettler sind, können Sie nicht aufhören",
+        "germanAuthor": ""
+    },
+    "209": {
+        "quoteLanguage": "Japanese",
+        "quote": "痘痕も笑窪",
+        "romaji": "Abata mo ekubo",
+        "author": "",
+        "englishTranslation": "pimples can be dimples",
+        "englishAuthor": "",
+        "germanTranslation": "Pickel können Grübchen sein",
+        "germanAuthor": ""
+    },
+    "210": {
+        "quoteLanguage": "Japanese",
+        "quote": "明日は明日の風が吹く",
+        "romaji": "Ashita wa ashita no kaze ga fuku",
+        "author": "",
+        "englishTranslation": "Tomorrow, tomorrow’s wind will blow",
+        "englishAuthor": "",
+        "germanTranslation": "Morgen weht der Wind von morgen",
+        "germanAuthor": ""
+    },
+    "211": {
+        "quoteLanguage": "Japanese",
+        "quote": "上には上がある",
+        "romaji": "Ue ni mo ue ga aru",
+        "author": "",
+        "englishTranslation": "Even at the top, there is something above.",
+        "englishAuthor": "",
+        "germanTranslation": "Auch oben ist etwas oben.",
+        "germanAuthor": ""
+    },
+    "212": {
+        "quoteLanguage": "Japanese",
+        "quote": "三日坊主",
+        "romaji": "Mikka Bouzu",
+        "author": "",
+        "englishTranslation": "Being a monk for three days",
+        "englishAuthor": "",
+        "germanTranslation": "Drei Tage lang Mönch sein",
+        "germanAuthor": ""
+    },
+    "213": {
+        "quoteLanguage": "Japanese",
+        "quote": "押してもダメなら引いてみな",
+        "romaji": "Oshite-mo dame-nara hiite mina.",
+        "author": "",
+        "englishTranslation": "If pushing doesn’t work, try pulling.",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn das Drücken nicht funktioniert, versuchen Sie es zu ziehen.",
+        "germanAuthor": ""
+    },
+    "214": {
+        "quoteLanguage": "Japanese",
+        "quote": "能ある鷹は爪を隠す",
+        "romaji": "No aru taka-wa tsume-wo kakusu",
+        "author": "",
+        "englishTranslation": "A skilled falcon hides its talons.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein erfahrener Falke verbirgt seine Krallen.",
+        "germanAuthor": ""
+    },
+    "215": {
+        "quoteLanguage": "Japanese",
+        "quote": "寄らば大樹の陰",
+        "romaji": "Yoraba taiju no kage",
+        "author": "",
+        "englishTranslation": "If you need shade, find a large tree.",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie Schatten brauchen, finden Sie einen großen Baum.",
+        "germanAuthor": ""
+    },
+    "216": {
+        "quoteLanguage": "Japanese",
+        "quote": "ただより高いものはない",
+        "romaji": "Tada yori takai mono wa nai",
+        "author": "",
+        "englishTranslation": "Nothing is more expensive than free.",
+        "englishAuthor": "",
+        "germanTranslation": "Nichts ist teurer als kostenlos.",
+        "germanAuthor": ""
+    },
+    "217": {
+        "quoteLanguage": "Japanese",
+        "quote": "鳴く猫はねずみを捕らぬ",
+        "romaji": "Naku neko wa nezumi o toranu",
+        "author": "",
+        "englishTranslation": "A loud cat does not catch mice",
+        "englishAuthor": "",
+        "germanTranslation": "Eine laute Katze fängt keine Mäuse",
+        "germanAuthor": ""
+    },
+    "218": {
+        "quoteLanguage": "Japanese",
+        "quote": "雨降って地固まる",
+        "romaji": "Ame futte ji katamaru",
+        "author": "",
+        "englishTranslation": "After the rain, the earth hardens",
+        "englishAuthor": "",
+        "germanTranslation": "Nach dem Regen verhärtet sich die Erde",
+        "germanAuthor": ""
+    },
+    "219": {
+        "quoteLanguage": "Japanese",
+        "quote": "千里の道も一歩から",
+        "romaji": "Senri no michi mo ippo kara",
+        "author": "",
+        "englishTranslation": "Even a journey of a thousand miles begins with at first a step.",
+        "englishAuthor": "",
+        "germanTranslation": "Sogar eine Reise von tausend Meilen beginnt mit einem ersten Schritt.",
+        "germanAuthor": ""
+    },
+    "220": {
+        "quoteLanguage": "Russian",
+        "quote": "Лучше один раз увидеть, чем сто раз услышать.",
+        "romaji": "Luchshe odin raz uvidet', chem sto raz uslyshat'.",
+        "author": "",
+        "englishTranslation": "Better to see once than hear a hundred times.",
+        "englishAuthor": "",
+        "germanTranslation": "Lieber einmal sehen als hundertmal hören.",
+        "germanAuthor": ""
+    },
+    "221": {
+        "quoteLanguage": "Russian",
+        "quote": "Тише едешь, дальше будешь.",
+        "romaji": "Tishe yedesh', dal'she budesh'.",
+        "author": "",
+        "englishTranslation": "Ride slower, you will get further.",
+        "englishAuthor": "",
+        "germanTranslation": "Fahren Sie langsamer, Sie werden weiter kommen.",
+        "germanAuthor": ""
+    },
+    "222": {
+        "quoteLanguage": "Russian",
+        "quote": "Кто рано встаёт, тому Бог даёт.",
+        "romaji": "Kto rano vstayot, tomu Bog dayot.",
+        "author": "",
+        "englishTranslation": "God gives to those who get up early.",
+        "englishAuthor": "",
+        "germanTranslation": "Gott gibt denen, die früh aufstehen.",
+        "germanAuthor": ""
+    },
+    "223": {
+        "quoteLanguage": "Russian",
+        "quote": "Пе́рвый блин всегда́ ко́мом.",
+        "romaji": "Pérvyy blin vsegdá kómom.",
+        "author": "",
+        "englishTranslation": "The first pancake is always lumpy.",
+        "englishAuthor": "",
+        "germanTranslation": "Der erste Pfannkuchen ist immer klumpig.",
+        "germanAuthor": ""
+    },
+    "224": {
+        "quoteLanguage": "Russian",
+        "quote": "Бережливость хороша, да скупость страшна.",
+        "romaji": "Berezhlivost' khorosha, da skupost' strashna.",
+        "author": "",
+        "englishTranslation": "Thrift is good, but stinginess is terrible.",
+        "englishAuthor": "",
+        "germanTranslation": "Sparsamkeit ist gut, aber Geiz ist schrecklich.",
+        "germanAuthor": ""
+    },
+    "225": {
+        "quoteLanguage": "Russian",
+        "quote": "Бог правду видит, да не скоро скажет.",
+        "romaji": "Bog pravdu vidit, da ne skoro skazhet.",
+        "author": "",
+        "englishTranslation": "God sees the truth but waits.",
+        "englishAuthor": "",
+        "germanTranslation": "Gott sieht die Wahrheit, wartet aber.",
+        "germanAuthor": ""
+    },
+    "226": {
+        "quoteLanguage": "Russian",
+        "quote": "Борода не делает философом.",
+        "romaji": "Boroda ne delayet filosofom.",
+        "author": "",
+        "englishTranslation": "A beard does not make a philosopher.",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Bart macht keinen Philosophen.",
+        "germanAuthor": ""
+    },
+    "227": {
+        "quoteLanguage": "Russian",
+        "quote": "нет коротких путей туда, куда стоит стремиться.",
+        "romaji": "net korotkikh putey tuda, kuda stoit stremit'sya.",
+        "author": "",
+        "englishTranslation": "There are no shortcuts to any place worth going.",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt keine Abkürzungen zu einem Ort, der einen Besuch wert ist.",
+        "germanAuthor": ""
+    },
+    "228": {
+        "quoteLanguage": "Russian",
+        "quote": "Ты никогда не пересечешь океан, если боишься потерять из виду берег.",
+        "romaji": "Ty nikogda ne peresechesh' okean, yesli boish'sya poteryat' iz vidu bereg.",
+        "author": "",
+        "englishTranslation": "You can never cross the ocean unless you have the courage to lose sight of the shore.",
+        "englishAuthor": "",
+        "germanTranslation": "Sie können niemals den Ozean überqueren, wenn Sie nicht den Mut haben, das Ufer aus den Augen zu verlieren.",
+        "germanAuthor": ""
+    },
+    "229": {
+        "quoteLanguage": "English",
+        "quote": "Pain and suffering are always inevitable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Schmerz und Leiden sind für eine große Intelligenz und ein tiefes Herz immer unvermeidlich. Die wirklich großen Männer müssen, denke ich, große Traurigkeit auf Erden haben.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "230": {
+        "quoteLanguage": "English",
+        "quote": "I say let the world go to hell, but I should always have my tea.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich sage, lass die Welt zur Hölle gehen, aber ich sollte immer meinen Tee trinken.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "231": {
+        "quoteLanguage": "English",
+        "quote": "I love mankind, but I find to my amazement that the more I love mankind as a whole, the less I love man in particular.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich liebe die Menschheit, aber ich finde es zu meinem Erstaunen, je mehr ich die Menschheit insgesamt liebe, desto weniger liebe ich die Menschen.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "232": {
+        "quoteLanguage": "English",
+        "quote": "Nothing in this world is harder than speaking the truth, nothing easier than flattery.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Nichts auf dieser Welt ist schwieriger als die Wahrheit zu sprechen, nichts leichter als Schmeichelei.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "233": {
+        "quoteLanguage": "English",
+        "quote": "Right or wrong, it's very pleasant to break something from time to time.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Richtig oder falsch, es ist sehr angenehm, ab und zu etwas zu brechen.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "234": {
+        "quoteLanguage": "English",
+        "quote": "To love someone means to see them as God intended them.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Jemanden zu lieben bedeutet, sie so zu sehen, wie Gott sie vorgesehen hat.",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "235": {
+        "quoteLanguage": "English",
+        "quote": "I can see the sun, but even if I cannot see the sun, I know that it exists. And to know that the sun is there - that is living.",
+        "romaji": "",
+        "author": "Fyodor Dostoevsky",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich kann die Sonne sehen, aber selbst wenn ich die Sonne nicht sehen kann, weiß ich, dass sie existiert. Und zu wissen, dass die Sonne da ist - das ist lebendig",
+        "germanAuthor": "Fyodor Dostoevsky"
+    },
+    "236": {
+        "quoteLanguage": "English",
+        "quote": "Everyone thinks of changing the world, but no one thinks of changing himself.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Jeder denkt daran, die Welt zu verändern, aber niemand denkt sich selbst zu ändern.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "237": {
+        "quoteLanguage": "English",
+        "quote": "All happy families are alike; each unhappy family is unhappy in its own way.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Alle glücklichen Familien sind gleich; Jede unglückliche Familie ist auf ihre Art unglücklich.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "238": {
+        "quoteLanguage": "English",
+        "quote": "It is amazing how complete is the delusion that beauty is goodness.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist erstaunlich, wie vollkommen der Wahn ist, dass Schönheit Güte ist.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "239": {
+        "quoteLanguage": "English",
+        "quote": "Respect was invented to cover the empty place where love should be.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Respekt wurde erfunden, um den leeren Ort zu bedecken, wo Liebe sein sollte.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "240": {
+        "quoteLanguage": "English",
+        "quote": "The two most powerful warriors are patience and time.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die zwei mächtigsten Krieger sind Geduld und Zeit.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "241": {
+        "quoteLanguage": "English",
+        "quote": "There is no greatness where there is not simplicity, goodness, and truth.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt keine Größe, wo es keine Einfachheit, Güte und Wahrheit gibt.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "242": {
+        "quoteLanguage": "English",
+        "quote": "What counts in making a happy marriage is not so much how compatible you are but how you deal with incompatibility.",
+        "romaji": "",
+        "author": "Leo Tolstoy",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Für eine glückliche Ehe zählt nicht so sehr die Vereinbarkeit, sondern der Umgang mit Inkompatibilität.",
+        "germanAuthor": "Leo Tolstoy"
+    },
+    "243": {
+        "quoteLanguage": "English",
+        "quote": "Upon the brink of the wild stream / He stood, and dreamt a mighty dream.",
+        "romaji": "",
+        "author": "Alexander Pushkin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Am Rande des wilden Stromes stand er und träumte einen mächtigen Traum.",
+        "germanAuthor": "Alexander Pushkin"
+    },
+    "243": {
+        "quoteLanguage": "English",
+        "quote": "Better the illusions that exalt us than ten thousand truths",
+        "romaji": "",
+        "author": "Alexander Pushkin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Besser die Illusionen, die uns erhöhen, als 10.000 Wahrheiten",
+        "germanAuthor": "Alexander Pushkin"
+    },
+    "244": {
+        "quoteLanguage": "English",
+        "quote": "Do not be angry with the rain; it simply does not know how to fall upwards.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sei nicht böse auf den Regen; es weiß einfach nicht, wie man nach oben fällt.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "245": {
+        "quoteLanguage": "English",
+        "quote": "The breaking of a wave cannot explain the whole sea.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Brechen einer Welle kann nicht das ganze Meer erklären.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "246": {
+        "quoteLanguage": "English",
+        "quote": "Life is a great surprise. I do not see why death should not be an even greater one.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Leben ist eine große Überraschung. Ich sehe nicht, warum der Tod nicht noch größer sein sollte.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "247": {
+        "quoteLanguage": "English",
+        "quote": "A wise reader reads the book of genius not with his heart, not so much with his brain, but with his spine. It is there that occurs the telltale tingle.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein weiser Leser liest das geniale Buch nicht mit seinem Herzen, nicht so sehr mit seinem Gehirn, sondern mit seinem Rückgrat. Dort tritt das verräterische Kribbeln auf.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "248": {
+        "quoteLanguage": "English",
+        "quote": "Nothing revives the past so completely as a smell that was once associated with it.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Nichts belebt die Vergangenheit so vollständig wie ein früher damit verbundener Geruch.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "249": {
+        "quoteLanguage": "English",
+        "quote": "One is always at home in one's past",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Man ist in seiner Vergangenheit immer zu Hause.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "250": {
+        "quoteLanguage": "English",
+        "quote": "I think like a genius, I write like a distinguished author, and I speak like a child.",
+        "romaji": "",
+        "author": "Vladimir Nabokov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich denke wie ein Genie, ich schreibe wie ein berühmter Autor und spreche wie ein Kind.",
+        "germanAuthor": "Vladimir Nabokov"
+    },
+    "251": {
+        "quoteLanguage": "English",
+        "quote": "Prejudice, a dirty word, and faith, a clean one, have something in common: they both begin where reason ends.",
+        "romaji": "",
+        "author": "Harper Lee",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Vorurteil, ein schmutziges Wort, und Glaube, ein sauberes, haben etwas gemeinsam: Beide beginnen dort, wo die Vernunft endet.",
+        "germanAuthor": "Harper Lee"
+    },
+    "251": {
+        "quoteLanguage": "English",
+        "quote": "If we wait for the moment when everything, absolutely everything is ready, we shall never begin.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn wir auf den Moment warten, wenn alles absolut bereit ist, werden wir niemals anfangen.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "252": {
+        "quoteLanguage": "English",
+        "quote": "We sit in the mud, my friend, and reach for the stars.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wir sitzen im Schlamm, mein Freund, und greifen nach den Sternen.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "253": {
+        "quoteLanguage": "English",
+        "quote": "Nature cares nothing for logic, our human logic: she has her own, which we do not recognize and do not acknowledge until we are crushed under its wheel.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Natur kümmert sich nicht um Logik, unsere menschliche Logik: Sie hat ihre eigene, die wir nicht erkennen und nicht erkennen, bis wir unter ihrem Rad zermalmt werden.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "254": {
+        "quoteLanguage": "English",
+        "quote": "I look up to heaven only when I want to sneeze.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich schaue nur zum Himmel auf, wenn ich niesen will.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "255": {
+        "quoteLanguage": "English",
+        "quote": "So long as one's just dreaming about what to do, one can soar like an eagle and move mountains, it seems, but as soon as one starts doing it one gets worn out and tired.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Solange man nur davon träumt, was zu tun ist, kann man wie ein Adler schweben und Berge versetzen, wie es scheint, aber sobald man damit beginnt, wird man müde und erschöpft.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "256": {
+        "quoteLanguage": "English",
+        "quote": "Death's an old story, but new for each person.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Tod ist eine alte Geschichte, aber für jeden neu.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "257": {
+        "quoteLanguage": "English",
+        "quote": "Even nightingales can’t live on songs alone.",
+        "romaji": "",
+        "author": "Ivan Turgenev",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Selbst Nachtigallen können nicht von Liedern alleine leben.",
+        "germanAuthor": "Ivan Turgenev"
+    },
+    "258": {
+        "quoteLanguage": "English",
+        "quote": "The belly is an ungrateful wretch, it never remembers past favors, it always wants more tomorrow.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Bauch ist ein undankbarer Trottel, er erinnert sich nie an vergangene Gefälligkeiten, er will immer mehr Morgen.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "259": {
+        "quoteLanguage": "English",
+        "quote": "Own only what you can always carry with you: know languages, know countries, know people. Let your memory be your travel bag.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Nur das besitzen, was Sie immer bei sich tragen können: Sprachen kennen, Länder kennen, Menschen kennen. Lass dein Gedächtnis deine Reisetasche sein.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "260": {
+        "quoteLanguage": "English",
+        "quote": "You only have power over people as long as you don't take everything away from them. But when you've robbed a man of everything, he's no longer in your power—he's free again.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Sie haben nur die Macht über Menschen, solange Sie ihnen nicht alles wegnehmen. Aber wenn Sie einem Mann alles geklaut haben, liegt er nicht mehr in Ihrer Macht - er ist wieder frei.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "261": {
+        "quoteLanguage": "English",
+        "quote": "When you're cold, don't expect sympathy from someone who's warm.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn dir kalt ist, erwarte keine Sympathie von jemandem, der warm ist.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "262": {
+        "quoteLanguage": "English",
+        "quote": "Our envy of others devours us most of all.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unser Neid auf andere verschlingt uns am meisten.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "263": {
+        "quoteLanguage": "English",
+        "quote": "A large income is the best recipe for happiness I ever heard of.",
+        "romaji": "",
+        "author": "Jane Austen",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein großes Einkommen ist das beste Rezept für Glück, das ich je gehört habe.",
+        "germanAuthor": "Jane Austen"
+    },
+    "264": {
+        "quoteLanguage": "English",
+        "quote": "Unlimited power in the hands of limited people always leads to cruelty.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unbegrenzte Macht in den Händen begrenzter Menschen führt immer zu Grausamkeit.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "265": {
+        "quoteLanguage": "English",
+        "quote": "Human beings are born with different capacities. If they are free, they are not equal. And if they are equal, they are not free.",
+        "romaji": "",
+        "author": "Aleksandr Solzhenitsyn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Menschen werden mit unterschiedlichen Fähigkeiten geboren. Wenn sie frei sind, sind sie nicht gleich. Und wenn sie gleich sind, sind sie nicht frei.",
+        "germanAuthor": "Aleksandr Solzhenitsyn"
+    },
+    "266": {
+        "quoteLanguage": "English",
+        "quote": "The longer and more carefully we look at a funny story, the sadder it becomes.",
+        "romaji": "",
+        "author": "Nikolai Gogol",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Je länger und sorgfältiger wir eine lustige Geschichte betrachten, desto trauriger wird sie.",
+        "germanAuthor": "Nikolai Gogol"
+    },
+    "267": {
+        "quoteLanguage": "English",
+        "quote": "A word aptly uttered or written cannot be cut away by an axe.",
+        "romaji": "",
+        "author": "Nikolai Gogol",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Wort, das passend geäußert oder geschrieben wurde, kann von einer Axt nicht abgeschnitten werden.",
+        "germanAuthor": "Nikolai Gogol"
+    },
+    "268": {
+        "quoteLanguage": "English",
+        "quote": "Countless as the sands of sea are human passions, and not all of them are alike, and all of them, base and noble alike, are at first obedient to man and only later on become his terrible masters.",
+        "romaji": "",
+        "author": "Nikolai Gogol",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unzählig, wie der Sand des Meeres menschliche Leidenschaften sind, und nicht alle sind sich gleich, und alle, Grund und Edle, sind dem Menschen zuerst gehorsam und werden erst später seine schrecklichen Herren.",
+        "germanAuthor": "Nikolai Gogol"
+    },
+    "269": {
+        "quoteLanguage": "English",
+        "quote": "I saw that I’d get nowhere on the straight path, and that to go crookedly was straighter.",
+        "romaji": "",
+        "author": "Nikolai Gogol",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich habe gesehen, dass ich auf dem geraden Weg nirgendwohin komme und dass es krasser war, geradeaus zu gehen.",
+        "germanAuthor": "Nikolai Gogol"
+    },
+    "270": {
+        "quoteLanguage": "English",
+        "quote": "The tongue may hide the truth but the eyes—never!",
+        "romaji": "",
+        "author": "Mikhail Bulgakov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Zunge kann die Wahrheit verbergen, aber die Augen - niemals!",
+        "germanAuthor": "Mikhail Bulgakov"
+    },
+    "271": {
+        "quoteLanguage": "English",
+        "quote": "No ID, no person",
+        "romaji": "",
+        "author": "Mikhail Bulgakov",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Kein Ausweis, keine Person",
+        "germanAuthor": "Mikhail Bulgakov"
+    },
+    "272": {
+        "quoteLanguage": "English",
+        "quote": "There are decades where nothing happens; and there are weeks where decades happen.",
+        "romaji": "",
+        "author": "Vladimir Lenin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt Jahrzehnte, in denen nichts passiert. und es gibt Wochen, in denen Jahrzehnte passieren.",
+        "germanAuthor": "Vladimir Lenin"
+    },
+    "273": {
+        "quoteLanguage": "English",
+        "quote": "Good questions outrank easy answers.",
+        "romaji": "",
+        "author": "Paul Samuelson",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Gute Fragen sind wichtiger als einfache Antworten.",
+        "germanAuthor": "Paul Samuelson"
+    },
+    "274": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Der Gläubige, der nie gezweifelt hat, wird schwerlich einen Zweifler bekehren.",
+        "romaji": "",
+        "author": "Marie von Ebner-Eschenbach",
+        "englishTranslation": "The believer, who has never doubted, will hardly convert a skeptic.",
+        "englishAuthor": "Marie von Ebner-Eschenbach",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "275": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man muss sein Glück teilen, um es zu multiplizieren.",
+        "romaji": "",
+        "author": "Marie von Ebner-Eschenbach",
+        "englishTranslation": "You have to share your happiness to multiply it.",
+        "englishAuthor": "Marie von Ebner-Eschenbach",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "276": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Gibt es etwas Beglückenderes, als einen Menschen zu kennen, mit dem man sprechen kann wie mit sich selbst?",
+        "romaji": "",
+        "author": "Cicero",
+        "englishTranslation": "Is there anything more satisfying than knowing someone you can talk to as yourself?",
+        "englishAuthor": "Cicero",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "277": {
+        "quoteLanguage": "English",
+        "quote": "The summit of happiness is reached when a person is ready to be what he is.",
+        "romaji": "",
+        "author": "Desiderius Erasmus",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Gipfel des Glückes ist erreicht, wenn ein Mensch bereit ist zu sein was er ist.",
+        "germanAuthor": "Desiderius Erasmus"
+    },
+    "278": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Aller Anfang ist schwer.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "All beginnings are hard.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "279": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Anfangen ist leicht, Beharren eine Kunst.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Starting is easy, persistence is an art.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "280": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das Billige ist immer das Teuerste.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "The cheapest is always the most expensive.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "281": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Morgenstund hat Gold im Mund.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "The morning hour has gold in its mouth.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "282": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Dienst ist Dienst und Schnaps ist Schnaps.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "Work is work and liquor is liquor.",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "283": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Milch ist für Babys. Wenn du erwachsen bist, musst du Bier trinken.",
+        "romaji": "",
+        "author": "Arnold Schwarzenegger",
+        "englishTranslation": "Milk is for babies. Adults drink beer.",
+        "englishAuthor": "Arnold Schwarzenegger",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "284": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Dumme Gedanken hat jeder, aber der Weise verschweigt sie",
+        "romaji": "",
+        "author": "Wilhelm Busch",
+        "englishTranslation": "Everyone has stupid thoughts, but the sage keeps quiet about them.",
+        "englishAuthor": "Wilhelm Busch",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "285": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Zwei Dinge sind unendlich, das Universum und die menschliche Dummheit, aber bei dem Universum bin ich mir noch nicht ganz sicher.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "Two things are infinite, the universe and human stupidity. Although I'm not yet sure about the universe.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "286": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Langsam kommendes Glück pflegt auch am längsten zu weilen.",
+        "romaji": "",
+        "author": "Saadi",
+        "englishTranslation": "Happiness that comes slowly tends to stay the longest.",
+        "englishAuthor": "Saadi",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "287": {
+        "quoteLanguage": "English",
+        "quote": "Luck is what happens when preparation meets opportunity.",
+        "romaji": "",
+        "author": "Seneca",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Glück ist wenn Vorbereitung und Gelegenheit aufeinander treffen.",
+        "germanAuthor": "Seneca"
+    },
+    "288": {
+        "quoteLanguage": "Russian",
+        "quote": "Я бы отдал весь свой гений и все свои книги за то, чтобы где-нибудь была женщина, которую беспокоила бы мысль, опоздаю я или нет к обеду.",
+        "romaji": "YA by otdal ves' svoy geniy i vse svoi knigi za to, chtoby gde-nibud' byla zhenshchina, kotoruyu bespokoila by mysl', opozdayu ya ili net k obedu.",
+        "author": "Иван Сергеевич Тургенев",
+        "englishTranslation": "I would give up all my genius and all my books, if somewhere there would be a woman who would give care to the thought whether I will be late for dinner or not.",
+        "englishAuthor": "Ivan Sergejewitsch Turgenjev",
+        "germanTranslation": "Ich würde mein ganzes Genie und alle meine Bücher dafür aufgeben, dass es irgendwo eine Frau gebe, der der Gedanke Sorge bereiten würde, ob ich zu spät zum Abendessen komme oder nicht.",
+        "germanAuthor": "Ivan Sergejewitsch Turgenjev"
+    },
+    "289": {
+        "quoteLanguage": "Russian",
+        "quote": "Хочешь быть счастливым? Выучись сперва страдать.",
+        "romaji": "Khochesh' byt' schastlivym? Vyuchis' sperva stradat'.",
+        "author": "Иван Сергеевич Тургенев",
+        "englishTranslation": "If you want to be happy, learn to suffer first.",
+        "englishAuthor": "Ivan Sergejewitsch Turgenjev",
+        "germanTranslation": "Willst du glücklich sein, dann lerne erst leiden.",
+        "germanAuthor": "Ivan Sergejewitsch Turgenjev"
+    },
+    "290": {
+        "quoteLanguage": "English",
+        "quote": "Rich is who has no debt, happy is who lives without illness. ",
+        "romaji": "",
+        "author": "Mongolian proverb",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Reich ist, wer keine Schulden hat, glücklich wer ohne Krankheit lebt.",
+        "germanAuthor": "Mongolisches Sprichwort."
+    },
+    "291": {
+        "quoteLanguage": "English",
+        "quote": "Who chases happiness needs to have light luggage.",
+        "romaji": "",
+        "author": "Honoré de Balzac",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer dem Glück nachjagt muss leichtes Gepäck haben.",
+        "germanAuthor": "Honoré de Balzac"
+    },
+    "292": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Jeder, der sich die Fähigkeit erhält, Schönes zu erkennen, wird nie alt werden.",
+        "romaji": "",
+        "author": "Franz Kafka",
+        "englishTranslation": "Anyone who keeps the ability to see beauty never grows old.",
+        "englishAuthor": "Franz Kafka",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "293": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Glücklich sein ist auch eine Tugend.",
+        "romaji": "",
+        "author": "Ludwig Börne",
+        "englishTranslation": "Being happy is also a virtue.",
+        "englishAuthor": "Ludwig Börne",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "294": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Kein Mensch ist so beschäftigt, daß er nicht die Zeit hat, überall zu erzählen, wie beschäftigt er ist.",
+        "romaji": "",
+        "author": "Robert Lembke",
+        "englishTranslation": "No one is so busy that he does not have time to tell everyone how busy he is.",
+        "englishAuthor": "Robert Lembke",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "295": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Der Vorteil der Klugen besteht darin, dass sie sich dumm stellen können. Das Gegenteil ist schon schwieriger.",
+        "romaji": "",
+        "author": "Kurt Tucholsky",
+        "englishTranslation": "The advantage of the wise is that they can play dumb. The opposite is more of a challenge.",
+        "englishAuthor": "Kurt Tucholsky",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "296": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wir denken selten an das, was wir haben, aber immer an das, was uns fehlt.",
+        "romaji": "",
+        "author": "Arthur Schopenhauer",
+        "englishTranslation": "We rarely think of what we have but always what we lack.",
+        "englishAuthor": "Arthur Schopenhauer",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "297": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wenn die Menschen nur über das sprächen, was sie begreifen, dann würde es sehr still auf der Welt sein.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "If people only talked about things they understand, then it would be very quiet in the world.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "298": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man reist nicht, um anzukommen, sondern um zu reisen.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "You do not travel to arrive, but to travel.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "299": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Gegen Angriffe kann man sich wehren, gegen Lob ist man machtlos.",
+        "romaji": "",
+        "author": "Sigmund Freud",
+        "englishTranslation": "One can resist attack, but one is powerless against praise.",
+        "englishAuthor": "Sigmund Freud",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "300": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Glück entsteht oft durch Aufmerksamkeit in kleinen Dingen, Unglück oft durch Vernachlässigung kleiner Dinge.",
+        "romaji": "",
+        "author": "Wilhelm Busch",
+        "englishTranslation": "Happiness often comes from attention to small things, misfortune often from neglecting little things.",
+        "englishAuthor": "Wilhelm Busch",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "301": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die große Chance des Älterwerdens ist, dass es einem Wurscht sein kann, was die Leute sagen",
+        "romaji": "",
+        "author": "Udo Jürgens",
+        "englishTranslation": "The best part of getting older, is that you don’t have to care what people say",
+        "englishAuthor": "Udo Jürgens",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "302": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man muss sein Glück teilen, um es zu multiplizieren.",
+        "romaji": "",
+        "author": "Marie von Ebner-Eschenbach",
+        "englishTranslation": "You have to share your luck to multiply it",
+        "englishAuthor": "Marie von Ebner-Eschenbach",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "303": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Nicht alles, was zählt, ist zählbar, und nicht alles, was zählbar ist, zählt.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "Not everything that counts is countable, and not everything that can be counted counts.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "304": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Sage nicht alles, was du weißt, aber wisse alles, was du sagst.",
+        "romaji": "",
+        "author": "Matthias Claudius",
+        "englishTranslation": "Don’t say everything you know; but know everything you say.",
+        "englishAuthor": "Matthias Claudius",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "305": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Je älter ich werde, desto intensiver lebe ich und desto mehr registriere ich, was ich erreicht habe.",
+        "romaji": "",
+        "author": "Steffi Graf",
+        "englishTranslation": "The older I get, the more intensely I live, and the more I realize what I have achieved.",
+        "englishAuthor": "Steffi Graf",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "306": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Tatsachen gibt es nicht, nur Interpretationen.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "There are no facts, only interpretations.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "307": {
+        "quoteLanguage": "Deutsch",
+        "quote": "In uns selbst liegen die Sterne unseres Glücks.",
+        "romaji": "",
+        "author": "Heinrich Heine",
+        "englishTranslation": "Within ourselves lie the stars of our happiness.",
+        "englishAuthor": "Heinrich Heine",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "308": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Der Langsamste, der sein Ziel nicht aus den Augen verliert, geht noch immer geschwinder, als jener, der ohne Ziel umherirrt.",
+        "romaji": "",
+        "author": "Gotthold Ephraim Lessing",
+        "englishTranslation": "The slowest plodder who does not lose sight of his goal is still faster than the one who wanders without a goal.",
+        "englishAuthor": "Gotthold Ephraim Lessing",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "309": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man muss das Unmögliche versuchen, um das Mögliche zu erreichen.",
+        "romaji": "",
+        "author": "Hermann Hesse",
+        "englishTranslation": "You have to try the impossible to achieve the possible.",
+        "englishAuthor": "Hermann Hesse",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "310": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Für das Können gibt es nur einen Beweis: das Tun.",
+        "romaji": "",
+        "author": "Marie von Ebner-Eschenbach",
+        "englishTranslation": "There is only one proof of skill: doing.",
+        "englishAuthor": "Marie von Ebner-Eschenbach",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "311": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Was mich nicht umbringt, macht mich stärker.",
+        "romaji": "",
+        "author": "Friedrich Nietzsche",
+        "englishTranslation": "What does not kill me makes me stronger.",
+        "englishAuthor": "Friedrich Nietzsche",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "312": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Gewohnheit ist ein Seil. Wir weben jeden Tag einen Faden, und schließlich können wir es nicht mehr zerreißen.",
+        "romaji": "",
+        "author": "Thomas Mann",
+        "englishTranslation": "A habit is a rope. Weave a thread into it every day and eventually it becomes unbreakable.",
+        "englishAuthor": "Thomas Mann",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "313": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die guten sind immer umstritten.",
+        "romaji": "",
+        "author": "Boris Becker",
+        "englishTranslation": "The good ones are always controversial.",
+        "englishAuthor": "Boris Becker",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "314": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man lernt nirgendwo so viel, wie in den eigenen Fehlern.",
+        "romaji": "",
+        "author": "Udo Jürgens",
+        "englishTranslation": "You learn nowhere so much as in your own mistakes.",
+        "englishAuthor": "Udo Jürgens",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "315": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wenn du die Phase der Euphorie nicht erlebt hast und die Phase der Traurigkeit, dann wirst du nichts Bedeutendes schaffen.",
+        "romaji": "",
+        "author": "Udo Jürgens",
+        "englishTranslation": "If you have not experienced the phase of euphoria and the phase of sadness, then you will not accomplish anything significant.",
+        "englishAuthor": "Udo Jürgens",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "316": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Jedes Problem, das man bewältigt, bringt einen in der Zukunft weiter. Und gibt auch neue Kraft.",
+        "romaji": "",
+        "author": "Steffi Graf",
+        "englishTranslation": "Any problem you overcome will carry you forward in the future and give you new strength.",
+        "englishAuthor": "Steffi Graf",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "317": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Denke an all das Schöne, was in dir selbst und dich herum wächst und sei glücklich!",
+        "romaji": "",
+        "author": "Anne Frank",
+        "englishTranslation": "Think of all the beauty still left around you and be happy!",
+        "englishAuthor": "Anne Frank",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "318": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Man sollte wenigstens jeden Tag ein kleines Lied hören, ein gutes Gedicht lesen, ein schönes Bild sehen und, wenn möglich, ein paar vernünftige Worte sprechen.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "One ought, every day at least, to hear a little song, read a good poem, see a fine picture, and, if it were possible, to speak a few reasonable words.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "319": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wenn Sie eine Person so behandeln, wie sie ist, bleibt sie so wie sie ist. Wenn Sie ihn jedoch so behandeln, als wäre er das, was er sein sollte und sein könnte, wird er zu dem, was er sein sollte und sein könnte.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "If you treat an individual as he is, he will remain how he is. But if you treat him as if he were what he ought to be and could be, he will become what he ought to be and could be.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "320": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Verwegene Ideen sind wie vorgerückte Schachfiguren. Sie können geschlagen werden, aber sie können ein Gewinnspiel beginnen.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Daring ideas are like chessmen moved forward. They may be beaten, but they may start a winning game.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "321": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Sobald Sie sich selbst vertrauen, wissen Sie zu leben.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "As soon as you trust yourself, you will know how to live.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "322": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Sie können den Charakter eines Mannes leicht daran beurteilen, wie er diejenigen behandelt, die nichts für ihn tun können.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "You can easily judge the character of a man by how he treats those who can do nothing for him.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "323": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Ein Mann sieht in der Welt, was er in seinem Herzen trägt.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "A man sees in the world what he carries in his heart.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "324": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Wenn Sie noch nie beim Weinen gegessen haben, wissen Sie nicht, wie das Leben schmeckt.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "If you've never eaten while crying you don t know what life tastes like.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "325": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Niemand ist mehr Sklave, als der sich für frei hält, ohne es zu sein.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "None are more hopelessly enslaved than those who falsely believe they are free.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "326": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Nichts zeigt den Charakter eines Mannes mehr als das, worüber er lacht.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Nothing shows a man's character more than what he laughs at.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "327": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Eine Person hört nur das, was sie verstehen.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "A person hears only what they understand.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "328": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Dinge, die am wichtigsten sind, dürfen niemals den Dingen ausgeliefert werden, die am wenigsten wichtig sind.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Things which matter most must never be at the mercy of things which matter least.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "329": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Der Unterricht tut viel, aber ermutigt alles.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Instruction does much, but encouragement everything.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "330": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Genießen Sie, wenn Sie können, und halten Sie aus, wenn Sie müssen.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Enjoy when you can, and endure when you must.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "331": {
+        "quoteLanguage": "Russian",
+        "quote": "Бесплатный сыр — только в мышеловке.",
+        "romaji": "Besplatnyy syr — tol'ko v myshelovke.",
+        "author": "",
+        "englishTranslation": "Free cheese can be found only in a mousetrap.",
+        "englishAuthor": "",
+        "germanTranslation": "Kostenlosen Käse gibts nur in der Mausefalle.",
+        "germanAuthor": ""
+    },
+    "332": {
+        "quoteLanguage": "English",
+        "quote": "Fortune favors the prepared mind.",
+        "romaji": "",
+        "author": "Louis Pasteur",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer darauf vorbereitet ist, sieht das Glück eher.",
+        "germanAuthor": "Louis Pasteur"
+    },
+    "333": {
+        "quoteLanguage": "English",
+        "quote": "Fortune favors the prepared mind.",
+        "romaji": "",
+        "author": "Louis Pasteur",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer darauf vorbereitet ist, sieht das Glück eher.",
+        "germanAuthor": "Louis Pasteur"
+    },
+    "334": {
+        "quoteLanguage": "English",
+        "quote": "A short saying oft contains much wisdom.",
+        "romaji": "",
+        "author": "Sophocles",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein kurzes Sprichwort enthält viel Weisheit.",
+        "germanAuthor": "Sophocles"
+    },
+    "335": {
+        "quoteLanguage": "English",
+        "quote": "There was another life that I might have had but I am having this one.",
+        "romaji": "",
+        "author": "Kazuo Ishiguro",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gab ein anderes Leben, das ich vielleicht gehabt hätte, aber ich habe dieses.",
+        "germanAuthor": "Kazuo Ishiguro"
+    },
+    "336": {
+        "quoteLanguage": "English",
+        "quote": "Do one thing each day that scares you.",
+        "romaji": "",
+        "author": "Eleanor Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Mach jeden Tag eine Sache, die dir Angst macht.",
+        "germanAuthor": "Eleanor Roosevelt "
+    },
+    "337": {
+        "quoteLanguage": "English",
+        "quote": "Life is the art of drawing without an eraser.",
+        "romaji": "",
+        "author": "John W Gardner",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Leben ist die Kunst des Zeichnens ohne Radiergummi.",
+        "germanAuthor": "John W Gardner"
+    },
+    "338": {
+        "quoteLanguage": "English",
+        "quote": "What I love most about my home is who I share it with.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Was ich an meinem Zuhause am meisten liebe, ist, mit wem ich es teile.",
+        "germanAuthor": ""
+    },
+    "339": {
+        "quoteLanguage": "English",
+        "quote": "The fundamental cause of the trouble in the modern world today is that the stupid are cocksure while the intelligent are full of doubt.",
+        "romaji": "",
+        "author": "Bertrand Russell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die fundamentale Ursache für die Probleme in der heutigen modernen Welt ist, dass die Dummen schwindlig sind, während die Intelligenten voller Zweifel sind.",
+        "germanAuthor": "Bertrand Russell"
+    },
+    "340": {
+        "quoteLanguage": "Hindi",
+        "quote": "बंदर क्या जाने अदरक का स्वाद",
+        "romaji": "Bandar kya jaane adark ka swaad",
+        "author": "",
+        "englishTranslation": "What does a monkey know of the taste of ginger?",
+        "englishAuthor": "",
+        "germanTranslation": "Was weiß ein Affe über den Geschmack von Ingwer?",
+        "germanAuthor": ""
+    },
+    "341": {
+        "quoteLanguage": "Hindi",
+        "quote": "जो गरजते हैं वो बरसते नहीं",
+        "romaji": "Jo Garazte hain, wo baraste nahi",
+        "author": "",
+        "englishTranslation": "Clouds that thunder loudly, don't always rain a lot",
+        "englishAuthor": "",
+        "germanTranslation": "Wolken, die laut donnern, regnen nicht immer viel",
+        "germanAuthor": ""
+    },
+    "342": {
+        "quoteLanguage": "Hindi",
+        "quote": "जितनी चादर उतने ही पैर पसारो",
+        "romaji": " Jitni chaadar utne hi pair pasaaro",
+        "author": "",
+        "englishTranslation": "The size of the blanket should determine how much you stretch your feet.",
+        "englishAuthor": "",
+        "germanTranslation": "Die Größe der Decke sollte bestimmen, wie stark Sie Ihre Füße strecken.",
+        "germanAuthor": ""
+    },
+    "343": {
+        "quoteLanguage": "Hindi",
+        "quote": "जंगल में मोर नाचा किस ने देखा?",
+        "romaji": "Jungle me mor naacha kisne dekha",
+        "author": "",
+        "englishTranslation": "The peacock danced in the forest, but no one saw it.",
+        "englishAuthor": "",
+        "germanTranslation": "Der Pfau tanzte im Wald, aber niemand sah es.",
+        "germanAuthor": ""
+    },
+    "344": {
+        "quoteLanguage": "Hindi",
+        "quote": "अधजल गगरी छलकत जाय",
+        "romaji": "adhajal gagri chhalakat jaaye",
+        "author": "",
+        "englishTranslation": "Half empty pots splash the most",
+        "englishAuthor": "",
+        "germanTranslation": "Halb leere Töpfe plätschern am meisten.",
+        "germanAuthor": ""
+    },
+    "345": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Behandle die Menschen so, als wären sie, was sie sein sollten,und du hilfst ihnen zu werden, was sie sein können.",
+        "romaji": "",
+        "author": "Johann Wolfgang von Goethe",
+        "englishTranslation": "Treat people as if they were what they ought to be and you help them to become what they are capable of being.",
+        "englishAuthor": "Johann Wolfgang von Goethe",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "346": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Die Gesellschaft macht die Feier aus.",
+        "romaji": "",
+        "author": "",
+        "englishTranslation": "The company makes the feast",
+        "englishAuthor": "",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "347": {
+        "quoteLanguage": "English",
+        "quote": "Never be afraid to sit a while and think.",
+        "romaji": "",
+        "author": "Lorraine Hansberry",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Hab niemals Angst, eine Weile zu sitzen und nachzudenken.",
+        "germanAuthor": "Lorraine Hansberry"
+    },
+    "348": {
+        "quoteLanguage": "English",
+        "quote": "One who believes in himself has no need to convince others.",
+        "romaji": "",
+        "author": "Laozi",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer an sich glaubt, muss andere nicht überzeugen.",
+        "germanAuthor": "Laozi"
+    },
+    "349": {
+        "quoteLanguage": "English",
+        "quote": "I never learn anything talking. I only learn things when I ask questions.",
+        "romaji": "",
+        "author": "Lou Leo Holtz",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich lerne nie etwas reden. Ich lerne Dinge nur, wenn ich Fragen stelle.",
+        "germanAuthor": "Lou Leo Holtz"
+    },
+    "350": {
+        "quoteLanguage": "English",
+        "quote": "God save us from the people who mean well.",
+        "romaji": "",
+        "author": "Vikram Seth",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Gott schütze uns vor den Menschen, die es gut meinen.",
+        "germanAuthor": "Vikram Seth"
+    },
+    "351": {
+        "quoteLanguage": "English",
+        "quote": "Morality is a matter of money. Poor people cannot afford to have morals. So they have religion.",
+        "romaji": "",
+        "author": "Khushwant Singh",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Moral ist eine Frage des Geldes. Arme Menschen können es sich nicht leisten, Moral zu haben. Sie haben also Religion.",
+        "germanAuthor": "Khushwant Singh"
+    },
+    "352": {
+        "quoteLanguage": "English",
+        "quote": "To use the past to justify the present is bad enough - but it's just as bad to use the present to justify the past.",
+        "romaji": "",
+        "author": "Amitav Ghosh",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Vergangenheit zu benutzen, um die Gegenwart zu rechtfertigen, ist schon schlimm genug - aber es ist genauso schlimm, die Gegenwart zu benutzen, um die Vergangenheit zu rechtfertigen.",
+        "germanAuthor": "Amitav Ghosh"
+    },
+    "353": {
+        "quoteLanguage": "English",
+        "quote": "And when all the wars are over, a butterfly will still be beautiful.",
+        "romaji": "",
+        "author": "Ruskin Bond",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Und wenn alle Kriege vorbei sind, wird ein Schmetterling immer noch schön sein.",
+        "germanAuthor": "Ruskin Bond"
+    },
+    "354": {
+        "quoteLanguage": "Hindi",
+        "quote": "जाति ना पूछो साधु की; पूछ लीजिए ज्ञान.",
+        "romaji": "jaati na poochho saadhu kee; poochh leejie gyaan.",
+        "author": "",
+        "englishTranslation": "Ask not a saint of his caste; ask of his knowledge.",
+        "englishAuthor": "",
+        "germanTranslation": "Bitte keinen Heiligen seiner Kaste; fragen Sie nach seinem Wissen.",
+        "germanAuthor": ""
+    },
+    "355": {
+        "quoteLanguage": "English",
+        "quote": "Like pregnancy, being a foreigner, is something that elicits the same curiosity from strangers, the same combination of pity and respect.",
+        "romaji": "",
+        "author": "Jhumpa Lahiri",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ausländer zu sein, ist wie eine Schwangerschaft etwas, das bei Fremden die gleiche Neugier hervorruft, die gleiche Kombination aus Mitleid und Respekt.",
+        "germanAuthor": "Jhumpa Lahiri"
+    },
+    "356": {
+        "quoteLanguage": "English",
+        "quote": "If you want to leave your footprints on the sands of time, do not drag your feet.",
+        "romaji": "",
+        "author": "A. P. J. Abdul Kalam",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie Ihre Fußspuren im Sand der Zeit hinterlassen möchten, ziehen Sie nicht Ihre Füße.",
+        "germanAuthor": "A. P. J. Abdul Kalam"
+    },
+    "357": {
+        "quoteLanguage": "English",
+        "quote": "Unhappy is he who depends on success to be happy.",
+        "romaji": "",
+        "author": "Alex Dias Ribeiro",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unglücklich ist, wer auf Erfolg angewiesen ist, um glücklich zu sein.",
+        "germanAuthor": "Alex Dias Ribeiro"
+    },
+    "358": {
+        "quoteLanguage": "English",
+        "quote": "Econometrics can help us get a better understanding of the world and put mere beliefs and hunches to the test.",
+        "romaji": "",
+        "author": "Katharina Ditte",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ökonometrie kann uns helfen, die Welt besser zu verstehen und bloße Annahmen und Bauchgefühle auf die Probe zu stellen.",
+        "germanAuthor": "Katharina Ditte"
+    },
+    "359": {
+        "quoteLanguage": "English",
+        "quote": "Those who wish to sing always find a song.",
+        "romaji": "",
+        "author": "Krishna Dutta Gupta",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wer singen möchte, findet immer ein Lied.",
+        "germanAuthor": "Krishna Dutta Gupta"
+    },
+    "360": {
+        "quoteLanguage": "English",
+        "quote": "Hapiness is as exclusive as a butterfly, and you must never pursue it. If you stay very still, it may come and settle on your hand. But only briefly. Savour those moments, for they will not come in your way very often.",
+        "romaji": "",
+        "author": "Ruskin Bond",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Glück ist so exklusiv wie ein Schmetterling, und Sie dürfen es niemals verfolgen. Wenn Sie sehr still bleiben, kann es kommen und sich auf Ihrer Hand niederlassen. Aber nur kurz. Genieße diese Momente, denn sie werden dir nicht oft in die Quere kommen.",
+        "germanAuthor": "Ruskin Bond"
+    },
+    "361": {
+        "quoteLanguage": "Russian",
+        "quote": "Что не делается - не делается то к лучшему.",
+        "romaji": "Chto ne delayetsya - ne delayetsya to k luchshemu.",
+        "author": "Maria Ditte",
+        "englishTranslation": "What does not happen, does not happen for the better.",
+        "englishAuthor": "Maria Ditte",
+        "germanTranslation": "Was nicht passiert, passiert nicht zum Besseren.",
+        "germanAuthor": "Maria Ditte"
+    },
+    "362": {
+        "quoteLanguage": "English",
+        "quote": "Happiness is a mysterious thing, to be found somewhere between too little and too much.",
+        "romaji": "",
+        "author": "Ruskin Bond",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Glück ist eine mysteriöse Sache, irgendwo zwischen zu wenig und zu viel zu finden.",
+        "germanAuthor": "Ruskin Bond"
+    },
+    "363": {
+        "quoteLanguage": "English",
+        "quote": "The best kind of walk, and this applies to the plains as well as to the hills, is the one in which you have no particular destination when you set out.",
+        "romaji": "",
+        "author": "Ruskin Bond",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die beste Art der Wanderung, und dies gilt sowohl für die Ebenen als auch für die Hügel, ist die, in der Sie kein bestimmtes Ziel haben, wenn Sie sich auf den Weg machen.",
+        "germanAuthor": "Ruskin Bond"
+    },
+    "364": {
+        "quoteLanguage": "English",
+        "quote": "I feel drawn to little temples on lonely hilltops. With the mist swirling round them, and the wind humming in the stunted pines, they absorb some of the magic and mystery of their surroundings and transmit it to the questing pilgrim.",
+        "romaji": "",
+        "author": "Ruskin Bond",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich fühle mich von kleinen Tempeln auf einsamen Hügeln angezogen. Mit dem Nebel, der um sie herumwirbelt, und dem Wind, der in den verkümmerten Kiefern summt, nehmen sie etwas von der Magie und dem Geheimnis ihrer Umgebung auf und übermitteln es dem suchenden Pilger.",
+        "germanAuthor": "Ruskin Bond"
+    },
+    "365": {
+        "quoteLanguage": "English",
+        "quote": "Everything that irritates us about others can lead us to an understanding of ourselves.",
+        "romaji": "",
+        "author": "Carl Jung",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Alles was uns an anderen mißfällt, kann uns zu besserer Selbsterkenntnis führen.",
+        "germanAuthor": "Carl Jung"
+    },
+    "366": {
+        "quoteLanguage": "English",
+        "quote": "Leadership is about empathy. It is about having the ability to relate to and connect with people for the purpose of inspiring and empowering their lives.",
+        "romaji": "",
+        "author": "Oprah Winfrey",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Bei Führung geht es um Empathie. Es geht darum, die Fähigkeit zu haben, mit Menschen in Beziehung zu treten und Verbindung zu schaffen, um ihr Leben zu inspirieren und zu stärken.",
+        "germanAuthor": "Oprah Winfrey"
+    },
+    "367": {
+        "quoteLanguage": "English",
+        "quote": "Without data, you’re just another person with an opinion.",
+        "romaji": "",
+        "author": "W. Edwards Deming",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ohne Daten bist du nur eine andere Person mit einer Meinung.",
+        "germanAuthor": "W. Edwards Deming"
+    },
+    "368": {
+        "quoteLanguage": "English",
+        "quote": "It is not the strongest of the species that survives, nor the most intelligent. It is the one that is most adaptable to change.",
+        "romaji": "",
+        "author": "Charles Darwin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist weder die stärkste noch die intelligenteste der Arten die überlebt,  sondern, diejenige die sich am besten an Veränderungen anpassen kann.",
+        "germanAuthor": "Charles Darwin"
+    },
+    "369": {
+        "quoteLanguage": "English",
+        "quote": "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.",
+        "romaji": "",
+        "author": "Bill Gates",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Für einen harten Job, wähle ich eine faule Person. Weil eine faule Person einen einfachen Weg finden wird ihn zu tun.",
+        "germanAuthor": "Bill Gates"
+    },
+    "370": {
+        "quoteLanguage": "English",
+        "quote": "Success is a lousy teacher. It seduces smart people into thinking they can’t lose.",
+        "romaji": "",
+        "author": "Bill Gates",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Erfolg ist ein mieser Lehrer. Es verführt kluge Leute zu dem Gedanken, dass sie nicht verlieren können.",
+        "germanAuthor": "Bill Gates"
+    },
+    "371": {
+        "quoteLanguage": "English",
+        "quote": "A man practices the art of adventure when he breaks the chain of routine and renews his life through reading new books, traveling to new places, making new friends, taking up new hobbies.",
+        "romaji": "",
+        "author": "Wilferd Peterson",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Mann übt die Kunst des Abenteuers aus, wenn er die Kette der Routine durchbricht und sein Leben erneuert, indem er neue Bücher liest, an neue Orte reist, neue Freunde findet und neue Hobbys aufnimmt.",
+        "germanAuthor": "Wilferd Peterson"
+    },
+    "372": {
+        "quoteLanguage": "English",
+        "quote": "Decision is the spark that ignites action. Until a decision is made, nothing happens…. Decision is the courageous facing of issues, knowing that if they are not faced, problems will remain forever unanswered.",
+        "romaji": "",
+        "author": "Wilferd Peterson",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Entscheidung ist der Funke, der die Handlung auslöst. Bis eine Entscheidung getroffen wird, passiert nichts ... Die Entscheidung ist die mutige Auseinandersetzung mit Themen, in dem Wissen, dass Probleme für immer unbeantwortet bleiben, wenn sie nicht angegangen werden.",
+        "germanAuthor": "Wilferd Peterson"
+    },
+    "373": {
+        "quoteLanguage": "English",
+        "quote": "It is not true that people stop pursuing dreams because they grow old, they grow old because they stop pursuing dreams.",
+        "romaji": "",
+        "author": "Gabriel Garcia Marquez",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es ist nicht wahr, dass Menschen aufhören, Träume zu verfolgen, weil sie alt werden, sie werden alt, weil sie aufhören, Träume zu verfolgen.",
+        "germanAuthor": "Gabriel Garcia Marquez"
+    },
+    "374": {
+        "quoteLanguage": "English",
+        "quote": "Time you enjoy wasting, was not wasted.",
+        "romaji": "",
+        "author": "John Lennon",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Zeit, die du gerne verschwendet hast, war nicht verschwendet.",
+        "germanAuthor": "John Lennon"
+    },
+    "375": {
+        "quoteLanguage": "English",
+        "quote": "Although the world is full of suffering, it is also full of the overcoming of it.",
+        "romaji": "",
+        "author": "Helen Keller",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Obwohl die Welt voller Leiden ist, ist sie auch voller Überwindung.",
+        "germanAuthor": "Helen Keller"
+    },
+    "376": {
+        "quoteLanguage": "English",
+        "quote": "A genuine leader is not a searcher for consensus but a molder of consensus.",
+        "romaji": "",
+        "author": "Martin Luther King, Jr.",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein echter Leader ist kein Konsenssucher, sondern ein Konsensschöpfer.",
+        "germanAuthor": "Martin Luther King, Jr."
+    },
+    "377": {
+        "quoteLanguage": "English",
+        "quote": "Remember, to learn and not to do is really not to learn. To know and not to do is really not to know.",
+        "romaji": "",
+        "author": "Stephen R. Covey",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Vergiss nicht, zu lernen und nicht zu tun ist in Wirklichkeit nicht zu lernen. Zu wissen und nicht zu tun ist in Wirklichkeit nicht zu wissen.",
+        "germanAuthor": "Stephen R. Covey"
     }
 }

@@ -64,7 +64,7 @@ class SettingsViewController: UIViewController {
         switch quoteModel!.userLanguage {
         case .English:
             settingsLabel.text = "Settings"
-            descriptionLabel.text = "Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set it below. When we get inspired by quotes we find in the world, we will update our list. You can click the Refresh button to get our latest set of quotes. However please make sure you have access to the internet. We hope these quotes help you think deeply about the world."
+            descriptionLabel.text = "Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set it below. When we get inspired by quotes we find in the world, we will update our list. If your device is connected to the internet, you can click the Refresh button to get our latest set of quotes. We hope these quotes help you think deeply about the world."
             remindMeLabel.text = "  Remind Me:"
             morningButton.setTitle("Morning", for: .normal)
             lunchtimeButton.setTitle("Lunchtime", for: .normal)
@@ -74,7 +74,7 @@ class SettingsViewController: UIViewController {
         case .Deutsch:
             settingsLabel.text = "Einstellungen"
             descriptionLabel.text = """
-            Willkommen bei „bedachte Zitate“. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu lesen. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Zitat verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Sie können auf die Schaltfläche „Aktualisieren“ klicken, um die neuesten Zitate zu erhalten. Bitte stellen Sie jedoch sicher, dass Sie Zugang zum Internet haben. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken.
+            Willkommen bei „bedachte Zitate“. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat, um die Übersetzung zu lesen. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Zitat verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Wenn Ihr Gerät mit dem Internet verbunden ist, können Sie auf die Schaltfläche „Aktualisieren“ klicken, um unsere neuesten Angebote abzurufen. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken.
             """
             remindMeLabel.text = "  Erinnere mich:"
             morningButton.setTitle("Morgen", for: .normal)

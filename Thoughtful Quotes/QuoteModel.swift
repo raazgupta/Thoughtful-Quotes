@@ -25,6 +25,7 @@ enum QuoteLanguage: String, Codable{
     case Russian = "Russian"
     case Japanese = "Japanese"
     case Bengali = "Bengali"
+    case Hindi = "Hindi"
 }
 
 enum UserLanguage: String, Codable{

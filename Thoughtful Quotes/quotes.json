@@ -646,7 +646,7 @@
         "author": "Subhas Chandra Bose",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Freiheit ist nicht gegeben - sie wird genommen",
+        "germanTranslation": "Freiheit wird nicht gegeben - sie wird genommen",
         "germanAuthor": "Subhas Chandra Bose"
     },
     "65": {
@@ -696,7 +696,7 @@
         "author": "John Maynard Keynes",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Es ist nicht schwer neue Ideen einzubringen, sondern die alten loszuwerden.",
+        "germanTranslation": "Es ist nicht so schwer neue Ideen einzubringen, sondern die alten loszuwerden.",
         "germanAuthor": "John Maynard Keynes"
     },
     "70": {
@@ -736,7 +736,7 @@
         "author": "Ruth Bader Ginsburg",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Kämpfe für die Dinge, die dir wichtig sind, aber tu es auf eine Weise, die andere dazu bringen wird sich dir anzuschließen.",
+        "germanTranslation": "Kämpfe für die Dinge, die dir wichtig sind, aber tu es auf eine Weise, die andere anzieht sich dir anzuschließen.",
         "germanAuthor": "Ruth Bader Ginsburg"
     },
     "74": {
@@ -756,7 +756,7 @@
         "author": "Eleanor Roosevelt",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Große Geister diskutieren Visionen; Normale Geister diskutieren Geschehnisse; Kleine Geister diskutieren Menschen",
+        "germanTranslation": "Große Geister diskutieren Ideen; Durchschnittliche Geister diskutieren Ereignisse; Kleine Geister diskutieren Menschen",
         "germanAuthor": "Eleanor Roosevelt"
     },
     "76": {
@@ -776,7 +776,7 @@
         "author": "Subhas Chandra Bose",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Das Geheimnis politischer Verhandlungen besteht darin, stärker auszusehen als Sie wirklich sind.",
+        "germanTranslation": "Das Geheimnis politischer Verhandlungen besteht darin, stärker auszusehen als du wirklich bist.",
         "germanAuthor": "Subhas Chandra Bose"
     },
     "188": {
@@ -796,7 +796,7 @@
         "author": "Rabindranath Tagore",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Beschränken Sie ein Kind nicht auf Ihr eigenes Lernen, denn es wurde in einer anderen Zeit geboren.",
+        "germanTranslation": "Beschränke ein Kind nicht auf dein eigenes Lernen, denn es wurde in einer anderen Zeit geboren.",
         "germanAuthor": "Rabindranath Tagore"
     },
     "79": {
@@ -826,7 +826,7 @@
         "author": "Betty Friedan",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Altern bedeutet nicht verlorene Jugend, sondern eine neue Phase der Möglichkeiten und der Kraft.",
+        "germanTranslation": "Das Altern ist nicht verlorene Jugend, sondern eine neue Phase der Möglichkeiten und der Kraft.",
         "germanAuthor": "Betty Friedan"
     },
     "82": {
@@ -886,7 +886,7 @@
         "author": "Maya Angelou",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Erfolg ist sich selbst zu mögen; Zu mögen was man tut und zu mögen wie man es tut.",
+        "germanTranslation": "Erfolg ist sich selbst zu mögen, zu mögen was man tut und zu mögen wie man es tut.",
         "germanAuthor": "Maya Angelou"
     },
     "88": {
@@ -896,7 +896,7 @@
         "author": "Hermes Trismegistus",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wie oben, so unten, wie innen, so außen, als das Universum, so die Seele.",
+        "germanTranslation": "Wie oben, so unten, wie innen, so außen, wie das Universum, so die Seele.",
         "germanAuthor": "Hermes Trismegistus"
     },
     "89": {
@@ -949,16 +949,6 @@
         "germanTranslation": "Die kleine Weisheit ist wie Wasser in einem Glas: klar, transparent, rein. Die große Weisheit ist wie Wasser im Meer: dunkel, geheimnisvoll, undurchdringlich",
         "germanAuthor": "Rabindranath Tagore"
     },
-    "94": {
-        "quoteLanguage": "English",
-        "quote": "The small wisdom is like water in a glass: clear, transparent, pure. The great wisdom is like water in the sea: dark, mysterious, impenetrable",
-        "romaji": "",
-        "author": "Rabindranath Tagore",
-        "englishTranslation": "",
-        "englishAuthor": "",
-        "germanTranslation": "Die kleine Weisheit ist wie Wasser in einem Glas: klar, transparent, rein. Die große Weisheit ist wie Wasser im Meer: dunkel, geheimnisvoll, undurchdringlich",
-        "germanAuthor": "Rabindranath Tagore"
-    },
     "95": {
         "quoteLanguage": "English",
         "quote": "All great achievements require time.",
@@ -986,17 +976,7 @@
         "author": "Audre Lorde",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Es sind nicht unsere Unterschiede, die uns trennen. Es ist unsere Unfähigkeit, diese Unterschiede zu erkennen, zu akzeptieren und zu zelebrieren.",
-        "germanAuthor": "Audre Lorde"
-    },
-    "98": {
-        "quoteLanguage": "English",
-        "quote": "It is not our differences that divide us. It is our inability to recognize, accept, and celebrate those differences.",
-        "romaji": "",
-        "author": "Audre Lorde",
-        "englishTranslation": "",
-        "englishAuthor": "",
-        "germanTranslation": "Es sind nicht unsere Unterschiede, die uns trennen. Es ist unsere Unfähigkeit, diese Unterschiede zu erkennen, zu akzeptieren und zu zelebrieren.",
+        "germanTranslation": "Es sind nicht unsere Unterschiede, die uns trennen. Es ist unsere Unfähigkeit, diese Unterschiede zu erkennen, zu akzeptieren und zu feiern.",
         "germanAuthor": "Audre Lorde"
     },
     "99": {
@@ -1006,7 +986,7 @@
         "author": "Ludwig Wittgenstein",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wenn die Leute niemals dumme Dinge taten, würde nichts Intelligentes jemals geschehen.",
+        "germanTranslation": "Wenn die Menschen nicht manchmal Dummheiten machen würden, geschähe überhaupt nichts Gescheites.",
         "germanAuthor": "Ludwig Wittgenstein"
     },
     "100": {
@@ -1066,7 +1046,7 @@
         "author": "Maya Angelou",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wenn Ihnen etwas nicht gefällt, ändern Sie es. Wenn Sie es nicht ändern können, ändern Sie Ihre Einstellung.",
+        "germanTranslation": "Wenn Dir etwas nicht gefällt, ändere es. Wenn du es nicht ändern kannst, ändere deine Einstellung.",
         "germanAuthor": "Maya Angelou"
     },
     "106": {
@@ -1086,7 +1066,7 @@
         "author": "Bertrand Russell",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Keine Nation war je so tugendhaft wie jeder selbst und keine war je so böse wie jeder andere.",
+        "germanTranslation": "Keine Nation war je so tugendhaft wie jede von sich selbst denkt und keine war je so verdorben wie jede von der anderen denkt.",
         "germanAuthor": "Bertrand Russell"
     },
     "108": {
@@ -1096,7 +1076,7 @@
         "author": "Bertrand Russell",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wenn ich ein Arzt wäre, sollte ich jedem Patienten, der seine Arbeit für wichtig hielt, einen Urlaub verschreiben.",
+        "germanTranslation": "Wenn ich ein Arzt wäre, würde ich jedem Patienten, der seine Arbeit für wichtig hielt, einen Urlaub verschreiben.",
         "germanAuthor": "Bertrand Russell"
     },
     "109": {
@@ -1146,7 +1126,7 @@
         "author": "Jhumpa Lahiri",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Das ist die Sache mit Büchern: Sie lassen Dich reisen, ohne Deine Füße bewegen zu müssen.",
+        "germanTranslation": "Die Sache mit Büchern ist, dass sie dich reisen lassen, ohne Deine Füße bewegen zu müssen.",
         "germanAuthor": "Jhumpa Lahiri"
     },
     "114": {
@@ -1176,7 +1156,7 @@
         "author": "",
         "englishTranslation": "He who runs after two hares will catch neither.",
         "englishAuthor": "",
-        "germanTranslation": "Wer zwei Hasen nachläuft, wird keinen einzigen fangen.",
+        "germanTranslation": "Wer zwei Hasen nachläuft, wird keinen fangen.",
         "germanAuthor": ""
     },
     "117": {
@@ -1189,16 +1169,6 @@
         "germanTranslation": "Wenn Du nicht in die Höhle des Tigers gehst, wirst Du auch nicht sein Junges fangen.",
         "germanAuthor": ""
     },
-    "118": {
-        "quoteLanguage": "English",
-        "quote": "Since I was young, I have always known this: Life damages us, every one. We can’t escape that damage. But now, I am also learning this: We can be mended. We mend each other.",
-        "romaji": "",
-        "author": "Veronica Roth",
-        "englishTranslation": "",
-        "englishAuthor": "",
-        "germanTranslation": "Seit ich jung war, habe ich immer gewusst: Das Leben beschädigt uns, jeden Einzelnen. Wir können diesem Schaden nicht entgehen. Aber jetzt lerne ich auch: Wir können repariert werden. Wir reparieren uns gegenseitig.",
-        "germanAuthor": "Veronica Roth"
-    },
     "119": {
         "quoteLanguage": "English",
         "quote": "Success is only meaningful and enjoyable if it feels like your own.",
@@ -1206,7 +1176,7 @@
         "author": "Michelle Obama",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Erfolg hat nur dann Bedeutung und macht einem Freude, wenn er sich wie der eigene anfühlt.",
+        "germanTranslation": "Erfolg hat nur dann Bedeutung und macht Freude, wenn er sich wie der eigene anfühlt.",
         "germanAuthor": "Michelle Obama"
     },
     "120": {
@@ -1246,7 +1216,7 @@
         "author": "Philip Tetlock & Dan Gardner",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Für Super-Prognostiker (Superforcasters) sind Überzeugungen Hypothesen, die getestet werden müssen, nicht Schätze, die bewahrt werden müssen.",
+        "germanTranslation": "Für herausragende Prognostiker sind Überzeugungen Hypothesen, die getestet werden müssen, nicht Schätze, die bewahrt werden müssen.",
         "germanAuthor": "Philip Tetlock & Dan Gardner"
     },
     "124": {
@@ -1256,7 +1226,7 @@
         "author": "Stan Lee",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Die Person, die anderen hilft, nur weil es getan werden sollte oder muss und weil es richtig ist, ist zweifellos ein echter Superheld.",
+        "germanTranslation": "Die Person, die anderen hilft, weil es getan werden sollte oder muss und weil es richtig ist, ist zweifellos eine echte Superheldin.",
         "germanAuthor": "Stan Lee"
     },
     "125": {
@@ -1326,7 +1296,7 @@
         "author": "Rosalynn Carter",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Ein Anführer bringt Menschen dorthin, wo sie hin wollen. Ein guter Anführer bringt Menschen dorthin, wo sie nicht unbedingt hin wollen, aber hin  müssen.",
+        "germanTranslation": "Ein Anführer bringt Menschen dorthin, wo sie hin wollen. Ein guter Anführer bringt Menschen dorthin, wo sie nicht unbedingt hin wollen, aber hin sollten.",
         "germanAuthor": "Rosalynn Carter"
     },
     "132": {
@@ -1346,7 +1316,7 @@
         "author": "Edmund Percival Hillary",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wir erobern nicht den Berg, sondern wir selbst.",
+        "germanTranslation": "Es ist nicht der Berg, den wir erobern, sondern wir selbst.",
         "germanAuthor": "Edmund Percival Hillary"
     },
     "134": {
@@ -1431,12 +1401,12 @@
     },
     "142": {
         "quoteLanguage": "English",
-        "quote": "Somehow I feel that an ordinary personan, the man in the street if you like, is a more challenging subject for exploration than people in the heroic mold. It is the half shades, the hardly audible notes that I want to capture and explore.",
+        "quote": "Somehow I feel that an ordinary person, the man in the street if you like, is a more challenging subject for exploration than people in the heroic mold. It is the half shades, the hardly audible notes that I want to capture and explore.",
         "romaji": "",
         "author": "Satyajit Ray",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Irgendwie habe ich das Gefühl, dass ein gewöhnlicher Mensch, der Mann auf der Straße, wenn Sie möchten, ein schwierigeres Thema für die Erkundung ist als die Leute in der heroischen Form. Es sind die Halbschattierungen, die kaum hörbaren Noten, die ich einfangen und erkunden möchte.",
+        "germanTranslation": "Irgendwie habe ich das Gefühl, dass ein gewöhnlicher Mensch, der Mann von der Straße, wenn Sie möchten, eine bessere Herausforderung als Thema für die Erkundung darstellt, als Leute in der Heldenform. Es sind die Halbschattierungen, die kaum hörbaren Noten, die ich einfangen und erkunden möchte.",
         "germanAuthor": "Satyajit Ray"
     },
     "143": {
@@ -1446,7 +1416,7 @@
         "author": "Satyajit Ray",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wenn das Thema einfach ist, können Sie hundert Details hinzufügen, um die Illusion der Wirklichkeit besser zu erzeugen.",
+        "germanTranslation": "Wenn das Thema einfach ist, kannst Du hundert Details hinzufügen, um die Illusion der Wirklichkeit besser zu erzeugen.",
         "germanAuthor": "Satyajit Ray"
     },
     "144": {
@@ -1456,7 +1426,7 @@
         "author": "Jagadish Chandra Bose",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Das wahre Laboratorium ist im Kopf, wo hinter den Illusionen die Gesetze der Wahrheit aufgedeckt werden.",
+        "germanTranslation": "Das wahre Laboratorium ist im Geist, wo hinter den Illusionen die Gesetze der Wahrheit aufgedeckt werden.",
         "germanAuthor": "Jagadish Chandra Bose"
     },
     "145": {
@@ -1476,7 +1446,7 @@
         "author": "Swami Vivekananda",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Wir sind das, was uns unsere Gedanken gemacht haben. Passen Sie auf, was Sie denken. Wörter sind zweitrangig. Gedanken leben; Sie reisen weit.",
+        "germanTranslation": "Wir sind das, was uns unsere Gedanken gemacht haben. Pass auf, was Du denkst. Wörter sind zweitrangig. Gedanken leben; Sie reisen weit.",
         "germanAuthor": "Swami Vivekananda"
     },
     "147": {
@@ -1486,7 +1456,7 @@
         "author": "Swami Vivekananda",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Gehen Sie Risiken in Ihrem Leben ein. Wenn Sie gewinnen, können Sie führen, wenn Sie verlieren, können Sie unterrichten.",
+        "germanTranslation": "Gehe Risiken in Deinem Leben ein. Wenn Du gewinnst, kannst Du führen, wenn Du verlierst, kannst Du lehren.",
         "germanAuthor": "Swami Vivekananda"
     },
     "148": {
@@ -1496,7 +1466,7 @@
         "author": "Swami Vivekananda",
         "englishTranslation": "",
         "englishAuthor": "",
-        "germanTranslation": "Der Grund für jedes Missverständnis ist, dass ich die Menschen so sehe, wie ich bin, aber nicht so wie sie sind.",
+        "germanTranslation": "Der Grund für jedes Missverständnis ist, dass wir Menschen so sehen, wie wir sind, nicht so wie sie eigendlich sind.",
         "germanAuthor": "Swami Vivekananda"
     },
     "149": {

@@ -16,6 +16,12 @@ class QuoteViewController: UIViewController {
     
     @IBOutlet weak var dayTextLabel: UILabel!
     
+    @IBOutlet weak var settingsButton: UIButton!
+    
+    @IBOutlet weak var refreshButton: UIButton!
+    
+    @IBOutlet weak var translateButton: UIButton!
+    
     var quoteModel = QuoteModel()
     
     /*
@@ -59,8 +65,27 @@ class QuoteViewController: UIViewController {
         // Round the corners of the label
         quoteTextLabel?.layer.masksToBounds = true
         quoteTextLabel?.layer.cornerRadius = 20.0
+        settingsButton?.layer.cornerRadius = 5.0
+        refreshButton?.layer.cornerRadius = 5.0
+        translateButton?.layer.cornerRadius = 5.0
         
+        /*
+        switch quoteModel.userLanguage {
+        case .English:
+            settingsButton?.setTitle("Settings", for: .normal)
+            refreshButton?.setTitle("Refresh", for: .normal)
+            translateButton?.setTitle("Translate", for: .normal)
+        default:
+            settingsButton?.setTitle("Einstellungen", for: .normal)
+            refreshButton?.setTitle("Aktualisierung", for: .normal)
+            translateButton?.setTitle("Übersetzung", for: .normal)
+        }
+ */
         
+        settingsButton?.titleLabel?.adjustsFontSizeToFitWidth = true
+        refreshButton?.titleLabel?.adjustsFontSizeToFitWidth = true
+        translateButton?.titleLabel?.adjustsFontSizeToFitWidth = true
+        quoteTextLabel?.adjustsFontSizeToFitWidth = true
         
     }
     
@@ -118,6 +143,8 @@ class QuoteViewController: UIViewController {
             dayTextLabel.text = "Tag \(String(quoteModel.numDays))"
         }
         
+        checkTranslateButton()
+        
     }
 
     @IBAction private func showTranslatedQuote(_ sender: UIGestureRecognizer) {
@@ -127,17 +154,29 @@ class QuoteViewController: UIViewController {
         
         if sender.state == .ended {
             
-            quoteModel.showTranslation = !quoteModel.showTranslation
-            
-            let transitionOptions: UIView.AnimationOptions = [.transitionFlipFromRight]
-            
-            UIView.transition(with: sender.view!, duration: 1.0, options: transitionOptions, animations: {
-                
-                self.updateQuoteLabel()
-                
-            })
+            showTranslated(transitionView: sender.view!)
             
         }
+    }
+    
+    
+    @IBAction func pressTranslate(_ sender: UIButton) {
+        guard quoteModel.quoteDict != nil else { return }
+        guard quoteModel.quoteDict!.quoteLanguage.rawValue != quoteModel.userLanguage.rawValue else { return }
+        
+        showTranslated(transitionView: quoteTextLabel)
+    }
+    
+    private func showTranslated(transitionView: UIView){
+        quoteModel.showTranslation = !quoteModel.showTranslation
+        
+        let transitionOptions: UIView.AnimationOptions = [.transitionFlipFromRight]
+        
+        UIView.transition(with: transitionView, duration: 1.0, options: transitionOptions, animations: {
+            
+            self.updateQuoteLabel()
+            
+        })
     }
     
     private func updateQuoteLabel() {
@@ -182,6 +221,30 @@ class QuoteViewController: UIViewController {
         
         quoteTextLabel?.attributedText = quoteAttrString
     }
+    
+    
+    @IBAction func showRandomQuote(_ sender: UIButton) {
+        quoteModel.refreshQuote(refreshButtonPressed: true)
+        //updateQuoteLabel()
+        
+        UIView.transition(with: quoteTextLabel, duration: 1.0, options: [.transitionCurlUp], animations: {self.updateQuoteLabel()}, completion: {finished in
+            self.checkTranslateButton()
+        })
+        
+    }
+    
+    private func checkTranslateButton(){
+        // Check if Translate button needs to be shown
+        if quoteModel.quotesDict != nil {
+            if quoteModel.quoteDict!.quoteLanguage.rawValue != quoteModel.userLanguage.rawValue {
+                translateButton.isHidden = false
+            }
+            else {
+                translateButton.isHidden = true
+            }
+        }
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showSettings" {

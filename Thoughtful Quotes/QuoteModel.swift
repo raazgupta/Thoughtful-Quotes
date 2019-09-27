@@ -94,57 +94,64 @@ class QuoteModel {
     // If user has opened the app on the same day, provide the quote shown on before on that day
     // If user opens the app on a new day, then provide a new random quote
     // If all quotes have been shown to the user in the past, then remove history and show random quote
-    func refreshQuote() {
+    func refreshQuote(refreshButtonPressed:Bool = false) {
         
         // Read data from JSON file and populate quotesDict if quotesDict is nil
         if quotesDict == nil {
             refreshQuotesDict()
         }
         
-        updateDate()
-        
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MM.dd.yyyy"
-        let dateString = formatter.string(from: currentDate)
-        
-        if var quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
-            // Check if quoteDates contains today's date, which means the user has already checked the app today
-            // Else quoteDates does not contain today's date, which means the user is opening the app for the first time today
-            // and we need to add a random quote to quoteDates
+        if refreshButtonPressed == true {
+            quoteDict = quotesDict?.randomElement()?.value
+            showTranslation = false
+        }
+        else {
             
-            /* For TESTING
-            quoteDates = [ "01.08.2019":"0",
-                           "01.11.2019":"3",
-                           "01.10.2019":"1",
-                           "01.09.2019":"2",
-                           "01.07.2019":"4",
-            ]
- */
+            updateDate()
             
-            if let todayQuote = quoteDates[dateString] {
-                if quotesDict != nil {
-                    quoteDict = quotesDict![todayQuote]
+            let formatter = DateFormatter()
+            formatter.dateFormat = "MM.dd.yyyy"
+            let dateString = formatter.string(from: currentDate)
+            
+            if var quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
+                // Check if quoteDates contains today's date, which means the user has already checked the app today
+                // Else quoteDates does not contain today's date, which means the user is opening the app for the first time today
+                // and we need to add a random quote to quoteDates
+                
+                /* For TESTING
+                quoteDates = [ "01.08.2019":"0",
+                               "01.11.2019":"3",
+                               "01.10.2019":"1",
+                               "01.09.2019":"2",
+                               "01.07.2019":"4",
+                ]
+     */
+                
+                if let todayQuote = quoteDates[dateString] {
+                    if quotesDict != nil {
+                        quoteDict = quotesDict![todayQuote]
+                    }
                 }
+                else {
+                    let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: quoteDates)
+                    let quoteDates = randomQuote.1
+                    UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
+                    
+                    quoteDict = randomQuote.0
+                    showTranslation = false
+                }
+                
+
+                
             }
-            else {
-                let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: quoteDates)
+            else { // If UserDefaults does not contain quoteDates
+                let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: nil)
                 let quoteDates = randomQuote.1
                 UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
                 
                 quoteDict = randomQuote.0
                 showTranslation = false
             }
-            
-
-            
-        }
-        else { // If UserDefaults does not contain quoteDates
-            let randomQuote = getQuoteAndUpdateQuoteDates(quoteDatesDict: nil)
-            let quoteDates = randomQuote.1
-            UserDefaults.standard.set(quoteDates, forKey: "quoteDates")
-            
-            quoteDict = randomQuote.0
-            showTranslation = false
         }
         
     }

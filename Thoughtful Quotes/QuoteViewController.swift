@@ -227,7 +227,7 @@ class QuoteViewController: UIViewController {
         quoteModel.refreshQuote(refreshButtonPressed: true)
         //updateQuoteLabel()
         
-        UIView.transition(with: quoteTextLabel, duration: 1.0, options: [.transitionCurlUp], animations: {self.updateQuoteLabel()}, completion: {finished in
+        UIView.transition(with: quoteTextLabel, duration: 1.5, options: [.transitionCurlUp], animations: {self.updateQuoteLabel()}, completion: {finished in
             self.checkTranslateButton()
         })
         

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="4iO-OE-FqS" customClass="PaddingLabel" customModule="Thoughtful_Quotes" customModuleProvider="target">
-                                <rect key="frame" x="24" y="44" width="327" height="563"/>
+                                <rect key="frame" x="24" y="24" width="327" height="583"/>
                                 <color key="backgroundColor" red="0.93333333330000001" green="0.8980392157" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <attributedString key="attributedText">
@@ -44,33 +42,22 @@ Mother Teresa</string>
                                 </connections>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48k-fv-JXj">
-                                <rect key="frame" x="284" y="617" width="67" height="32"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="275" y="617" width="76" height="32"/>
+                                <color key="backgroundColor" red="0.93322396278381348" green="0.89781266450881958" blue="0.91372770071029663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                <state key="normal" title="Settings">
-                                    <color key="titleColor" red="0.92542636394500732" green="0.89780837297439575" blue="0.91372770071029663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title=" Settings ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oqs-Sw-XWB" kind="presentation" identifier="showSettings" id="MLq-f3-ldr"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9A-jC-08a">
-                                <rect key="frame" x="211" y="617" width="65" height="32"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                <state key="normal" title="Refresh">
-                                    <color key="titleColor" red="0.92542636394500732" green="0.89780837297439575" blue="0.91372770071029663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="showRandomQuote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iGK-dE-jlB"/>
+                                    <segue destination="oqs-Sw-XWB" kind="presentation" identifier="showSettings" modalPresentationStyle="fullScreen" id="axD-ro-Td4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnS-2v-dJx">
-                                <rect key="frame" x="124" y="617" width="79" height="32"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="100" y="617" width="88" height="32"/>
+                                <color key="backgroundColor" red="0.93322396278381348" green="0.89781266450881958" blue="0.91372770071029663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
-                                <state key="normal" title="Translate">
-                                    <color key="titleColor" red="0.92542636389999999" green="0.89780837300000005" blue="0.91372770069999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title=" Translate ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="pressTranslate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fbK-9o-rAM"/>
@@ -81,6 +68,17 @@ Mother Teresa</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9A-jC-08a">
+                                <rect key="frame" x="195" y="617" width="73" height="32"/>
+                                <color key="backgroundColor" red="0.93322396278381348" green="0.89781266450881958" blue="0.91372770071029663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <state key="normal" title=" Refresh ">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showRandomQuote:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iGK-dE-jlB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0039215686274509803" green="0.80392156862745101" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -88,18 +86,19 @@ Mother Teresa</string>
                             <constraint firstItem="ezc-p4-Dst" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="3aa-Jt-BRe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4iO-OE-FqS" secondAttribute="trailing" constant="24" id="8rc-hg-WBs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ezc-p4-Dst" secondAttribute="bottom" constant="24" id="AhZ-kj-8ku"/>
-                            <constraint firstItem="mnS-2v-dJx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ezc-p4-Dst" secondAttribute="trailing" constant="42" id="CBK-jO-0qr"/>
-                            <constraint firstItem="t9A-jC-08a" firstAttribute="leading" secondItem="mnS-2v-dJx" secondAttribute="trailing" constant="8" id="CUk-Gq-lAm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="48k-fv-JXj" secondAttribute="trailing" constant="24" id="ES9-cR-3ql"/>
+                            <constraint firstItem="t9A-jC-08a" firstAttribute="leading" secondItem="mnS-2v-dJx" secondAttribute="trailing" constant="7" id="Ct0-na-NoK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="48k-fv-JXj" secondAttribute="trailing" constant="24" id="HHx-GG-KTb"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="PQn-uQ-u5M"/>
                             <constraint firstItem="4iO-OE-FqS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="Pw2-Fd-6p6"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4iO-OE-FqS" secondAttribute="bottom" constant="60" id="SF5-HC-Xiq"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="t9A-jC-08a" secondAttribute="bottom" constant="18" id="rS7-kH-PFG"/>
-                            <constraint firstItem="48k-fv-JXj" firstAttribute="leading" secondItem="t9A-jC-08a" secondAttribute="trailing" constant="8" id="s5K-T5-3HH"/>
+                            <constraint firstItem="48k-fv-JXj" firstAttribute="leading" secondItem="t9A-jC-08a" secondAttribute="trailing" constant="7" id="tRr-8T-3ST"/>
+                            <constraint firstItem="mnS-2v-dJx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ezc-p4-Dst" secondAttribute="trailing" constant="18" id="uwu-r7-YlV"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="48k-fv-JXj" secondAttribute="bottom" constant="18" id="wLC-ce-hqF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Vdd-27-moe"/>
                     <connections>
                         <outlet property="dayTextLabel" destination="ezc-p4-Dst" id="Gxh-TW-9JR"/>
                         <outlet property="quoteTextLabel" destination="4iO-OE-FqS" id="EsX-vh-ta1"/>
@@ -136,13 +135,13 @@ Mother Teresa</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXp-wM-UF8">
-                                <rect key="frame" x="136.5" y="31" width="102.5" height="30.5"/>
+                                <rect key="frame" x="136.5" y="11" width="102.5" height="30.5"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="d4G-6a-R3o">
-                                <rect key="frame" x="16" y="83.5" width="343" height="38"/>
+                                <rect key="frame" x="16" y="63.5" width="343" height="38"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8CU-51-z8W">
                                         <rect key="frame" x="0.0" y="0.0" width="167.5" height="38"/>
@@ -169,7 +168,7 @@ Mother Teresa</string>
                                 </subviews>
                             </stackView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tqp-fn-qYv">
-                                <rect key="frame" x="17" y="143" width="342.5" height="286"/>
+                                <rect key="frame" x="17" y="123" width="342.5" height="306"/>
                                 <color key="backgroundColor" red="0.93333333333333335" green="0.89803921568627454" blue="0.9137254901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Welcome to the Thoughtful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote to get the translation. If you'd like a reminder when a new quote is available, once per day, then you can set a Reminder below. When we get inspired by quotes we find in the world, we will update our list. You can click the Refresh button to get our latest set of quotes. We hope these quotes help you think deeply about the real world.</string>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
@@ -244,7 +243,7 @@ Mother Teresa</string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="showQuote" id="6rw-1l-Je8"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="showQuote" modalPresentationStyle="fullScreen" id="SXw-G3-ZMl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -271,6 +270,7 @@ Mother Teresa</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NRC-WT-ija"/>
                     </view>
+                    <navigationItem key="navigationItem" id="KTW-Ag-Wd8"/>
                     <connections>
                         <outlet property="descriptionLabel" destination="tqp-fn-qYv" id="laX-qn-I7a"/>
                         <outlet property="deutschButton" destination="nfn-6l-YWP" id="Y2P-OS-G2E"/>

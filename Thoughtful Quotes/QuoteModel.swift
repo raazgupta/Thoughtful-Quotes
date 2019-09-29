@@ -113,7 +113,7 @@ class QuoteModel {
             formatter.dateFormat = "MM.dd.yyyy"
             let dateString = formatter.string(from: currentDate)
             
-            if var quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
+            if let quoteDates = UserDefaults.standard.dictionary(forKey: "quoteDates") as? Dictionary<String,String> {
                 // Check if quoteDates contains today's date, which means the user has already checked the app today
                 // Else quoteDates does not contain today's date, which means the user is opening the app for the first time today
                 // and we need to add a random quote to quoteDates

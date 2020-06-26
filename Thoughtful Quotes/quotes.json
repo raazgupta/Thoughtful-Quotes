@@ -344,7 +344,7 @@
         "quote": "Es gibt vielerlei Lärm. Aber es gibt nur eine Stille.",
         "romaji": "",
         "author": "Kurt Tucholsky",
-        "englishTranslation": "There are many types of noice, but there is only one silence.",
+        "englishTranslation": "There are many types of noise, but there is only one silence.",
         "englishAuthor": "Kurt Tucholsky",
         "germanTranslation": "",
         "germanAuthor": ""
@@ -2351,7 +2351,7 @@
     },
     "241": {
         "quoteLanguage": "English",
-        "quote": "There is no greatness where there is not simplicity, goodness, and truth.",
+        "quote": "There is no greatness where there is no simplicity, goodness, and truth.",
         "romaji": "",
         "author": "Leo Tolstoy",
         "englishTranslation": "",
@@ -3768,5 +3768,285 @@
         "englishAuthor": "",
         "germanTranslation": "Sag deine Meinung, auch wenn deine Stimme zittert.",
         "germanAuthor": "Maggie Kuhn"
+    },
+    "382": {
+        "quoteLanguage": "English",
+        "quote": "We realize the importance of our voices only when we are silenced",
+        "romaji": "",
+        "author": "Malala Yousafzai",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wir erkennen die Bedeutung unserer Stimmen erst, wenn wir zum Schweigen gebracht werden",
+        "germanAuthor": "Malala Yousafzai"
+    },
+    "383": {
+        "quoteLanguage": "English",
+        "quote": "The best time to make friends is before you need them.",
+        "romaji": "",
+        "author": "Ethel Barrymore",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die beste Zeit, um Freunde zu finden, ist, bevor Sie sie brauchen.",
+        "germanAuthor": "Ethel Barrymore"
+    },
+    "384": {
+        "quoteLanguage": "English",
+        "quote": "There is only one success, to be able to spend your life in your own way",
+        "romaji": "",
+        "author": "Christopher Morley",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt nur einen Erfolg, um Ihr Leben auf Ihre eigene Weise verbringen zu können",
+        "germanAuthor": "Christopher Morley"
+    },
+    "385": {
+        "quoteLanguage": "English",
+        "quote": "Don’t be afraid of hard work. Nothing worthwhile comes easily",
+        "romaji": "",
+        "author": "Gertrude Belle Elion",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Hab keine Angst vor harter Arbeit. Nichts, was sich lohnt, fällt leicht",
+        "germanAuthor": "Gertrude Belle Elion"
+    },
+    "386": {
+        "quoteLanguage": "English",
+        "quote": "Rise with the hour for which you were made",
+        "romaji": "",
+        "author": "Georgia Douglas Johnson",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Erhebe dich mit der Stunde, für die du gemacht wurdest",
+        "germanAuthor": "Georgia Douglas Johnson"
+    },
+    "387": {
+        "quoteLanguage": "English",
+        "quote": "The noblest pleasure is the joy of understanding",
+        "romaji": "",
+        "author": "Leonardo Da Vinci",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das edelste Vergnügen ist die Freude am Verstehen",
+        "germanAuthor": "Leonardo Da Vinci"
+    },
+    "388": {
+        "quoteLanguage": "English",
+        "quote": "Well done is better than well said",
+        "romaji": "",
+        "author": "Benjamin Franklin",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Gut gemacht ist besser als gut gesagt",
+        "germanAuthor": "Benjamin Franklin"
+    },
+    "389": {
+        "quoteLanguage": "English",
+        "quote": "Don’t Count the days, make the days count.",
+        "romaji": "",
+        "author": "Muhammad Ali",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Zählen Sie nicht die Tage, sondern die Tage.",
+        "germanAuthor": "Muhammad Ali"
+    },
+    "390": {
+        "quoteLanguage": "English",
+        "quote": "Deep in their roots, all flowers keep the light.",
+        "romaji": "",
+        "author": "Theodore Huebner Roethke",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Tief in ihren Wurzeln halten alle Blumen das Licht.",
+        "germanAuthor": "Theodore Huebner Roethke"
+    },
+    "391": {
+        "quoteLanguage": "English",
+        "quote": "A man’s homeland is wherever he prospers",
+        "romaji": "",
+        "author": "Aristophanes",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Heimat eines Mannes ist überall dort, wo er gedeiht",
+        "germanAuthor": "Aristophanes"
+    },
+    "392": {
+        "quoteLanguage": "English",
+        "quote": "Inspiration comes very slowly and quietly",
+        "romaji": "",
+        "author": "Brenda Ueland",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Inspiration kommt sehr langsam und leise",
+        "germanAuthor": "Brenda Ueland"
+    },
+    "393": {
+        "quoteLanguage": "English",
+        "quote": "No one can make you feel inferior without your consent ",
+        "romaji": "",
+        "author": "Eleanor Roosevelt",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Niemand kann Sie ohne Ihre Zustimmung minderwertig machen",
+        "germanAuthor": "Eleanor Roosevelt"
+    },
+    "394": {
+        "quoteLanguage": "English",
+        "quote": "Happy wife Happy life",
+        "romaji": "",
+        "author": "Raj Gupta",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Glückliche Frau glückliches Leben",
+        "germanAuthor": "Raj Gupta"
+    },
+    "395": {
+        "quoteLanguage": "English",
+        "quote": "I never lose sight of the fact that just being is fun.",
+        "romaji": "",
+        "author": "Katherine Houghton Hepburn",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich verliere nie aus den Augen, dass es Spaß macht, einfach nur zu sein.",
+        "germanAuthor": "Katherine Houghton Hepburn"
+    },
+    "396": {
+        "quoteLanguage": "English",
+        "quote": "Through the unknown we’ll find the new",
+        "romaji": "",
+        "author": "Charles Baudelaire",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Durch das Unbekannte werden wir das Neue finden",
+        "germanAuthor": "Charles Baudelaire"
+    },
+    "397": {
+        "quoteLanguage": "English",
+        "quote": "To find joy in work is to discover the fountain of youth.",
+        "romaji": "",
+        "author": "Pearl Buck",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Freude an der Arbeit zu finden bedeutet, den Jungbrunnen zu entdecken.",
+        "germanAuthor": "Pearl Buck"
+    },
+    "398": {
+        "quoteLanguage": "English",
+        "quote": "Everyone dreams, but not equally. Those who dream by night in the dusty recesses of their minds wake in the day to find that it was vanity: but the dreamers of the day are dangerous, for they may act their dreams with open eyes to make them possible.",
+        "romaji": "",
+        "author": "Lawrence of Arabia",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Jeder träumt, aber nicht gleich. Diejenigen, die nachts in den staubigen Tiefen ihres Geistes träumen, wachen am Tag auf und stellen fest, dass es Eitelkeit war. Aber die Träumer des Tages sind gefährlich, denn sie können ihre Träume mit offenen Augen verwirklichen, um sie zu ermöglichen.",
+        "germanAuthor": "Lawrence of Arabia"
+    },
+    "399": {
+        "quoteLanguage": "English",
+        "quote": "If you have creative work then you don’t have age or time ",
+        "romaji": "",
+        "author": "Louise Nevelson",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Du eine kreative Arbeit hast, dann hast du weder Alter noch Zeit",
+        "germanAuthor": "Louise Nevelson"
+    },
+    "400": {
+        "quoteLanguage": "English",
+        "quote": "Happiness is when what you think, what you say and what you do are in harmony.",
+        "romaji": "",
+        "author": "Mohandas Karamchand Gandhi",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Glück ist wenn Du denkst, dass was Du sagst und was Du tust in Harmonie miteinander sind",
+        "germanAuthor": "Mohandas Karamchand Gandhi"
+    },
+    "401": {
+        "quoteLanguage": "English",
+        "quote": "Life consists not in holding good cards but in playing those you hold well",
+        "romaji": "",
+        "author": "Josh Billings",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Leben besteht nicht darin gute Karten zu halten, sondern diese auch zu spielen",
+        "germanAuthor": "Josh Billings"
+    },
+    "402": {
+        "quoteLanguage": "English",
+        "quote": "Change is the end result of all true learning",
+        "romaji": "",
+        "author": "Leo Buscaglia",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Veränderung ist das Endresultat von wahrem Lernen",
+        "germanAuthor": "Leo Buscaglia"
+    },
+    "403": {
+        "quoteLanguage": "English",
+        "quote": "Discipline is the bridge between goals and accomplishment.",
+        "romaji": "",
+        "author": "Emanuel James Rohn ",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Disziplin ist die Brücke zwischen Zielen und Erfolg.",
+        "germanAuthor": "Emanuel James Rohn "
+    },
+    "404": {
+        "quoteLanguage": "English",
+        "quote": "If you're the smartest person in the room, you're in the wrong room.",
+        "romaji": "",
+        "author": "Confucius",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Du die schlauste Person in einem Raum bist, bist Du im falschen Raum.",
+        "germanAuthor": "Confucius"
+    },
+    "405": {
+        "quoteLanguage": "English",
+        "quote": "You will never change your life until you change something you do daily. The secret of your success is found in your daily routine.",
+        "romaji": "",
+        "author": "John C. Maxwell",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Du wirst dein Leben niemals ändern, bis du etwas änderst, das du täglich tust. Das Geheimnis deines Erfolgs liegt in deinem Tagesablauf.",
+        "germanAuthor": "John C. Maxwell"
+    },
+    "406": {
+        "quoteLanguage": "English",
+        "quote": "Telling everyone what to do does not make you the boss. Doing everything you told yourself to do, makes you the boss.",
+        "romaji": "",
+        "author": "Terry Crews",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Allen zu sagen, was zu tun ist, macht Sie nicht zum Chef. Wenn Sie alles tun, was Sie sich selbst gesagt haben, sind Sie der Boss.",
+        "germanAuthor": "Terry Crews"
+    },
+    "407": {
+        "quoteLanguage": "English",
+        "quote": "Deep in their roots, all flowers keep the light.",
+        "romaji": "",
+        "author": "Theodore Huebner Roethke",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Tief in ihren Wurzeln halten alle Blumen das Licht.",
+        "germanAuthor": "Theodore Huebner Roethke"
+    },
+    "408": {
+        "quoteLanguage": "English",
+        "quote": "The secret of success is constancy to purpose.",
+        "romaji": "",
+        "author": "Benjamin Disraeli",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Das Erfolgsgeheimnis ist die Beständigkeit gegenüber dem Zweck.",
+        "germanAuthor": "Benjamin Disraeli"
+    },
+    "409": {
+        "quoteLanguage": "English",
+        "quote": "To teach is to learn twice.",
+        "romaji": "",
+        "author": "Joseph Joubert",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unterrichten ist zweimal lernen.",
+        "germanAuthor": "Joseph Joubert"
     }
 }

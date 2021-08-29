@@ -4208,5 +4208,225 @@
         "englishAuthor": "",
         "germanTranslation": "Bis Sie sich selbst schätzen, werden Sie Ihre Zeit nicht schätzen. Bis Sie Ihre Zeit schätzen, werden Sie nichts damit anfangen.",
         "germanAuthor": "Scott Peck"
+    },
+    "426": {
+        "quoteLanguage": "English",
+        "quote": "In solitude the mind gains strength and learns to lean upon itself.",
+        "romaji": "",
+        "author": "Laurence Sterne",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "In der Einsamkeit gewinnt der Geist an Stärke und lernt, sich auf sich selbst zu stützen.",
+        "germanAuthor": "Laurence Sterne"
+    },
+    "427": {
+        "quoteLanguage": "English",
+        "quote": "Change is inevitable. Change is constant.",
+        "romaji": "",
+        "author": "Benjamin Disraeli",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Veränderung ist unvermeidlich. Der Wandel ist ständig.",
+        "germanAuthor": "Benjamin Disraeli"
+    },
+    "428": {
+        "quoteLanguage": "English",
+        "quote": "A good stance and posture reflect a proper state of mind.",
+        "romaji": "",
+        "author": "Morihei Ueshiba",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Eine gute Haltung und Körperhaltung spiegeln einen richtigen Geisteszustand wider.",
+        "germanAuthor": "Morihei Ueshiba"
+    },
+    "429": {
+        "quoteLanguage": "English",
+        "quote": "Children desperately want to open up, even more to their parents than to their peers. And they will, if they feel their parents will love them unconditionally and will be faithful to them afterwards and not judge or ridicule them.",
+        "romaji": "",
+        "author": "Stephan R. Covey",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Kinder wollen sich öffnen, noch mehr gegenüber ihren Eltern als Gleichaltrigen. Und sie werden es tun, wenn sie das Gefühl haben, dass ihre Eltern sie bedingungslos lieben und ihnen danach treu bleiben und sie nicht verurteilen oder verspotten.",
+        "germanAuthor": "Stephan R. Covey"
+    },
+    "430": {
+        "quoteLanguage": "English",
+        "quote": "There are some things you learn best in calm, and some in storm.",
+        "romaji": "",
+        "author": "Willa Sibert Cather",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Manche Dinge lernt man am besten in Ruhe und manche im Sturm.",
+        "germanAuthor": "Willa Sibert Cather"
+    },
+    "431": {
+        "quoteLanguage": "English",
+        "quote": "The moments of happiness we enjoy take us by surprise. It is not that we seize them, but that they seize us.",
+        "romaji": "",
+        "author": "Ashley Montagu",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Die Glücksmomente, die wir genießen, überraschen uns. Es ist nicht so, dass wir sie ergreifen, sondern dass sie uns ergreifen.",
+        "germanAuthor": "Ashley Montagu"
+    },
+    "432": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Erst die Arbeit, dann das Vergnügen",
+        "romaji": "",
+        "author": "Katharina Ditte",
+        "englishTranslation": "First work, then fun.",
+        "englishAuthor": "Katharina Ditte",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "433": {
+        "quoteLanguage": "English",
+        "quote": "We hope to make the right choices for ourselves without seeing the data. You and I may see the same data and make different decisions, but we should both come to the data as the first step.",
+        "romaji": "",
+        "author": "Emily Oster",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wir hoffen, die richtigen Entscheidungen für uns treffen zu können, ohne die Daten zu sehen.  Sie und ich sehen möglicherweise dieselben Daten und treffen unterschiedliche Entscheidungen, aber wir sollten beide als ersten Schritt uns die Daten ansehen.",
+        "germanAuthor": "Emily Oster"
+    },
+    "434": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Es ist nicht das Geliebtwerden, das glücklich macht, sondern wenn man selbst liebt. Denn nur die Liebe, die man selbst gibt, kann man empfinden.",
+        "romaji": "",
+        "author": "Ulrich Renz",
+        "englishTranslation": "It is not being loved that makes you happy, but being the one who loves. Because you can only feel the love you give yourself.",
+        "englishAuthor": "Ulrich Renz",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "435": {
+        "quoteLanguage": "English",
+        "quote": "I never lose. I learn.",
+        "romaji": "",
+        "author": "Tanitoluwa Adewumi",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ich verliere nie. Ich lerne.",
+        "germanAuthor": "Tanitoluwa Adewumi"
+    },
+    "436": {
+        "quoteLanguage": "English",
+        "quote": "Some people will never like you because your spirit irritates their demons.",
+        "romaji": "",
+        "author": "Denzel Washington",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Manche Menschen werden dich niemals mögen, weil dein Geist ihre Dämonen irritiert.",
+        "germanAuthor": "Denzel Washington"
+    },
+    "437": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Ich weinte, weil ich keine Schuhe hatte, bis ich einen traf, der keine Füße hatte. ",
+        "romaji": "",
+        "author": "Helen Keller",
+        "englishTranslation": "I cried because I didn’t have shoes until I met someone who didn’t have feet.",
+        "englishAuthor": "Helen Keller",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "438": {
+        "quoteLanguage": "English",
+        "quote": "Contrary to popular opinion, quitting is for winners. Knowing when to quit, change direction, leave a toxic situation, demand more from life, give up on something that wasn’t working and move on, is a very Important skill that people who win at life all seem to have.",
+        "romaji": "",
+        "author": "Steven Bartlett",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Entgegen der landläufigen Meinung ist das Aufgeben für Gewinner. Zu wissen, wann man aufhören, die Richtung ändern, eine toxische Situation verlassen, mehr vom Leben verlangen, etwas aufgeben muss, das nicht funktioniert, und weiterzuziehen, ist eine sehr wichtige Fähigkeit, die Menschen, die im Leben gewinnen, alle zu haben scheinen.",
+        "germanAuthor": "Steven Bartlett"
+    },
+    "439": {
+        "quoteLanguage": "English",
+        "quote": "Our job is not to change our thoughts or feelings. It’s to learn how to be at ease with whatever is happening in the mind.",
+        "romaji": "",
+        "author": "Andy Puddicombe",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Unsere Aufgabe ist es nicht, unsere Gedanken oder Gefühle zu ändern.  Es geht darum zu lernen, wie man sich mit allem, was in unserem  Kopf unsernkemgeschieht, wohl fühlt.",
+        "germanAuthor": "Andy Puddicombe"
+    },
+    "440": {
+        "quoteLanguage": "English",
+        "quote": "So much time and effort is spent wanting to be different. Imagine if we spent that time being comfortable with who we are right now.",
+        "romaji": "",
+        "author": "Andy Puddicombe",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es wird so viel Zeit und Mühe aufgewendet, um anders sein zu wollen. Stellen Sie sich vor, wir hätten diese Zeit damit verbracht, uns mit dem, was wir gerade sind, wohl zu fühlen.",
+        "germanAuthor": "Andy Puddicombe"
+    },
+    "441": {
+        "quoteLanguage": "English",
+        "quote": "If you want to know a country, read it’s writers.",
+        "romaji": "",
+        "author": "Aminatta Forna",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wenn Sie ein Land kennenlernen möchten, lesen Sie seine Schriftsteller.",
+        "germanAuthor": "Aminatta Forna"
+    },
+    "442": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das Grass wächst nicht schneller, wenn man daran zieht.",
+        "romaji": "",
+        "author": "Katharina Ditte",
+        "englishTranslation": "Grass doesn't grow faster when you pull it",
+        "englishAuthor": "Katharina Ditte",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "443": {
+        "quoteLanguage": "English",
+        "quote": "There’s nowhere we can go to escape our mind. So it’s far better to sit down and make friends with it.",
+        "romaji": "",
+        "author": "Andy Puddicombe",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Wir können nirgendwo hingehen, um unserem Geist zu entkommen.  Es ist also weitaus besser, sich hinzusetzen und sich mit ihm anzufreunden.",
+        "germanAuthor": "Andy Puddicombe"
+    },
+    "444": {
+        "quoteLanguage": "English",
+        "quote": "Remember that how you say something is as important as what you say.",
+        "romaji": "",
+        "author": "H Jackson Brown Jr",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Vergiss nicht, dass die Art und Weise, wie Du etwas sagst, genauso wichtig ist wie das, was Du sagst.",
+        "germanAuthor": "H Jackson Brown Jr"
+    },
+    "445": {
+        "quoteLanguage": "English",
+        "quote": "What is fear of need but need itself?",
+        "romaji": "",
+        "author": "Kalil Gibran",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Was ist Furcht vor Mangel, wenn nicht der Mangel selbst?",
+        "germanAuthor": "Kalil Gibran"
+    },
+    "446": {
+        "quoteLanguage": "English",
+        "quote": "Comparison is the thief of joy.",
+        "romaji": "",
+        "author": "Katharina Ditte",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Vergleich ist der Dieb der Freude.",
+        "germanAuthor": "Katharina Ditte"
+    },
+    "447": {
+        "quoteLanguage": "English",
+        "quote": "Information is endlessly available to us; where shall wisdom be found.",
+        "romaji": "",
+        "author": "Harold Bloom",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Informationen stehen uns endlos zur Verfügung;  wo kann Weisheit gefunden werden.",
+        "germanAuthor": "Harold Bloom"
     }
 }

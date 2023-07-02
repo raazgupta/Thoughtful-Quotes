@@ -4671,12 +4671,32 @@
     },
     "472": {
         "quoteLanguage": "English",
-        "quote": "How wonderful is it that nobody need wait a single moment before starting to improve the world. ",
+        "quote": "How wonderful is it that nobody need wait a single moment before starting to improve the world.",
         "romaji": "",
         "author": "Anne Frank",
         "englishTranslation": "",
         "englishAuthor": "",
         "germanTranslation": "Wie wunderbar ist es, dass niemand einen Moment warten muss, bevor er beginnt, die Welt zu verbessern.",
         "germanAuthor": "Anne Frank"
+    },
+    "473": {
+        "quoteLanguage": "English",
+        "quote": "A proverb is no proverb to you till your life has illustrated it.",
+        "romaji": "",
+        "author": "John Keats",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Sprichwort ist für Sie kein Sprichwort, bis Ihr Leben es veranschaulicht hat.",
+        "germanAuthor": "John Keats"
+    },
+    "474": {
+        "quoteLanguage": "English",
+        "quote": "The wonder is, not that the field of stars is so vast, but that man has measured it.",
+        "romaji": "",
+        "author": "Anatole France",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Ein Sprichwort ist für Sie kein Sprichwort, bis Ihr Leben es veranschaulicht hat.",
+        "germanAuthor": "Anatole France"
     }
 }

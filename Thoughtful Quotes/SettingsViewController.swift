@@ -16,11 +16,11 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var settingsLabel: UILabel!
     @IBOutlet weak var descriptionLabel: UITextView!
     @IBOutlet weak var remindMeLabel: UILabel!
-    @IBOutlet weak var morningButton: UIButton!
-    @IBOutlet weak var lunchtimeButton: UIButton!
     @IBOutlet weak var numQuotesLabel: UILabel!
     @IBOutlet weak var refreshButton: UIButton!
     @IBOutlet weak var doneButton: UIButton!
+    @IBOutlet weak var remindMeTime: UIDatePicker!
+    @IBOutlet weak var setReminderButton: UIButton!
     
     var quoteModel: QuoteModel? = nil
     
@@ -32,10 +32,9 @@ class SettingsViewController: UIViewController {
         descriptionLabel.layer.cornerRadius = 10.0
         englishButton.layer.cornerRadius = 10.0
         deutschButton.layer.cornerRadius = 10.0
-        morningButton.layer.cornerRadius = 10.0
-        lunchtimeButton.layer.cornerRadius = 10.0
         refreshButton.layer.cornerRadius = 10.0
         doneButton.layer.cornerRadius = 10.0
+        setReminderButton.layer.cornerRadius = 10.0
         
         //Add padding to description label
         descriptionLabel.textContainerInset = UIEdgeInsets(top: 10.0, left: 10.0, bottom: 10.0, right: 10.0)
@@ -65,9 +64,8 @@ class SettingsViewController: UIViewController {
         case .English:
             settingsLabel.text = "Settings"
             descriptionLabel.text = "Welcome to the Mindful Quotes App. This app will present you with daily quotes in different languages. Tap on the quote or press 'Translate' to show the translation. Press 'Refresh' to show a new quote. If you'd like a reminder when the new daily quote is available, then you can set it below. When we get inspired by quotes we find in the world, we will update our list. If your device is connected to the internet, you can click the 'Refresh' button in 'Settings' to get our latest set of quotes. We hope these quotes help you think deeply about the world."
-            remindMeLabel.text = "  Remind Me:"
-            morningButton.setTitle("Morning", for: .normal)
-            lunchtimeButton.setTitle("Lunchtime", for: .normal)
+            remindMeLabel.text = "Daily Quote:"
+            setReminderButton.setTitle("Notify", for: .normal)
             numQuotesLabel.text = "  \(findNumQuotes()) Quotes"
             refreshButton.setTitle("Refresh", for: .normal)
             doneButton.setTitle("Done", for: .normal)
@@ -76,17 +74,15 @@ class SettingsViewController: UIViewController {
             descriptionLabel.text = """
             Willkommen bei „Mindful Quotes“. Diese App zeigt Ihnen tägliche Zitate in verschiedenen Sprachen. Tippen Sie auf das Zitat oder auf den „Translate“ Button, um die Übersetzung zu lesen. Drücken Sie den „Refresh“ Button um ein neues Zitat angezeigt zu bekommen. Wenn Sie einmal pro Tag eine Erinnerung erhalten möchten, wenn ein neues Zitat verfügbar ist, können Sie es unten einstellen. Wenn wir uns von Zitaten inspirieren lassen, die wir auf der Welt finden, werden wir unsere Liste aktualisieren. Wenn Ihr Gerät mit dem Internet verbunden ist, können Sie auf die Schaltfläche „Refresh“ klicken, um unsere neuesten Zitate abzurufen. Wir hoffen, diese Zitate helfen Ihnen dabei, tief über die Welt nachzudenken.
             """
-            remindMeLabel.text = "  Erinnere mich:"
-            morningButton.setTitle("Morgen", for: .normal)
-            lunchtimeButton.setTitle("Mittag", for: .normal)
+            remindMeLabel.text = "Tägliches Zitat:"
+            setReminderButton.setTitle("Benachrichtigen", for: .normal)
             numQuotesLabel.text = "  \(findNumQuotes()) Zitate"
             refreshButton.setTitle("  Refresh", for: .normal)
             doneButton.setTitle("Erledigt", for: .normal)
         }
         
         remindMeLabel.adjustsFontSizeToFitWidth = true
-        morningButton.titleLabel?.adjustsFontSizeToFitWidth = true
-        lunchtimeButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        setReminderButton.titleLabel?.adjustsFontSizeToFitWidth = true
         refreshButton.titleLabel?.adjustsFontSizeToFitWidth = true
         doneButton.titleLabel?.adjustsFontSizeToFitWidth = true
     }
@@ -105,33 +101,44 @@ class SettingsViewController: UIViewController {
         let germanNotificationDisabledTitle = "Benachrichtigung deaktiviert"
         let germanNotificationDisabledBody = "Aktivieren Sie Benachrichtigungen in den Einstellungen"
         var notificationTitle = ""
-        let englishNotificationEnabledTitle = "Daily Reminder Set"
-        let englishNotificationEnabledBody = "Reminder set for "
-        let germanNotificationEnabledTitle = "Tägliche Erinnerung eingestellt"
+        let englishNotificationEnabledTitle = "Daily Quote"
+        let englishNotificationEnabledBody = "Daily Quote set for "
+        let germanNotificationEnabledTitle = "Tägliches Zitat"
         let germanNotificationEnabledBody = "Erinnerung eingestellt für "
         
         // Tuple in this format: (Hour, Minute)
         var reminderTimeInt: (Int, Int)? = nil
-        
-        // Get the time of the reminder
-        switch sender.tag {
-        case 1:
-            reminderTimeInt = (7,0)
+        let date = remindMeTime.date
+        let dateFormatter = DateFormatter()
+        dateFormatter.timeStyle = .short
+        let timeString = dateFormatter.string(from: date)
+        let components = Calendar.current.dateComponents([.hour, .minute], from: date)
+        let hour = components.hour!
+        let minute = components.minute!
+        reminderTimeInt = (hour, minute)
+        if hour < 12 {
             switch quoteModel!.userLanguage {
             case .English:
-                    notificationTitle = "Good Morning"
+                notificationTitle = "Good Morning"
             case .Deutsch:
-                    notificationTitle = "Guten Morgen"
+                notificationTitle = "Guten Morgen"
             }
-        case 2:
-            reminderTimeInt = (12,0)
+        }
+        else if hour < 18 {
             switch quoteModel!.userLanguage {
             case .English:
                 notificationTitle = "Good Afternoon"
             case .Deutsch:
                 notificationTitle = "Guten Tag"
             }
-        default: break
+        }
+        else {
+            switch quoteModel!.userLanguage {
+            case .English:
+                notificationTitle = "Good Evening"
+            case .Deutsch:
+                notificationTitle = "Guten Abend"
+            }
         }
         
         // Prompt the user for notification permission
@@ -197,11 +204,11 @@ class SettingsViewController: UIViewController {
                             DispatchQueue.main.async { [weak self] in
                                 switch self?.quoteModel!.userLanguage {
                                 case .English?:
-                                    let alert = UIAlertController(title: englishNotificationEnabledTitle, message: englishNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
+                                    let alert = UIAlertController(title: englishNotificationEnabledTitle, message: englishNotificationEnabledBody + timeString, preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                     self?.present(alert, animated: true)
                                 case .Deutsch?:
-                                    let alert = UIAlertController(title: germanNotificationEnabledTitle, message: germanNotificationEnabledBody + "\(reminderTime.0):00", preferredStyle: .alert)
+                                    let alert = UIAlertController(title: germanNotificationEnabledTitle, message: germanNotificationEnabledBody + timeString, preferredStyle: .alert)
                                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                                     self?.present(alert, animated: true)
                                 default: break

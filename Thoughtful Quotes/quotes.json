@@ -4698,5 +4698,45 @@
         "englishAuthor": "",
         "germanTranslation": "Ein Sprichwort ist für Sie kein Sprichwort, bis Ihr Leben es veranschaulicht hat.",
         "germanAuthor": "Anatole France"
+    },
+    "475": {
+        "quoteLanguage": "Deutsch",
+        "quote": "Das Leben ist wie das Fahrradfahren. Um das Gleichgewicht zu halten, musst du in Bewegung bleiben.",
+        "romaji": "",
+        "author": "Albert Einstein",
+        "englishTranslation": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        "englishAuthor": "Albert Einstein",
+        "germanTranslation": "",
+        "germanAuthor": ""
+    },
+    "476": {
+        "quoteLanguage": "English",
+        "quote": "Never confuse a single failure with a final defeat",
+        "romaji": "",
+        "author": "Scott Fitzgerald",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Verwechsle niemals einen einzelnen Misserfolg mit einer endgültigen Niederlage.",
+        "germanAuthor": "Scott Fitzgerald"
+    },
+    "477": {
+        "quoteLanguage": "English",
+        "quote": "The human being is born with an incurable capacity for making the best of things.",
+        "romaji": "",
+        "author": "Helen Keller",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Der Mensch wird mit einer unheilbaren Fähigkeit geboren, das Beste aus den Dingen zu machen.",
+        "germanAuthor": "Helen Keller"
+    },
+    "478": {
+        "quoteLanguage": "English",
+        "quote": "Talent is a pursued interest. Anything that you're willing to practice, you can do.",
+        "romaji": "",
+        "author": "Bob Ross",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Talent ist ein verfolgtes Interesse. Alles, worauf du zu üben bereit bist, kannst du auch tun.",
+        "germanAuthor": "Bob Ross"
     }
 }

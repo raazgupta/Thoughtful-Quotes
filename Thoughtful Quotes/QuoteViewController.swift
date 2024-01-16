@@ -22,6 +22,8 @@ class QuoteViewController: UIViewController {
     
     @IBOutlet weak var translateButton: UIButton!
     
+    @IBOutlet weak var shareButton: UIButton!
+    
     var quoteModel = QuoteModel()
     
     /*
@@ -68,6 +70,7 @@ class QuoteViewController: UIViewController {
         settingsButton?.layer.cornerRadius = 5.0
         refreshButton?.layer.cornerRadius = 5.0
         translateButton?.layer.cornerRadius = 5.0
+        shareButton?.layer.cornerRadius = 5.0
         
         /*
         switch quoteModel.userLanguage {
@@ -81,6 +84,40 @@ class QuoteViewController: UIViewController {
             translateButton?.setTitle("Übersetzung", for: .normal)
         }
  */
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            if #available(iOS 13.0, *) {
+                if let settingsImage = UIImage(systemName: "gear") {
+                    settingsButton.setImage(settingsImage, for: .normal)
+                    settingsButton.setTitle("", for: .normal)
+                    settingsButton.imageView?.contentMode = .scaleAspectFit
+                    settingsButton.tintColor = UIColor.black
+                }
+                if let refreshImage = UIImage(systemName: "arrow.clockwise") {
+                    refreshButton.setImage(refreshImage, for: .normal)
+                    refreshButton.setTitle("", for: .normal)
+                    refreshButton.imageView?.contentMode = .scaleAspectFit
+                    refreshButton.tintColor = UIColor.black
+                }
+                if let shareImage = UIImage(systemName: "square.and.arrow.up") {
+                    shareButton.setImage(shareImage, for: .normal)
+                    shareButton.setTitle("", for: .normal)
+                    shareButton.imageView?.contentMode = .scaleAspectFit
+                    shareButton.tintColor = UIColor.black
+                }
+                if let translateImage = UIImage(systemName: "globe") {
+                    translateButton.setImage(translateImage, for: .normal)
+                    translateButton.setTitle("", for: .normal)
+                    translateButton.imageView?.contentMode = .scaleAspectFit
+                    translateButton.tintColor = UIColor.black
+                }
+            }
+        }
+        else {
+            settingsButton.setTitle("Settings", for: .normal)
+            shareButton.setTitle("Share", for: .normal)
+            translateButton.setTitle("Translate", for: .normal)
+            refreshButton.setTitle("Refresh", for: .normal)
+        }
         
         settingsButton?.titleLabel?.adjustsFontSizeToFitWidth = true
         refreshButton?.titleLabel?.adjustsFontSizeToFitWidth = true
@@ -222,6 +259,75 @@ class QuoteViewController: UIViewController {
         quoteTextLabel?.attributedText = quoteAttrString
     }
     
+    @IBAction func shareQuote(){
+        
+        if let quoteAttrString = quoteTextLabel?.attributedText {
+            
+            // Create an image with the quote
+            let image = createImageWithQuote(quoteAttrString: quoteAttrString)
+            
+            // Share the image
+            let activityViewController = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+            present(activityViewController, animated: true, completion: nil)
+        }
+    }
+    
+    func createImageWithQuote(quoteAttrString: NSAttributedString) -> UIImage {
+        
+        // Define the size of the image
+        let size = CGSize(width: 628, height: 1200)
+        // Begin image context
+        UIGraphicsBeginImageContextWithOptions(size, false, 0)
+        defer { UIGraphicsEndImageContext() }
+        
+        // Draw the first rectangle (background)
+        let backgroundRect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
+        let backgroundColor = UIColor(hex: "#01CDBC")
+        backgroundColor.setFill()
+        UIRectFill(backgroundRect)
+        
+        // Draw the second rectangle (quote background)
+        let quoteRect = CGRect(x: 30, y: 60, width: size.width-60, height: size.height-120)
+        let quoteBackgroundColor = UIColor(hex: "#EEE5E9")
+        let quoteBackgroundPath = UIBezierPath(roundedRect: quoteRect, cornerRadius: 10)
+        quoteBackgroundColor.setFill()
+        quoteBackgroundPath.fill()
+    
+        // Custom drawing code here (draw the quote string)
+        let paragraphStyle = NSMutableParagraphStyle()
+        paragraphStyle.alignment = .center
+        
+        let attributes: [NSAttributedString.Key: Any] = [
+                .paragraphStyle: paragraphStyle
+            ]
+        
+        // Center the string
+        let mutableQuoteAttrString = NSMutableAttributedString(attributedString: quoteAttrString)
+        let fullRange = NSRange(location: 0, length: mutableQuoteAttrString.length)
+        mutableQuoteAttrString.addAttributes(attributes, range: fullRange)
+        // Increase the font size
+        mutableQuoteAttrString.enumerateAttribute(.font, in: fullRange, options: []) { value, range, stop in
+            if let font = value as? UIFont {
+                let newFontSize = font.pointSize + 15
+                let newFont = UIFont(descriptor: font.fontDescriptor, size: newFontSize)
+                mutableQuoteAttrString.addAttribute(.font, value: newFont, range: range)
+            }
+        }
+        
+        // Calculate the bounding rectangle for the text
+        let textRect = mutableQuoteAttrString.boundingRect(with: CGSize(width: quoteRect.width - 20, height: CGFloat.greatestFiniteMagnitude), options: [.usesLineFragmentOrigin, .usesFontLeading], context: nil)
+
+        // Center the textRect within the quoteRect
+        let centeredRect = CGRect(x: quoteRect.origin.x + (quoteRect.width - textRect.width) / 2, y: quoteRect.origin.y + (quoteRect.height - textRect.height) / 2, width: textRect.width, height: textRect.height)
+
+        // Draw the attributed string in the centered rectangle
+        mutableQuoteAttrString.draw(in: centeredRect)
+        
+        return UIGraphicsGetImageFromCurrentImageContext()!
+        
+    }
+
+    
     
     @IBAction func showRandomQuote(_ sender: UIButton) {
         quoteModel.refreshQuote(refreshButtonPressed: true)
@@ -255,5 +361,30 @@ class QuoteViewController: UIViewController {
     }
     
     
+}
+        
+extension UIColor {
+    convenience init(hex: String) {
+        let hexString: String = hex.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+        let scanner = Scanner(string: hexString)
+
+        if hexString.hasPrefix("#") {
+            scanner.scanLocation = 1
+        }
+
+        var color: UInt64 = 0
+        scanner.scanHexInt64(&color)
+
+        let mask = 0x000000FF
+        let r = Int(color >> 16) & mask
+        let g = Int(color >> 8) & mask
+        let b = Int(color) & mask
+
+        let red   = CGFloat(r) / 255.0
+        let green = CGFloat(g) / 255.0
+        let blue  = CGFloat(b) / 255.0
+
+        self.init(red: red, green: green, blue: blue, alpha: 1)
+    }
 }
 

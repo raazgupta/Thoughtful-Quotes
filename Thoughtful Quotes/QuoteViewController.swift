@@ -268,6 +268,13 @@ class QuoteViewController: UIViewController {
             
             // Share the image
             let activityViewController = UIActivityViewController(activityItems: [image], applicationActivities: nil)
+            // Check if we're on an iPad
+            if let popoverController = activityViewController.popoverPresentationController {
+                // Set the source view for the popover
+                popoverController.sourceView = self.view
+                popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+                popoverController.permittedArrowDirections = []
+            }
             present(activityViewController, animated: true, completion: nil)
         }
     }

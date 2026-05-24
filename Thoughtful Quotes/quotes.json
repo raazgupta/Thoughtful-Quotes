@@ -4561,7 +4561,7 @@
     },
     "461": {
         "quoteLanguage": "English",
-        "quote": "Work will numb your mind, work can will can shall set you free",
+        "quote": "Work will numb your mind, work can will and shall set you free",
         "romaji": "",
         "author": "Raj Gupta",
         "englishTranslation": "",
@@ -4738,5 +4738,35 @@
         "englishAuthor": "",
         "germanTranslation": "Talent ist ein verfolgtes Interesse. Alles, worauf du zu üben bereit bist, kannst du auch tun.",
         "germanAuthor": "Bob Ross"
+    },
+    "479": {
+        "quoteLanguage": "English",
+        "quote": "Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.",
+        "romaji": "",
+        "author": "Mother Teresa",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Gestern ist vorbei. Das Morgen ist noch nicht gekommen. Wir haben nur heute. Lasst uns anfangen.",
+        "germanAuthor": "Mother Teresa"
+    },
+    "480": {
+        "quoteLanguage": "English",
+        "quote": "There are always flowers for those who want to see them.",
+        "romaji": "",
+        "author": "Henri Matisse",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Es gibt immer Blumen für diejenigen, die sie sehen wollen.",
+        "germanAuthor": "Henri Matisse"
+    },
+    "481": {
+        "quoteLanguage": "English",
+        "quote": "In scattering seeds of kindness, do it by hand and not by machine.",
+        "romaji": "",
+        "author": "George Ade",
+        "englishTranslation": "",
+        "englishAuthor": "",
+        "germanTranslation": "Streuen Sie die Samen der Güte mit der Hand und nicht mit der Maschine.",
+        "germanAuthor": "George Ade"
     }
 }
